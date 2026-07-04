@@ -27,9 +27,13 @@ jobs:
         run: node scripts/build-digest.js
 
       - name: Commit digest
+        # コミット作者はリポジトリ所有者本人にする。
+        # Vercel HobbyプランはprivateリポジトリでVercelアカウントに紐付いていない
+        # 作者（例: actions@users.noreply.github.com のボット名義）のコミットを
+        # "Deployment Blocked" として弾くため。
         run: |
-          git config user.name "news-digest-bot"
-          git config user.email "actions@users.noreply.github.com"
+          git config user.name "DanK217"
+          git config user.email "xoxo.aaa72@gmail.com"
           git add digests/
           git diff --cached --quiet || git commit -m "Add news digest for $(TZ=Asia/Tokyo date +%Y-%m-%d)"
           git push
