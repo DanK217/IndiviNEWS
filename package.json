@@ -1,0 +1,15 @@
+{
+  "name": "widget-news",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Widgetsmith向け黒背景シンプル技術ニュース表示サイト（Vercelサーバーレスホスティング）",
+  "scripts": {
+    "dev": "node dev-server.js"
+  },
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "express": "^4.19.2"
+  }
+}
