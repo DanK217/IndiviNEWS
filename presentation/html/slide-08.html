@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html,body { width:1920px; height:1080px; overflow:hidden; }
+  body {
+    background:#0d0d0d; color:#ffffff;
+    font-family:"Yu Gothic UI","Segoe UI","Hiragino Sans",Meiryo,sans-serif;
+    display:flex; flex-direction:column; padding:72px 96px 56px;
+  }
+  .kicker { display:flex; align-items:center; gap:18px; margin-bottom:44px; }
+  .kicker-bar { width:14px; height:14px; border-radius:3px; background:#ff5b3d; }
+  .kicker-label { font-size:26px; letter-spacing:.18em; font-weight:700; color:#898781; text-transform:uppercase; }
+  .body { flex:1; display:flex; flex-direction:column; min-height:0; }
+  h1 { font-size:66px; font-weight:700; line-height:1.25; letter-spacing:.01em; }
+  h1 .em { color:#ff5b3d; }
+  .footer { display:flex; justify-content:space-between; align-items:center; margin-top:40px; }
+  .footer-left { font-size:22px; color:#898781; }
+  .footer-right { font-size:24px; color:#898781; font-variant-numeric:tabular-nums; }
+  .card { background:#1a1a19; border:1px solid rgba(255,255,255,0.10); border-radius:16px; padding:40px 48px; }
+  .lead { font-size:34px; color:#c3c2b7; line-height:1.7; }
+  ul.pts { list-style:none; display:flex; flex-direction:column; gap:30px; }
+  ul.pts li { font-size:34px; line-height:1.6; color:#ffffff; padding-left:44px; position:relative; }
+  ul.pts li::before { content:""; position:absolute; left:8px; top:22px; width:12px; height:12px; border-radius:50%; background:#ff5b3d; }
+  ul.pts li .sub { display:block; font-size:27px; color:#c3c2b7; margin-top:6px; }
+  .mono { font-family:Consolas,monospace; }
+  .muted { color:#898781; }
+  .num { font-variant-numeric:tabular-nums; }
+  table { border-collapse:collapse; width:100%; }
+  th { font-size:26px; color:#898781; font-weight:700; text-align:left; padding:14px 20px; border-bottom:2px solid #2c2c2a; }
+  td { font-size:29px; padding:16px 20px; border-bottom:1px solid #2c2c2a; color:#ffffff; }
+  td.c, th.c { text-align:center; }
+  .chip { display:inline-flex; align-items:center; gap:12px; }
+  .chip .dot { width:16px; height:16px; border-radius:50%; flex:none; }
+</style></head><body>
+  <div class="kicker"><span class="kicker-bar"></span><span class="kicker-label">結果 ②</span></div>
+  <div class="body">
+  <h1 style="margin-bottom:36px;">差は「スコア外」に出た</h1>
+  <div style="display:flex; gap:64px; flex:1; min-width:0;">
+    <div style="width:880px; flex:none;">
+      <div style="font-size:27px; color:#898781; margin-bottom:6px;">完走までに要した人間のターン数</div>
+      <div style="position:relative; padding-top:40px;">
+    <div style="display:flex; align-items:center; gap:28px; height:72px;">
+      <div style="width:170px; font-size:28px; text-align:right; flex:none;">Fable 5</div>
+      <div style="position:relative; width:560px; flex:none; align-self:stretch; display:flex; align-items:center;">
+        <div style="position:absolute; left:0; top:50%; width:560px; height:1px; background:#2c2c2a;"></div>
+        <div style="position:relative; width:35px; height:30px; background:#3987e5; border-radius:0 4px 4px 0;"></div>
+      </div>
+      <div class="num" style="font-size:32px; font-weight:700; color:#ffffff;">1</div>
+    </div>
+    <div style="display:flex; align-items:center; gap:28px; height:72px;">
+      <div style="width:170px; font-size:28px; text-align:right; flex:none;">Opus 4.8</div>
+      <div style="position:relative; width:560px; flex:none; align-self:stretch; display:flex; align-items:center;">
+        <div style="position:absolute; left:0; top:50%; width:560px; height:1px; background:#2c2c2a;"></div>
+        <div style="position:relative; width:35px; height:30px; background:#199e70; border-radius:0 4px 4px 0;"></div>
+      </div>
+      <div class="num" style="font-size:32px; font-weight:700; color:#ffffff;">1</div>
+    </div>
+    <div style="display:flex; align-items:center; gap:28px; height:72px;">
+      <div style="width:170px; font-size:28px; text-align:right; flex:none;">Sonnet 5</div>
+      <div style="position:relative; width:560px; flex:none; align-self:stretch; display:flex; align-items:center;">
+        <div style="position:absolute; left:0; top:50%; width:560px; height:1px; background:#2c2c2a;"></div>
+        <div style="position:relative; width:35px; height:30px; background:#c98500; border-radius:0 4px 4px 0;"></div>
+      </div>
+      <div class="num" style="font-size:32px; font-weight:700; color:#ffffff;">1</div>
+    </div>
+    <div style="display:flex; align-items:center; gap:28px; height:72px;">
+      <div style="width:170px; font-size:28px; text-align:right; flex:none;">Haiku 4.5</div>
+      <div style="position:relative; width:560px; flex:none; align-self:stretch; display:flex; align-items:center;">
+        <div style="position:absolute; left:0; top:50%; width:560px; height:1px; background:#2c2c2a;"></div>
+        <div style="position:relative; width:560px; height:30px; background:#008300; border-radius:0 4px 4px 0;"></div>
+      </div>
+      <div class="num" style="font-size:32px; font-weight:700; color:#ffffff;">16</div>
+    </div></div>
+    </div>
+    <div style="flex:1; min-width:0;">
+      <table>
+        <tr><th>モデル</th><th class="c">自発的な自己検証</th><th class="c">潜在欠陥<span style="font-weight:400">（影響あり/なし）</span></th></tr>
+        <tr><td><span class="chip"><span class="dot" style="background:#3987e5"></span>Fable 5</span></td><td class="c">○ 単体12件</td><td class="c num">0 / 1</td></tr>
+        <tr><td><span class="chip"><span class="dot" style="background:#199e70"></span>Opus 4.8</span></td><td class="c">○ 単体12件</td><td class="c num">0 / 1</td></tr>
+        <tr><td><span class="chip"><span class="dot" style="background:#c98500"></span>Sonnet 5</span></td><td class="c">✗</td><td class="c num" style="color:#ff5b3d;">1 / 0</td></tr>
+        <tr><td><span class="chip"><span class="dot" style="background:#008300"></span>Haiku 4.5</span></td><td class="c">✗</td><td class="c num" style="color:#ff5b3d;">2 / 2</td></tr>
+      </table>
+      <p style="font-size:27px; color:#c3c2b7; margin-top:28px; line-height:1.7;">検証習慣は上位2モデルのみ。潜在欠陥数はモデルランクと逆相関</p>
+    </div>
+  </div></div>
+  <div class="footer">
+    <span class="footer-left">IndiviNEWS — 同一仕様・4モデル実装比較実験</span>
+    <span class="footer-right">8 / 11</span>
+  </div>
+</body></html>
