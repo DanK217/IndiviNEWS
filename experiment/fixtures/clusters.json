@@ -1,0 +1,159 @@
+{
+  "description": "類似記事クラスタリングの採点用golden set。expectedClusterが同じアイテムは同一クラスタが正解。c*=複数要素クラスタ、s*=単独。URLは全アイテムで一意（採点時の照合キー）。",
+  "items": [
+    {
+      "source": "Hacker News",
+      "title": "A tiny WebAssembly runtime written in Rust",
+      "url": "https://example-blog.dev/wasm-runtime/",
+      "publishedAt": "2026-07-04T10:00:00Z",
+      "expectedCluster": "c1"
+    },
+    {
+      "source": "はてなブックマーク",
+      "title": "A tiny WebAssembly runtime written in Rust",
+      "url": "http://example-blog.dev/wasm-runtime?utm_source=hatena&utm_medium=rss",
+      "publishedAt": "2026-07-04T12:30:00Z",
+      "expectedCluster": "c1"
+    },
+    {
+      "source": "Zenn",
+      "title": "Next.jsのミドルウェアで認証を型安全にする",
+      "url": "https://zenn.dev/taro/articles/nextjs-auth-middleware",
+      "publishedAt": "2026-07-03T21:00:00Z",
+      "expectedCluster": "c2"
+    },
+    {
+      "source": "はてなブックマーク",
+      "title": "Next.jsのミドルウェアで認証を型安全にする - Zenn",
+      "url": "https://zenn.dev/taro/articles/nextjs-auth-middleware?redirected=1",
+      "publishedAt": "2026-07-04T08:15:00Z",
+      "expectedCluster": "c2"
+    },
+    {
+      "source": "Publickey",
+      "title": "OpenAI、GPT-6を発表。推論性能が従来比2倍に",
+      "url": "https://www.publickey1.jp/blog/26/openai_gpt-6.html",
+      "publishedAt": "2026-07-04T02:00:00Z",
+      "expectedCluster": "c3"
+    },
+    {
+      "source": "はてなブックマーク",
+      "title": "【速報】ＯｐｅｎＡＩがGPT－6を発表",
+      "url": "https://news.example.jp/articles/openai-gpt6-announce",
+      "publishedAt": "2026-07-04T03:45:00Z",
+      "expectedCluster": "c3"
+    },
+    {
+      "source": "はてなブックマーク",
+      "title": "GPT-6の安全性評価に専門家から懸念の声",
+      "url": "https://news.example.jp/articles/gpt6-safety-concerns",
+      "publishedAt": "2026-07-04T15:00:00Z",
+      "expectedCluster": "s1"
+    },
+    {
+      "source": "Hacker News",
+      "title": "PostgreSQL 19 Released",
+      "url": "https://www.postgresql.org/about/news/postgresql-19-released/",
+      "publishedAt": "2026-07-03T18:00:00Z",
+      "expectedCluster": "c4"
+    },
+    {
+      "source": "Hacker News",
+      "title": "PostgreSQL 19 released with major performance improvements",
+      "url": "https://db-weekly.example.com/postgresql-19",
+      "publishedAt": "2026-07-03T20:30:00Z",
+      "expectedCluster": "c4"
+    },
+    {
+      "source": "Hacker News",
+      "title": "PostgreSQL indexing deep dive",
+      "url": "https://example.dev/pg-indexing",
+      "publishedAt": "2026-07-04T09:00:00Z",
+      "expectedCluster": "s2"
+    },
+    {
+      "source": "はてなブックマーク",
+      "title": "新しいHTTPメソッド「QUERY」をHonoで実装してみる - Qiita",
+      "url": "https://qiita.com/hanako/items/abc123",
+      "publishedAt": "2026-07-04T05:00:00Z",
+      "expectedCluster": "c5"
+    },
+    {
+      "source": "はてなブックマーク",
+      "title": "新しいHTTPメソッド「QUERY」をHonoで実装してみる",
+      "url": "https://qiita.com/hanako/items/abc123?utm_campaign=popular_items",
+      "publishedAt": "2026-07-04T11:20:00Z",
+      "expectedCluster": "c5"
+    },
+    {
+      "source": "Zenn",
+      "title": "RustでWebサーバーを自作する",
+      "url": "https://zenn.dev/a/articles/rust-web",
+      "publishedAt": "2026-07-03T12:00:00Z",
+      "expectedCluster": "s3"
+    },
+    {
+      "source": "Zenn",
+      "title": "GoでWebサーバーを自作する",
+      "url": "https://zenn.dev/b/articles/go-web",
+      "publishedAt": "2026-07-03T14:00:00Z",
+      "expectedCluster": "s4"
+    },
+    {
+      "source": "Hacker News",
+      "title": "React 20 released",
+      "url": "https://react.dev/blog/react-20",
+      "publishedAt": "2026-07-04T01:00:00Z",
+      "expectedCluster": "s5"
+    },
+    {
+      "source": "Zenn",
+      "title": "React Nativeで地図アプリを作る",
+      "url": "https://zenn.dev/c/articles/rn-map",
+      "publishedAt": "2026-07-03T23:00:00Z",
+      "expectedCluster": "s6"
+    },
+    {
+      "source": "Hacker News",
+      "title": "SQLite as an application file format",
+      "url": "https://www.sqlite.org/appfileformat.html",
+      "publishedAt": "2026-07-02T16:00:00Z",
+      "expectedCluster": "c6"
+    },
+    {
+      "source": "はてなブックマーク",
+      "title": "SQLite as an application file format",
+      "url": "http://sqlite.org/appfileformat.html",
+      "publishedAt": "2026-07-03T02:00:00Z",
+      "expectedCluster": "c6"
+    },
+    {
+      "source": "はてなブックマーク",
+      "title": "ヨドバシ池袋店に行ってきた感想",
+      "url": "https://example.blog.jp/yodobashi-ikebukuro",
+      "publishedAt": "2026-07-04T13:00:00Z",
+      "expectedCluster": "s7"
+    },
+    {
+      "source": "Hacker News",
+      "title": "Show HN: I built a terminal-based spreadsheet",
+      "url": "https://github.com/example/tsheet",
+      "publishedAt": "2026-07-04T07:30:00Z",
+      "expectedCluster": "s8"
+    },
+    {
+      "source": "Publickey",
+      "title": "AWS、東京リージョンに新しいアベイラビリティゾーンを追加",
+      "url": "https://www.publickey1.jp/blog/26/aws_tokyo_az.html",
+      "publishedAt": "2026-07-03T06:00:00Z",
+      "expectedCluster": "s9"
+    },
+    {
+      "source": "Zenn",
+      "title": "TypeScriptの型パズル入門",
+      "url": "https://zenn.dev/d/articles/ts-type-puzzle",
+      "publishedAt": "2026-07-02T10:00:00Z",
+      "expectedCluster": "s10"
+    }
+  ]
+}
