@@ -4,14 +4,16 @@
  * ランニングコスト0を成立させるため、要約・選定にLLM APIは使わない。
  * 代わりにルールベースで構成する:
  *   - 今日のピック: ウィジェットと同じソース間交互選出で上位3件
- *   - ソース別セクション: 各ソースの最新5件（URL重複はソース間で排除）
+ *   - ソース別セクション: 各ソースの最新5件
+ *   （同一記事・同一話題はsrc/cluster.jsでクラスタ化し代表記事のみ掲載）
  *
  * GitHub Actionsから毎朝実行され、digests/YYYY-MM-DD.md としてコミットされる。
  * 実行: node scripts/build-digest.js
  */
 const fs = require("fs");
 const path = require("path");
-const { fetchAllSources, interleaveBySource } = require("../src/fetchers");
+const { fetchAllSources } = require("../src/fetchers");
+const { clusterItems } = require("../src/cluster");
 
 const DIGEST_DIR = path.join(__dirname, "..", "digests");
 const PICKS_COUNT = 3;
@@ -35,49 +37,79 @@ function jstTimeString(publishedAt) {
   }).format(new Date(publishedAt));
 }
 
-// はてなブックマークにはZenn等の記事も流れてくるため、ソースをまたいで
-// 同一URLの重複を取り除く（先に出てきたソースを優先）。
-function dedupeAcrossSources(sourceArrays) {
-  const seen = new Set();
-  return sourceArrays.map((arr) =>
-    arr.filter((item) => {
-      if (seen.has(item.url)) return false;
-      seen.add(item.url);
-      return true;
-    }),
+// 複数ソースにまたがる同一記事・同一話題のクラスタは代表記事1件のみを残し、
+// まとまったソース名を注記として付与する（クラスタリングによる重複統合）。
+function collapseClusters(items) {
+  return clusterItems(items).map((cluster) => {
+    const representative = cluster[0];
+    if (cluster.length === 1) {
+      return { item: representative, note: null };
+    }
+    const sources = [];
+    for (const item of cluster) {
+      if (!sources.includes(item.source)) sources.push(item.source);
+    }
+    return { item: representative, note: `（${sources.join("・")}で話題）` };
+  });
+}
+
+// クラスタ統合後のエントリを対象に、ソース間で偏らないよう交互に取り出す。
+function interleaveCollapsed(collapsed, limit) {
+  const bySource = new Map();
+  for (const entry of collapsed) {
+    const source = entry.item.source;
+    if (!bySource.has(source)) bySource.set(source, []);
+    bySource.get(source).push(entry);
+  }
+  const grouped = [...bySource.values()].map((arr) =>
+    [...arr].sort(
+      (a, b) => new Date(b.item.publishedAt) - new Date(a.item.publishedAt),
+    ),
   );
+
+  const merged = [];
+  let index = 0;
+  while (merged.length < limit && grouped.some((arr) => index < arr.length)) {
+    for (const arr of grouped) {
+      if (index < arr.length) merged.push(arr[index]);
+    }
+    index += 1;
+  }
+  return merged.slice(0, limit);
 }
 
-function formatItem(item) {
-  return `- [${item.title}](${item.url}) — ${jstTimeString(item.publishedAt)}`;
+function formatItem({ item, note }) {
+  const suffix = note ? ` ${note}` : "";
+  return `- [${item.title}](${item.url}) — ${jstTimeString(item.publishedAt)}${suffix}`;
 }
 
-function buildMarkdown(sourceArrays) {
+function buildMarkdown(collapsed) {
   const today = jstDateString();
   const lines = [`# ${today} テックニュースダイジェスト`, ""];
 
-  const picks = interleaveBySource(sourceArrays, PICKS_COUNT);
+  const picks = interleaveCollapsed(collapsed, PICKS_COUNT);
   lines.push("## 今日のピック", "");
-  for (const item of picks) {
-    lines.push(`- **[${item.title}](${item.url})**（${item.source}）`);
+  for (const { item, note } of picks) {
+    const suffix = note ? ` ${note}` : "";
+    lines.push(`- **[${item.title}](${item.url})**（${item.source}）${suffix}`);
   }
   lines.push("");
 
-  // fetchAllSources()の1配列には複数ソースが混在しうる（RSSはZenn+Publickey等）
-  // ため、見出し単位のsourceフィールドでグルーピングし直す。
+  // クラスタ統合後のエントリを、代表記事のsourceでグルーピングし直す。
   const bySource = new Map();
-  for (const item of sourceArrays.flat()) {
-    if (!bySource.has(item.source)) bySource.set(item.source, []);
-    bySource.get(item.source).push(item);
+  for (const entry of collapsed) {
+    const source = entry.item.source;
+    if (!bySource.has(source)) bySource.set(source, []);
+    bySource.get(source).push(entry);
   }
 
-  for (const [source, items] of bySource) {
-    const sorted = [...items].sort(
-      (a, b) => new Date(b.publishedAt) - new Date(a.publishedAt),
+  for (const [source, entries] of bySource) {
+    const sorted = [...entries].sort(
+      (a, b) => new Date(b.item.publishedAt) - new Date(a.item.publishedAt),
     );
     lines.push(`## ${source}`, "");
-    for (const item of sorted.slice(0, PER_SOURCE_COUNT)) {
-      lines.push(formatItem(item));
+    for (const entry of sorted.slice(0, PER_SOURCE_COUNT)) {
+      lines.push(formatItem(entry));
     }
     lines.push("");
   }
@@ -87,14 +119,15 @@ function buildMarkdown(sourceArrays) {
 }
 
 async function main() {
-  const sourceArrays = dedupeAcrossSources(await fetchAllSources());
+  const sourceArrays = await fetchAllSources();
   if (sourceArrays.every((arr) => arr.length === 0)) {
     console.error("全ソースの取得に失敗しました。ダイジェストは生成しません。");
     process.exitCode = 1;
     return;
   }
 
-  const markdown = buildMarkdown(sourceArrays);
+  const collapsed = collapseClusters(sourceArrays.flat());
+  const markdown = buildMarkdown(collapsed);
   fs.mkdirSync(DIGEST_DIR, { recursive: true });
   const outPath = path.join(DIGEST_DIR, `${jstDateString()}.md`);
   fs.writeFileSync(outPath, markdown);
