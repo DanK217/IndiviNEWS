@@ -3,7 +3,8 @@
 // リクエスト時にライブ取得し、鮮度はapi/index.jsのCache-Control（s-maxage）で担保する。
 module.exports = {
   // 全ソース合算後にリストへ表示する件数
-  maxItems: 8,
+  // Widgetsmith Mediumサイズ（横長）の実際の表示領域では3件程度が見切れず収まる
+  maxItems: 3,
 
   // Hacker News: 取得する上位記事数
   hackerNews: {
