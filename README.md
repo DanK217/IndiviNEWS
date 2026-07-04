@@ -1,4 +1,6 @@
-# Widgetsmith向け技術ニュース表示サイト
+# IndiviNEWS
+
+個人用のプロジェクトです。技術ニュースを私専用にカスタマイズしてスマホでみやすくします。
 
 Hacker News / はてなブックマーク人気エントリー / Zenn・Publickey(RSS) をまとめて
 黒背景のシンプルなリストとして表示するWebページ。Widgetsmithの「Website」ウィジェット
