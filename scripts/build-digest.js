@@ -12,6 +12,7 @@
 const fs = require("fs");
 const path = require("path");
 const { fetchAllSources, interleaveBySource } = require("../src/fetchers");
+const { clusterItems } = require("../src/cluster");
 
 const DIGEST_DIR = path.join(__dirname, "..", "digests");
 const PICKS_COUNT = 3;
@@ -35,21 +36,60 @@ function jstTimeString(publishedAt) {
   }).format(new Date(publishedAt));
 }
 
-// はてなブックマークにはZenn等の記事も流れてくるため、ソースをまたいで
-// 同一URLの重複を取り除く（先に出てきたソースを優先）。
-function dedupeAcrossSources(sourceArrays) {
-  const seen = new Set();
-  return sourceArrays.map((arr) =>
-    arr.filter((item) => {
-      if (seen.has(item.url)) return false;
-      seen.add(item.url);
-      return true;
-    }),
-  );
+// 複数ソースにまたがる同一話題の記事をクラスタリングする
+function clusterAndDedupe(sourceArrays) {
+  // すべてのアイテムをフラットにしてクラスタリング
+  const allItems = sourceArrays.flat();
+  const clusters = clusterItems(allItems);
+
+  // クラスタを処理：複数ソース横断なら代表アイテムのみ、注記を追加
+  const processedItems = [];
+  const sourceMap = new Map();
+
+  for (const cluster of clusters) {
+    // クラスタ内の一意なソースを集計
+    const uniqueSources = [...new Set(cluster.map((item) => item.source))];
+
+    if (uniqueSources.length > 1) {
+      // 複数ソースにまたがる場合：代表アイテム（最新）のみを使用し、注記を追加
+      const representative = cluster[0]; // クラスタ内で最新
+      const sourceNotes = uniqueSources.join("・");
+      const itemWithNote = {
+        ...representative,
+        _sourceNote: sourceNotes,
+      };
+      processedItems.push(itemWithNote);
+    } else {
+      // 単一ソース内の重複：すべてを保持
+      processedItems.push(...cluster);
+    }
+  }
+
+  // ソースごとに再グループ化してsourceArrays構造に戻す
+  const result = sourceArrays.map(() => []);
+  const sourceNameToIndex = new Map();
+  sourceArrays.forEach((arr, idx) => {
+    if (arr.length > 0) {
+      sourceNameToIndex.set(arr[0].source, idx);
+    }
+  });
+
+  for (const item of processedItems) {
+    const idx = sourceNameToIndex.get(item.source);
+    if (idx !== undefined) {
+      result[idx].push(item);
+    }
+  }
+
+  return result;
 }
 
 function formatItem(item) {
-  return `- [${item.title}](${item.url}) — ${jstTimeString(item.publishedAt)}`;
+  let formatted = `- [${item.title}](${item.url}) — ${jstTimeString(item.publishedAt)}`;
+  if (item._sourceNote) {
+    formatted += `（${item._sourceNote}で話題）`;
+  }
+  return formatted;
 }
 
 function buildMarkdown(sourceArrays) {
@@ -87,7 +127,7 @@ function buildMarkdown(sourceArrays) {
 }
 
 async function main() {
-  const sourceArrays = dedupeAcrossSources(await fetchAllSources());
+  const sourceArrays = clusterAndDedupe(await fetchAllSources());
   if (sourceArrays.every((arr) => arr.length === 0)) {
     console.error("全ソースの取得に失敗しました。ダイジェストは生成しません。");
     process.exitCode = 1;
