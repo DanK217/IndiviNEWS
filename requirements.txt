@@ -1,3 +1,0 @@
-tzdata
-requests
-anthropic

@@ -74,6 +74,12 @@ git push -u origin main
 - [ ] PCの電源を切った状態でも同じURLにアクセスできる（Vercelでホスティングされているため）
 - [ ] Widgetsmithの実機表示で見た目・可読性に問題がない
 
+## 毎朝の自動ダイジェスト
+
+ウィジェット表示とは別に、GitHub Actionsが毎朝06:00 JSTに全ソースの見出しを
+まとめた `digests/YYYY-MM-DD.md` を自動コミットする（LLM不使用・コスト0円）。
+詳細は [README_digest.md](README_digest.md) を参照。
+
 ## 補足: 料金について
 
 Vercelの無料 Hobby プランは個人・非商用利用が前提。今回のように個人のウィジェット用に

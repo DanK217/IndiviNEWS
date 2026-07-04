@@ -1,16 +1,11 @@
 name: news-digest
 
 # cron は UTC 基準。21:00 UTC = 翌 06:00 JST。
-# 実行するモデルは runner.py が実行時の日付で決めるため、7/7 の締切は自動で効きます。
+# LLM APIは使用しないため、シークレット登録は一切不要（運用コスト0円）。
 on:
   schedule:
     - cron: "0 21 * * *"   # 毎日 06:00 JST
   workflow_dispatch:
-    inputs:
-      tier:
-        description: "daily / deep（空なら締切ベースで自動判定）"
-        required: false
-        default: ""
 
 permissions:
   contents: write          # ダイジェストをリポジトリにコミットするために必要
@@ -21,29 +16,20 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-node@v4
         with:
-          python-version: "3.12"
+          node-version: "20"
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: npm ci
 
-      - name: Run agent
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          # Fable を今すぐ完全停止したいときは次行のコメントを外す:
-          # FABLE_DISABLED: "1"
-        run: |
-          if [ -n "${{ github.event.inputs.tier }}" ]; then
-            python runner.py --tier "${{ github.event.inputs.tier }}"
-          else
-            python runner.py
-          fi
+      - name: Build digest
+        run: node scripts/build-digest.js
 
       - name: Commit digest
         run: |
           git config user.name "news-digest-bot"
           git config user.email "actions@users.noreply.github.com"
           git add digests/
-          git diff --cached --quiet || git commit -m "Add news digest for $(date -u +%Y-%m-%d)"
+          git diff --cached --quiet || git commit -m "Add news digest for $(TZ=Asia/Tokyo date +%Y-%m-%d)"
           git push
