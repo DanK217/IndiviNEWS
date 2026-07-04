@@ -68,11 +68,16 @@ function isSameTopic(title1, title2) {
     Math.min(norm1.length, norm2.length);
   if (lenRatio > 2.5) return false;
 
-  // 単語分割（スペースで区切る）
+  // 単語分割（スペースで区切る、単文字は削除）
   const words1 = norm1.split(/\s+/).filter((w) => w.length > 1);
   const words2 = norm2.split(/\s+/).filter((w) => w.length > 1);
 
   if (words1.length === 0 || words2.length === 0) return norm1 === norm2;
+
+  // 単語数が大きく異なる場合は同一話題ではないと判定
+  const wordCountRatio = Math.max(words1.length, words2.length) /
+    Math.min(words1.length, words2.length);
+  if (wordCountRatio > 2.0) return false;
 
   // Jaccard類似度を計算
   const set1 = new Set(words1);
@@ -85,6 +90,9 @@ function isSameTopic(title1, title2) {
 
   const union = set1.size + set2.size - intersection;
   const jaccardSim = intersection / union;
+
+  // 共通単語が最小でも2個以上必要（「Topic A」「Topic B」の誤マッチを防ぐ）
+  if (intersection < 2) return false;
 
   // 包含関係をチェック（「GPT-6」「GPT-6安全性」など）
   // 短い方の単語がすべて長い方に含まれているか
@@ -102,8 +110,8 @@ function isSameTopic(title1, title2) {
   // 包含関係があり、Jaccard類似度が0.5以上なら同一話題
   if (containsAll && jaccardSim >= 0.5) return true;
 
-  // 通常はJaccard類似度が0.6以上で同一話題
-  return jaccardSim >= 0.6;
+  // 通常はJaccard類似度が0.7以上で同一話題（共通単語2個以上の条件下）
+  return jaccardSim >= 0.7;
 }
 
 /**
