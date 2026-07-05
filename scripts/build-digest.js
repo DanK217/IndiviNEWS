@@ -12,10 +12,17 @@
 const fs = require("fs");
 const path = require("path");
 const { fetchAllSources, interleaveBySource } = require("../src/fetchers");
+const { clusterItems } = require("../src/cluster");
 
 const DIGEST_DIR = path.join(__dirname, "..", "digests");
 const PICKS_COUNT = 3;
 const PER_SOURCE_COUNT = 5;
+
+// 複数ソースにまたがった話題の注記に使う略称（未定義のソースはそのまま表示）
+const SOURCE_SHORT_NAMES = {
+  "Hacker News": "HN",
+  はてなブックマーク: "はてな",
+};
 
 function jstDateString(date = new Date()) {
   // sv-SE ロケールは YYYY-MM-DD 形式を返すため日付キーとして利用する
@@ -36,30 +43,52 @@ function jstTimeString(publishedAt) {
 }
 
 // はてなブックマークにはZenn等の記事も流れてくるため、ソースをまたいで
-// 同一URLの重複を取り除く（先に出てきたソースを優先）。
-function dedupeAcrossSources(sourceArrays) {
-  const seen = new Set();
-  return sourceArrays.map((arr) =>
-    arr.filter((item) => {
-      if (seen.has(item.url)) return false;
-      seen.add(item.url);
-      return true;
-    }),
-  );
+// 同じ記事・同じ話題をクラスタリングし、各クラスタの代表記事（最新のもの）
+// だけを残す。複数ソースにまたがったクラスタは、代表記事に注記する
+// ソース名一覧（例:「HN・はてな」）を notes に持たせる。
+function collapseClusters(sourceArrays) {
+  const clusters = clusterItems(sourceArrays.flat());
+  const representatives = new Set();
+  const notes = new Map();
+  for (const cluster of clusters) {
+    const representative = cluster[0];
+    representatives.add(representative);
+    const sources = [...new Set(cluster.map((item) => item.source))];
+    if (sources.length > 1) {
+      notes.set(
+        representative,
+        sources.map((s) => SOURCE_SHORT_NAMES[s] || s).join("・"),
+      );
+    }
+  }
+  return {
+    // clusterItemsは渡したオブジェクトそのものを返すため、参照一致で絞り込める
+    sourceArrays: sourceArrays.map((arr) =>
+      arr.filter((item) => representatives.has(item)),
+    ),
+    notes,
+  };
 }
 
-function formatItem(item) {
-  return `- [${item.title}](${item.url}) — ${jstTimeString(item.publishedAt)}`;
+function topicNote(item, notes) {
+  const sources = notes.get(item);
+  return sources ? `（${sources}で話題）` : "";
 }
 
-function buildMarkdown(sourceArrays) {
+function formatItem(item, notes) {
+  return `- [${item.title}](${item.url}) — ${jstTimeString(item.publishedAt)}${topicNote(item, notes)}`;
+}
+
+function buildMarkdown(sourceArrays, notes) {
   const today = jstDateString();
   const lines = [`# ${today} テックニュースダイジェスト`, ""];
 
   const picks = interleaveBySource(sourceArrays, PICKS_COUNT);
   lines.push("## 今日のピック", "");
   for (const item of picks) {
-    lines.push(`- **[${item.title}](${item.url})**（${item.source}）`);
+    lines.push(
+      `- **[${item.title}](${item.url})**（${item.source}）${topicNote(item, notes)}`,
+    );
   }
   lines.push("");
 
@@ -77,7 +106,7 @@ function buildMarkdown(sourceArrays) {
     );
     lines.push(`## ${source}`, "");
     for (const item of sorted.slice(0, PER_SOURCE_COUNT)) {
-      lines.push(formatItem(item));
+      lines.push(formatItem(item, notes));
     }
     lines.push("");
   }
@@ -87,14 +116,15 @@ function buildMarkdown(sourceArrays) {
 }
 
 async function main() {
-  const sourceArrays = dedupeAcrossSources(await fetchAllSources());
-  if (sourceArrays.every((arr) => arr.length === 0)) {
+  const fetched = await fetchAllSources();
+  if (fetched.every((arr) => arr.length === 0)) {
     console.error("全ソースの取得に失敗しました。ダイジェストは生成しません。");
     process.exitCode = 1;
     return;
   }
 
-  const markdown = buildMarkdown(sourceArrays);
+  const { sourceArrays, notes } = collapseClusters(fetched);
+  const markdown = buildMarkdown(sourceArrays, notes);
   fs.mkdirSync(DIGEST_DIR, { recursive: true });
   const outPath = path.join(DIGEST_DIR, `${jstDateString()}.md`);
   fs.writeFileSync(outPath, markdown);
