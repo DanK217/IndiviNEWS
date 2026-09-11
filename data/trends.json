@@ -1,0 +1,519 @@
+{
+  "generatedAt": "2026-09-11T13:57:52.373Z",
+  "range": {
+    "from": "2026-07-05",
+    "to": "2026-09-11",
+    "days": 69
+  },
+  "totals": {
+    "headlines": 1380,
+    "keywords": 2055,
+    "perSource": [
+      {
+        "source": "Hacker News",
+        "count": 345
+      },
+      {
+        "source": "はてなブックマーク",
+        "count": 345
+      },
+      {
+        "source": "Zenn",
+        "count": 345
+      },
+      {
+        "source": "Publickey",
+        "count": 345
+      }
+    ]
+  },
+  "sources": [
+    "Hacker News",
+    "はてなブックマーク",
+    "Zenn",
+    "Publickey"
+  ],
+  "sourceWeekly": [
+    {
+      "week": "2026-W27",
+      "label": "6/29",
+      "counts": [
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "week": "2026-W28",
+      "label": "7/6",
+      "counts": [
+        35,
+        35,
+        35,
+        35
+      ]
+    },
+    {
+      "week": "2026-W29",
+      "label": "7/13",
+      "counts": [
+        35,
+        35,
+        35,
+        35
+      ]
+    },
+    {
+      "week": "2026-W30",
+      "label": "7/20",
+      "counts": [
+        35,
+        35,
+        35,
+        35
+      ]
+    },
+    {
+      "week": "2026-W31",
+      "label": "7/27",
+      "counts": [
+        35,
+        35,
+        35,
+        35
+      ]
+    },
+    {
+      "week": "2026-W32",
+      "label": "8/3",
+      "counts": [
+        35,
+        35,
+        35,
+        35
+      ]
+    },
+    {
+      "week": "2026-W33",
+      "label": "8/10",
+      "counts": [
+        35,
+        35,
+        35,
+        35
+      ]
+    },
+    {
+      "week": "2026-W34",
+      "label": "8/17",
+      "counts": [
+        35,
+        35,
+        35,
+        35
+      ]
+    },
+    {
+      "week": "2026-W35",
+      "label": "8/24",
+      "counts": [
+        35,
+        35,
+        35,
+        35
+      ]
+    },
+    {
+      "week": "2026-W36",
+      "label": "8/31",
+      "counts": [
+        35,
+        35,
+        35,
+        35
+      ]
+    },
+    {
+      "week": "2026-W37",
+      "label": "9/7",
+      "counts": [
+        25,
+        25,
+        25,
+        25
+      ]
+    }
+  ],
+  "keywordTotal": [
+    {
+      "key": "ai",
+      "term": "AI",
+      "count": 293
+    },
+    {
+      "key": "claude",
+      "term": "Claude",
+      "count": 101
+    },
+    {
+      "key": "code",
+      "term": "Code",
+      "count": 72
+    },
+    {
+      "key": "google",
+      "term": "Google",
+      "count": 58
+    },
+    {
+      "key": "aws",
+      "term": "AWS",
+      "count": 55
+    },
+    {
+      "key": "javascript",
+      "term": "JavaScript",
+      "count": 38
+    },
+    {
+      "key": "cloud",
+      "term": "Cloud",
+      "count": 37
+    },
+    {
+      "key": "agent",
+      "term": "Agent",
+      "count": 36
+    },
+    {
+      "key": "rust",
+      "term": "Rust",
+      "count": 36
+    },
+    {
+      "key": "mcp",
+      "term": "MCP",
+      "count": 32
+    },
+    {
+      "key": "github",
+      "term": "GitHub",
+      "count": 30
+    },
+    {
+      "key": "llm",
+      "term": "LLM",
+      "count": 29
+    },
+    {
+      "key": "windows",
+      "term": "Windows",
+      "count": 27
+    },
+    {
+      "key": "ui",
+      "term": "UI",
+      "count": 25
+    },
+    {
+      "key": "linux",
+      "term": "Linux",
+      "count": 24
+    },
+    {
+      "key": "web",
+      "term": "Web",
+      "count": 24
+    },
+    {
+      "key": "fable",
+      "term": "Fable",
+      "count": 20
+    },
+    {
+      "key": "chatgpt",
+      "term": "ChatGPT",
+      "count": 19
+    },
+    {
+      "key": "cursor",
+      "term": "Cursor",
+      "count": 19
+    },
+    {
+      "key": "openai",
+      "term": "OpenAI",
+      "count": 19
+    },
+    {
+      "key": "cloudflare",
+      "term": "Cloudflare",
+      "count": 18
+    },
+    {
+      "key": "microsoft",
+      "term": "Microsoft",
+      "count": 18
+    },
+    {
+      "key": "bun",
+      "term": "Bun",
+      "count": 17
+    },
+    {
+      "key": "html",
+      "term": "HTML",
+      "count": 17
+    }
+  ],
+  "keywordTrend": [
+    {
+      "term": "AI",
+      "total": 293,
+      "weekly": [
+        1,
+        21,
+        28,
+        24,
+        35,
+        37,
+        44,
+        29,
+        30,
+        32,
+        12
+      ]
+    },
+    {
+      "term": "Claude",
+      "total": 101,
+      "weekly": [
+        0,
+        14,
+        12,
+        19,
+        5,
+        9,
+        15,
+        9,
+        6,
+        10,
+        2
+      ]
+    },
+    {
+      "term": "Code",
+      "total": 72,
+      "weekly": [
+        0,
+        11,
+        8,
+        13,
+        3,
+        2,
+        6,
+        8,
+        10,
+        6,
+        5
+      ]
+    },
+    {
+      "term": "Google",
+      "total": 58,
+      "weekly": [
+        2,
+        1,
+        9,
+        10,
+        6,
+        4,
+        8,
+        8,
+        0,
+        10,
+        0
+      ]
+    },
+    {
+      "term": "AWS",
+      "total": 55,
+      "weekly": [
+        0,
+        2,
+        1,
+        11,
+        3,
+        4,
+        7,
+        1,
+        4,
+        16,
+        6
+      ]
+    },
+    {
+      "term": "JavaScript",
+      "total": 38,
+      "weekly": [
+        1,
+        5,
+        6,
+        4,
+        0,
+        0,
+        3,
+        0,
+        12,
+        3,
+        4
+      ]
+    },
+    {
+      "term": "Cloud",
+      "total": 37,
+      "weekly": [
+        0,
+        1,
+        6,
+        7,
+        5,
+        4,
+        0,
+        5,
+        0,
+        8,
+        1
+      ]
+    },
+    {
+      "term": "Agent",
+      "total": 36,
+      "weekly": [
+        1,
+        3,
+        4,
+        3,
+        1,
+        2,
+        9,
+        4,
+        1,
+        6,
+        2
+      ]
+    }
+  ],
+  "keywordTrendWeeks": [
+    "6/29",
+    "7/6",
+    "7/13",
+    "7/20",
+    "7/27",
+    "8/3",
+    "8/10",
+    "8/17",
+    "8/24",
+    "8/31",
+    "9/7"
+  ],
+  "longevity": [
+    {
+      "title": "1Password、ダッシュボードから組織のAI支出状況を表示する新機能。ClaudeやCursor、ChatGPTなど複数AIにI対応",
+      "url": "https://www.publickey1.jp/blog/26/1passwordaiclaudecursorchatgptaii.html",
+      "days": 12,
+      "sources": [
+        "Publickey"
+      ]
+    },
+    {
+      "title": "npm代替を目指すセキュリティファーストなパッケージマネージャ「vlt」バージョン1.0に到達。npmのミラーレジストリ、プライベートレジストリも提供開始",
+      "url": "https://www.publickey1.jp/blog/26/npmvlt10npm.html",
+      "days": 11,
+      "sources": [
+        "Publickey"
+      ]
+    },
+    {
+      "title": "ミッチェル・ハシモト氏が新会社「Superlogical」を設立、あらゆる仕事に使えるマルチプレクサの開発へ",
+      "url": "https://www.publickey1.jp/blog/26/superlogical.html",
+      "days": 10,
+      "sources": [
+        "Publickey"
+      ]
+    },
+    {
+      "title": "「Agent Plugins 1.0.0」発表、異なるAIエージェント間でもスキルやMCPサーバ設定が共通化へ。マイクロソフト、OpenAI、AWS、Googleらがサポート",
+      "url": "https://www.publickey1.jp/blog/26/agent_plugins_100aimcpopenaiawsgoogle.html",
+      "days": 8,
+      "sources": [
+        "Publickey"
+      ]
+    },
+    {
+      "title": "Google Cloud、生成AIのコードを瞬時に隔離して安全に実行できる「Cloud Runサンドボックス」パブリックプレビュー",
+      "url": "https://www.publickey1.jp/blog/26/google_cloudaicloud_run.html",
+      "days": 7,
+      "sources": [
+        "Publickey"
+      ]
+    },
+    {
+      "title": "Next.js 16.3正式版リリース。Turbopackのメモリ使用量が最大90％減、SSRが最大22％高速化、TypeScript 7による型チェック高速化など",
+      "url": "https://www.publickey1.jp/blog/26/nextjs_163turbopack90ssr22typescript_7.html",
+      "days": 7,
+      "sources": [
+        "Publickey"
+      ]
+    },
+    {
+      "title": "Rustに移植された「Bun 1.4」正式リリース。Node.jsとの互換性向上でPlaywrightやvitestが動作、CPUとメモリの使用率が大幅改善、正規表現が高速化など",
+      "url": "https://www.publickey1.jp/blog/26/rustbun_14nodejsplaywrightvitestcpu.html",
+      "days": 7,
+      "sources": [
+        "Publickey"
+      ]
+    },
+    {
+      "title": "アプリが遅い原因をAIがトレースログから分析してくれる「Windows Performance Analyzer MCP」（WPA MCP）、マイクロソフトがプレビュー公開",
+      "url": "https://www.publickey1.jp/blog/26/aiwindows_performance_analyzer_mcpwpa_mcp.html",
+      "days": 7,
+      "sources": [
+        "Publickey"
+      ]
+    },
+    {
+      "title": "シングルバイナリなOLAP DBの次期版「DuckDB 2.0」プレビュー。クライアント／サーバ機能が安定版に、スキーマレスのVARIANT型、トリガー、非同期I/Oなど新機能",
+      "url": "https://www.publickey1.jp/blog/26/olap_dbduckdb_20variantio.html",
+      "days": 7,
+      "sources": [
+        "Publickey"
+      ]
+    },
+    {
+      "title": ".NET 8と.NET 9は今年の11月でサポート終了、マイクロソフトが警告",
+      "url": "https://www.publickey1.jp/blog/26/net_8net_911.html",
+      "days": 6,
+      "sources": [
+        "Publickey"
+      ]
+    },
+    {
+      "title": "Apple、次期macOS 27でSwift言語をシステムカーネル開発に採用。メモリ安全な言語として",
+      "url": "https://www.publickey1.jp/blog/26/applemacos_27swift.html",
+      "days": 6,
+      "sources": [
+        "Publickey"
+      ]
+    },
+    {
+      "title": "Claude Codeを組織一括でシングルサインオン、チームや個人の費用上限設定、デフォルト設定など可能に、「Claude apps gateway for AWS/Google Cloud」登場",
+      "url": "https://www.publickey1.jp/blog/26/claude_codeclaude_apps_gateway_for_awsgoogle_cloud.html",
+      "days": 6,
+      "sources": [
+        "Publickey"
+      ]
+    }
+  ]
+}

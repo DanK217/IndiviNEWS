@@ -26,7 +26,11 @@ jobs:
       - name: Build digest
         run: node scripts/build-digest.js
 
-      - name: Commit digest
+      - name: Build trends
+        # 当日ダイジェストを書いた直後に、蓄積分すべてから data/trends.json を再集計。
+        run: node scripts/build-trends.js
+
+      - name: Commit digest and trends
         # コミット作者はリポジトリ所有者本人にする。
         # Vercel HobbyプランはprivateリポジトリでVercelアカウントに紐付いていない
         # 作者（例: actions@users.noreply.github.com のボット名義）のコミットを
@@ -34,6 +38,6 @@ jobs:
         run: |
           git config user.name "DanK217"
           git config user.email "xoxo.aaa72@gmail.com"
-          git add digests/
-          git diff --cached --quiet || git commit -m "Add news digest for $(TZ=Asia/Tokyo date +%Y-%m-%d)"
+          git add digests/ data/
+          git diff --cached --quiet || git commit -m "Add news digest and trends for $(TZ=Asia/Tokyo date +%Y-%m-%d)"
           git push

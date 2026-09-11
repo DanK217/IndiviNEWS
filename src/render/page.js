@@ -317,7 +317,8 @@ function renderPage(items) {
 
     <footer class="footer">
       <b>IndiviNEWS</b> — 個人用テックニュース・ダイジェスト<br>
-      30分ごとに自動更新 ／ 要約・選定はルールベース（LLM不使用・運用コスト0円）
+      30分ごとに自動更新 ／ 要約・選定はルールベース（LLM不使用・運用コスト0円）<br>
+      <a href="/trends" style="color:#8a8a8a">📊 トレンド分析を見る →</a>
     </footer>
   </div>
 </body>

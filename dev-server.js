@@ -1,8 +1,11 @@
 // ローカル動作確認専用（Vercelにはデプロイされない）。
 // `npm run dev` で起動し、api/配下と同じロジックをExpress経由で確認する。
+const fs = require("fs");
+const path = require("path");
 const express = require("express");
 const { fetchAllNews } = require("./src/fetchers");
 const { renderPage } = require("./src/render/page");
+const { renderTrendsPage } = require("./src/render/trends-page");
 const { pageItems } = require("./src/config/feeds");
 
 const PORT = process.env.PORT || 3000;
@@ -17,6 +20,19 @@ app.get("/", async (req, res) => {
   }
   res.set("Cache-Control", "no-store");
   res.send(renderPage(items));
+});
+
+app.get("/trends", (req, res) => {
+  let data = null;
+  try {
+    data = JSON.parse(
+      fs.readFileSync(path.join(__dirname, "data", "trends.json"), "utf-8"),
+    );
+  } catch (err) {
+    console.error("trends.json load failed:", err);
+  }
+  res.set("Cache-Control", "no-store");
+  res.send(renderTrendsPage(data));
 });
 
 app.get("/health", async (req, res) => {

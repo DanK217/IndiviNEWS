@@ -4,7 +4,9 @@
   "private": true,
   "description": "Widgetsmith向け黒背景シンプル技術ニュース表示サイト（Vercelサーバーレスホスティング）",
   "scripts": {
-    "dev": "node dev-server.js"
+    "dev": "node dev-server.js",
+    "digest": "node scripts/build-digest.js",
+    "trends": "node scripts/build-trends.js"
   },
   "dependencies": {
     "rss-parser": "^3.13.0"
