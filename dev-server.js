@@ -3,6 +3,7 @@
 const express = require("express");
 const { fetchAllNews } = require("./src/fetchers");
 const { renderPage } = require("./src/render/page");
+const { pageItems } = require("./src/config/feeds");
 
 const PORT = process.env.PORT || 3000;
 const app = express();
@@ -10,7 +11,7 @@ const app = express();
 app.get("/", async (req, res) => {
   let items = [];
   try {
-    items = await fetchAllNews();
+    items = await fetchAllNews(pageItems);
   } catch (err) {
     console.error("fetchAllNews failed:", err);
   }

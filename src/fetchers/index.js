@@ -39,10 +39,11 @@ async function fetchAllSources() {
 // Vercelはサーバーレス関数のためプロセスを常駐できない。
 // リクエストのたびに各ソースへライブ取得しに行き、鮮度はVercel Edgeの
 // HTTPキャッシュ（Cache-Controlのs-maxage）で担保する。
-async function fetchAllNews() {
+// limitで取得件数を指定できる（既定はウィジェット向けのmaxItems）。
+async function fetchAllNews(limit = maxItems) {
   const sourceArrays = await fetchAllSources();
   if (sourceArrays.length === 0) return [];
-  return interleaveBySource(sourceArrays, maxItems);
+  return interleaveBySource(sourceArrays, limit);
 }
 
 module.exports = { fetchAllNews, fetchAllSources, interleaveBySource };
