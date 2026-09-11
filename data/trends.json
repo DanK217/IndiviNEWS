@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-09-11T13:57:52.373Z",
+  "generatedAt": "2026-09-11T22:57:25.473Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-09-11",
-    "days": 69
+    "to": "2026-09-12",
+    "days": 70
   },
   "totals": {
-    "headlines": 1380,
-    "keywords": 2055,
+    "headlines": 1400,
+    "keywords": 2072,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 345
+        "count": 350
       },
       {
         "source": "はてなブックマーク",
-        "count": 345
+        "count": 350
       },
       {
         "source": "Zenn",
-        "count": 345
+        "count": 350
       },
       {
         "source": "Publickey",
-        "count": 345
+        "count": 350
       }
     ]
   },
@@ -138,10 +138,10 @@
       "week": "2026-W37",
       "label": "9/7",
       "counts": [
-        25,
-        25,
-        25,
-        25
+        30,
+        30,
+        30,
+        30
       ]
     }
   ],
@@ -149,7 +149,7 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 293
+      "count": 295
     },
     {
       "key": "claude",
@@ -164,12 +164,12 @@
     {
       "key": "google",
       "term": "Google",
-      "count": 58
+      "count": 59
     },
     {
       "key": "aws",
       "term": "AWS",
-      "count": 55
+      "count": 57
     },
     {
       "key": "javascript",
@@ -212,19 +212,24 @@
       "count": 27
     },
     {
+      "key": "linux",
+      "term": "Linux",
+      "count": 25
+    },
+    {
       "key": "ui",
       "term": "UI",
       "count": 25
     },
     {
-      "key": "linux",
-      "term": "Linux",
-      "count": 24
-    },
-    {
       "key": "web",
       "term": "Web",
       "count": 24
+    },
+    {
+      "key": "openai",
+      "term": "OpenAI",
+      "count": 21
     },
     {
       "key": "fable",
@@ -237,19 +242,14 @@
       "count": 19
     },
     {
+      "key": "cloudflare",
+      "term": "Cloudflare",
+      "count": 19
+    },
+    {
       "key": "cursor",
       "term": "Cursor",
       "count": 19
-    },
-    {
-      "key": "openai",
-      "term": "OpenAI",
-      "count": 19
-    },
-    {
-      "key": "cloudflare",
-      "term": "Cloudflare",
-      "count": 18
     },
     {
       "key": "microsoft",
@@ -257,20 +257,20 @@
       "count": 18
     },
     {
-      "key": "bun",
-      "term": "Bun",
+      "key": "apple",
+      "term": "Apple",
       "count": 17
     },
     {
-      "key": "html",
-      "term": "HTML",
+      "key": "bun",
+      "term": "Bun",
       "count": 17
     }
   ],
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 293,
+      "total": 295,
       "weekly": [
         1,
         21,
@@ -282,7 +282,7 @@
         29,
         30,
         32,
-        12
+        14
       ]
     },
     {
@@ -321,7 +321,7 @@
     },
     {
       "term": "Google",
-      "total": 58,
+      "total": 59,
       "weekly": [
         2,
         1,
@@ -333,12 +333,12 @@
         8,
         0,
         10,
-        0
+        1
       ]
     },
     {
       "term": "AWS",
-      "total": 55,
+      "total": 57,
       "weekly": [
         0,
         2,
@@ -350,7 +350,7 @@
         1,
         4,
         16,
-        6
+        8
       ]
     },
     {
