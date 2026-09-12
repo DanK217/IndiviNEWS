@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-09-11T22:57:25.473Z",
+  "generatedAt": "2026-09-12T22:49:52.616Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-09-12",
-    "days": 70
+    "to": "2026-09-13",
+    "days": 71
   },
   "totals": {
-    "headlines": 1400,
-    "keywords": 2072,
+    "headlines": 1420,
+    "keywords": 2090,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 350
+        "count": 355
       },
       {
         "source": "はてなブックマーク",
-        "count": 350
+        "count": 355
       },
       {
         "source": "Zenn",
-        "count": 350
+        "count": 355
       },
       {
         "source": "Publickey",
-        "count": 350
+        "count": 355
       }
     ]
   },
@@ -138,10 +138,10 @@
       "week": "2026-W37",
       "label": "9/7",
       "counts": [
-        30,
-        30,
-        30,
-        30
+        35,
+        35,
+        35,
+        35
       ]
     }
   ],
@@ -149,7 +149,7 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 295
+      "count": 298
     },
     {
       "key": "claude",
@@ -162,14 +162,14 @@
       "count": 72
     },
     {
-      "key": "google",
-      "term": "Google",
+      "key": "aws",
+      "term": "AWS",
       "count": 59
     },
     {
-      "key": "aws",
-      "term": "AWS",
-      "count": 57
+      "key": "google",
+      "term": "Google",
+      "count": 59
     },
     {
       "key": "javascript",
@@ -207,14 +207,14 @@
       "count": 29
     },
     {
-      "key": "windows",
-      "term": "Windows",
+      "key": "linux",
+      "term": "Linux",
       "count": 27
     },
     {
-      "key": "linux",
-      "term": "Linux",
-      "count": 25
+      "key": "windows",
+      "term": "Windows",
+      "count": 27
     },
     {
       "key": "ui",
@@ -224,7 +224,7 @@
     {
       "key": "web",
       "term": "Web",
-      "count": 24
+      "count": 25
     },
     {
       "key": "openai",
@@ -257,20 +257,20 @@
       "count": 18
     },
     {
-      "key": "apple",
-      "term": "Apple",
-      "count": 17
+      "key": "python",
+      "term": "Python",
+      "count": 18
     },
     {
-      "key": "bun",
-      "term": "Bun",
+      "key": "apple",
+      "term": "Apple",
       "count": 17
     }
   ],
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 295,
+      "total": 298,
       "weekly": [
         1,
         21,
@@ -282,7 +282,7 @@
         29,
         30,
         32,
-        14
+        17
       ]
     },
     {
@@ -320,6 +320,23 @@
       ]
     },
     {
+      "term": "AWS",
+      "total": 59,
+      "weekly": [
+        0,
+        2,
+        1,
+        11,
+        3,
+        4,
+        7,
+        1,
+        4,
+        16,
+        10
+      ]
+    },
+    {
       "term": "Google",
       "total": 59,
       "weekly": [
@@ -334,23 +351,6 @@
         0,
         10,
         1
-      ]
-    },
-    {
-      "term": "AWS",
-      "total": 57,
-      "weekly": [
-        0,
-        2,
-        1,
-        11,
-        3,
-        4,
-        7,
-        1,
-        4,
-        16,
-        8
       ]
     },
     {
