@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-09-12T22:49:52.616Z",
+  "generatedAt": "2026-09-13T22:51:36.775Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-09-13",
-    "days": 71
+    "to": "2026-09-14",
+    "days": 72
   },
   "totals": {
-    "headlines": 1420,
-    "keywords": 2090,
+    "headlines": 1440,
+    "keywords": 2113,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 355
+        "count": 360
       },
       {
         "source": "はてなブックマーク",
-        "count": 355
+        "count": 360
       },
       {
         "source": "Zenn",
-        "count": 355
+        "count": 360
       },
       {
         "source": "Publickey",
-        "count": 355
+        "count": 360
       }
     ]
   },
@@ -143,13 +143,23 @@
         35,
         35
       ]
+    },
+    {
+      "week": "2026-W38",
+      "label": "9/14",
+      "counts": [
+        5,
+        5,
+        5,
+        5
+      ]
     }
   ],
   "keywordTotal": [
     {
       "key": "ai",
       "term": "AI",
-      "count": 298
+      "count": 301
     },
     {
       "key": "claude",
@@ -164,12 +174,12 @@
     {
       "key": "aws",
       "term": "AWS",
-      "count": 59
+      "count": 61
     },
     {
       "key": "google",
       "term": "Google",
-      "count": 59
+      "count": 60
     },
     {
       "key": "javascript",
@@ -182,13 +192,13 @@
       "count": 37
     },
     {
-      "key": "agent",
-      "term": "Agent",
-      "count": 36
-    },
-    {
       "key": "rust",
       "term": "Rust",
+      "count": 37
+    },
+    {
+      "key": "agent",
+      "term": "Agent",
       "count": 36
     },
     {
@@ -204,17 +214,17 @@
     {
       "key": "llm",
       "term": "LLM",
-      "count": 29
+      "count": 30
     },
     {
       "key": "linux",
       "term": "Linux",
-      "count": 27
+      "count": 28
     },
     {
       "key": "windows",
       "term": "Windows",
-      "count": 27
+      "count": 28
     },
     {
       "key": "ui",
@@ -227,14 +237,14 @@
       "count": 25
     },
     {
+      "key": "fable",
+      "term": "Fable",
+      "count": 22
+    },
+    {
       "key": "openai",
       "term": "OpenAI",
       "count": 21
-    },
-    {
-      "key": "fable",
-      "term": "Fable",
-      "count": 20
     },
     {
       "key": "chatgpt",
@@ -252,6 +262,11 @@
       "count": 19
     },
     {
+      "key": "amazon",
+      "term": "Amazon",
+      "count": 18
+    },
+    {
       "key": "microsoft",
       "term": "Microsoft",
       "count": 18
@@ -260,17 +275,12 @@
       "key": "python",
       "term": "Python",
       "count": 18
-    },
-    {
-      "key": "apple",
-      "term": "Apple",
-      "count": 17
     }
   ],
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 298,
+      "total": 301,
       "weekly": [
         1,
         21,
@@ -282,7 +292,8 @@
         29,
         30,
         32,
-        17
+        17,
+        3
       ]
     },
     {
@@ -299,7 +310,8 @@
         9,
         6,
         10,
-        2
+        2,
+        0
       ]
     },
     {
@@ -316,12 +328,13 @@
         8,
         10,
         6,
-        5
+        5,
+        0
       ]
     },
     {
       "term": "AWS",
-      "total": 59,
+      "total": 61,
       "weekly": [
         0,
         2,
@@ -333,12 +346,13 @@
         1,
         4,
         16,
-        10
+        10,
+        2
       ]
     },
     {
       "term": "Google",
-      "total": 59,
+      "total": 60,
       "weekly": [
         2,
         1,
@@ -350,6 +364,7 @@
         8,
         0,
         10,
+        1,
         1
       ]
     },
@@ -367,7 +382,8 @@
         0,
         12,
         3,
-        4
+        4,
+        0
       ]
     },
     {
@@ -384,24 +400,26 @@
         5,
         0,
         8,
-        1
+        1,
+        0
       ]
     },
     {
-      "term": "Agent",
-      "total": 36,
+      "term": "Rust",
+      "total": 37,
       "weekly": [
         1,
-        3,
         4,
-        3,
-        1,
-        2,
-        9,
         4,
-        1,
+        4,
+        0,
         6,
-        2
+        3,
+        2,
+        10,
+        1,
+        1,
+        1
       ]
     }
   ],
@@ -416,7 +434,8 @@
     "8/17",
     "8/24",
     "8/31",
-    "9/7"
+    "9/7",
+    "9/14"
   ],
   "longevity": [
     {
@@ -500,16 +519,16 @@
       ]
     },
     {
-      "title": "Apple、次期macOS 27でSwift言語をシステムカーネル開発に採用。メモリ安全な言語として",
-      "url": "https://www.publickey1.jp/blog/26/applemacos_27swift.html",
+      "title": "Amazon Linuxが4年ぶりにメジャーバージョンアップ、「Amazon Linux 2027」パブリックプレビュー。SELinuxがデフォルトで強制モードに",
+      "url": "https://www.publickey1.jp/blog/26/amazon_linux4amazon_linux_2027selinux.html",
       "days": 6,
       "sources": [
         "Publickey"
       ]
     },
     {
-      "title": "Claude Codeを組織一括でシングルサインオン、チームや個人の費用上限設定、デフォルト設定など可能に、「Claude apps gateway for AWS/Google Cloud」登場",
-      "url": "https://www.publickey1.jp/blog/26/claude_codeclaude_apps_gateway_for_awsgoogle_cloud.html",
+      "title": "Apple、次期macOS 27でSwift言語をシステムカーネル開発に採用。メモリ安全な言語として",
+      "url": "https://www.publickey1.jp/blog/26/applemacos_27swift.html",
       "days": 6,
       "sources": [
         "Publickey"
