@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-09-14T23:40:43.078Z",
+  "generatedAt": "2026-09-15T23:23:28.609Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-09-15",
-    "days": 73
+    "to": "2026-09-16",
+    "days": 74
   },
   "totals": {
-    "headlines": 1460,
-    "keywords": 2133,
+    "headlines": 1480,
+    "keywords": 2157,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 365
+        "count": 370
       },
       {
         "source": "はてなブックマーク",
-        "count": 365
+        "count": 370
       },
       {
         "source": "Zenn",
-        "count": 365
+        "count": 370
       },
       {
         "source": "Publickey",
-        "count": 365
+        "count": 370
       }
     ]
   },
@@ -148,10 +148,10 @@
       "week": "2026-W38",
       "label": "9/14",
       "counts": [
-        10,
-        10,
-        10,
-        10
+        15,
+        15,
+        15,
+        15
       ]
     }
   ],
@@ -159,17 +159,17 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 306
+      "count": 310
     },
     {
       "key": "claude",
       "term": "Claude",
-      "count": 101
+      "count": 102
     },
     {
       "key": "code",
       "term": "Code",
-      "count": 72
+      "count": 73
     },
     {
       "key": "aws",
@@ -182,19 +182,19 @@
       "count": 60
     },
     {
-      "key": "javascript",
-      "term": "JavaScript",
-      "count": 38
-    },
-    {
       "key": "rust",
       "term": "Rust",
-      "count": 38
+      "count": 39
     },
     {
       "key": "agent",
       "term": "Agent",
-      "count": 37
+      "count": 38
+    },
+    {
+      "key": "javascript",
+      "term": "JavaScript",
+      "count": 38
     },
     {
       "key": "cloud",
@@ -204,7 +204,12 @@
     {
       "key": "mcp",
       "term": "MCP",
-      "count": 33
+      "count": 34
+    },
+    {
+      "key": "linux",
+      "term": "Linux",
+      "count": 31
     },
     {
       "key": "llm",
@@ -217,14 +222,9 @@
       "count": 30
     },
     {
-      "key": "linux",
-      "term": "Linux",
-      "count": 29
-    },
-    {
       "key": "windows",
       "term": "Windows",
-      "count": 29
+      "count": 30
     },
     {
       "key": "ui",
@@ -237,14 +237,19 @@
       "count": 25
     },
     {
+      "key": "openai",
+      "term": "OpenAI",
+      "count": 23
+    },
+    {
       "key": "fable",
       "term": "Fable",
       "count": 22
     },
     {
-      "key": "openai",
-      "term": "OpenAI",
-      "count": 22
+      "key": "typescript",
+      "term": "TypeScript",
+      "count": 20
     },
     {
       "key": "amazon",
@@ -267,20 +272,15 @@
       "count": 19
     },
     {
-      "key": "typescript",
-      "term": "TypeScript",
-      "count": 19
-    },
-    {
-      "key": "apple",
-      "term": "Apple",
+      "key": "anthropic",
+      "term": "Anthropic",
       "count": 18
     }
   ],
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 306,
+      "total": 310,
       "weekly": [
         1,
         21,
@@ -293,12 +293,12 @@
         30,
         32,
         17,
-        8
+        12
       ]
     },
     {
       "term": "Claude",
-      "total": 101,
+      "total": 102,
       "weekly": [
         0,
         14,
@@ -311,12 +311,12 @@
         6,
         10,
         2,
-        0
+        1
       ]
     },
     {
       "term": "Code",
-      "total": 72,
+      "total": 73,
       "weekly": [
         0,
         11,
@@ -329,7 +329,7 @@
         10,
         6,
         5,
-        0
+        1
       ]
     },
     {
@@ -369,6 +369,42 @@
       ]
     },
     {
+      "term": "Rust",
+      "total": 39,
+      "weekly": [
+        1,
+        4,
+        4,
+        4,
+        0,
+        6,
+        3,
+        2,
+        10,
+        1,
+        1,
+        3
+      ]
+    },
+    {
+      "term": "Agent",
+      "total": 38,
+      "weekly": [
+        1,
+        3,
+        4,
+        3,
+        1,
+        2,
+        9,
+        4,
+        1,
+        6,
+        2,
+        2
+      ]
+    },
+    {
       "term": "JavaScript",
       "total": 38,
       "weekly": [
@@ -384,42 +420,6 @@
         3,
         4,
         0
-      ]
-    },
-    {
-      "term": "Rust",
-      "total": 38,
-      "weekly": [
-        1,
-        4,
-        4,
-        4,
-        0,
-        6,
-        3,
-        2,
-        10,
-        1,
-        1,
-        2
-      ]
-    },
-    {
-      "term": "Agent",
-      "total": 37,
-      "weekly": [
-        1,
-        3,
-        4,
-        3,
-        1,
-        2,
-        9,
-        4,
-        1,
-        6,
-        2,
-        1
       ]
     }
   ],
