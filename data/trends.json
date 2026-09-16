@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-09-15T23:23:28.609Z",
+  "generatedAt": "2026-09-16T23:31:59.281Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-09-16",
-    "days": 74
+    "to": "2026-09-17",
+    "days": 75
   },
   "totals": {
-    "headlines": 1480,
-    "keywords": 2157,
+    "headlines": 1500,
+    "keywords": 2201,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 370
+        "count": 375
       },
       {
         "source": "はてなブックマーク",
-        "count": 370
+        "count": 375
       },
       {
         "source": "Zenn",
-        "count": 370
+        "count": 375
       },
       {
         "source": "Publickey",
-        "count": 370
+        "count": 375
       }
     ]
   },
@@ -148,10 +148,10 @@
       "week": "2026-W38",
       "label": "9/14",
       "counts": [
-        15,
-        15,
-        15,
-        15
+        20,
+        20,
+        20,
+        20
       ]
     }
   ],
@@ -159,12 +159,12 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 310
+      "count": 315
     },
     {
       "key": "claude",
       "term": "Claude",
-      "count": 102
+      "count": 103
     },
     {
       "key": "code",
@@ -179,7 +179,12 @@
     {
       "key": "google",
       "term": "Google",
-      "count": 60
+      "count": 61
+    },
+    {
+      "key": "javascript",
+      "term": "JavaScript",
+      "count": 39
     },
     {
       "key": "rust",
@@ -192,11 +197,6 @@
       "count": 38
     },
     {
-      "key": "javascript",
-      "term": "JavaScript",
-      "count": 38
-    },
-    {
       "key": "cloud",
       "term": "Cloud",
       "count": 37
@@ -204,22 +204,22 @@
     {
       "key": "mcp",
       "term": "MCP",
-      "count": 34
+      "count": 35
+    },
+    {
+      "key": "github",
+      "term": "GitHub",
+      "count": 32
+    },
+    {
+      "key": "llm",
+      "term": "LLM",
+      "count": 32
     },
     {
       "key": "linux",
       "term": "Linux",
       "count": 31
-    },
-    {
-      "key": "llm",
-      "term": "LLM",
-      "count": 31
-    },
-    {
-      "key": "github",
-      "term": "GitHub",
-      "count": 30
     },
     {
       "key": "windows",
@@ -229,7 +229,7 @@
     {
       "key": "ui",
       "term": "UI",
-      "count": 25
+      "count": 26
     },
     {
       "key": "web",
@@ -257,6 +257,16 @@
       "count": 19
     },
     {
+      "key": "anthropic",
+      "term": "Anthropic",
+      "count": 19
+    },
+    {
+      "key": "apple",
+      "term": "Apple",
+      "count": 19
+    },
+    {
       "key": "chatgpt",
       "term": "ChatGPT",
       "count": 19
@@ -265,22 +275,12 @@
       "key": "cloudflare",
       "term": "Cloudflare",
       "count": 19
-    },
-    {
-      "key": "cursor",
-      "term": "Cursor",
-      "count": 19
-    },
-    {
-      "key": "anthropic",
-      "term": "Anthropic",
-      "count": 18
     }
   ],
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 310,
+      "total": 315,
       "weekly": [
         1,
         21,
@@ -293,12 +293,12 @@
         30,
         32,
         17,
-        12
+        17
       ]
     },
     {
       "term": "Claude",
-      "total": 102,
+      "total": 103,
       "weekly": [
         0,
         14,
@@ -311,7 +311,7 @@
         6,
         10,
         2,
-        1
+        2
       ]
     },
     {
@@ -352,7 +352,7 @@
     },
     {
       "term": "Google",
-      "total": 60,
+      "total": 61,
       "weekly": [
         2,
         1,
@@ -365,6 +365,24 @@
         0,
         10,
         1,
+        2
+      ]
+    },
+    {
+      "term": "JavaScript",
+      "total": 39,
+      "weekly": [
+        1,
+        5,
+        6,
+        4,
+        0,
+        0,
+        3,
+        0,
+        12,
+        3,
+        4,
         1
       ]
     },
@@ -402,24 +420,6 @@
         6,
         2,
         2
-      ]
-    },
-    {
-      "term": "JavaScript",
-      "total": 38,
-      "weekly": [
-        1,
-        5,
-        6,
-        4,
-        0,
-        0,
-        3,
-        0,
-        12,
-        3,
-        4,
-        0
       ]
     }
   ],
