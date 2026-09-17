@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-09-16T23:31:59.281Z",
+  "generatedAt": "2026-09-17T23:21:40.169Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-09-17",
-    "days": 75
+    "to": "2026-09-18",
+    "days": 76
   },
   "totals": {
-    "headlines": 1500,
-    "keywords": 2201,
+    "headlines": 1520,
+    "keywords": 2218,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 375
+        "count": 380
       },
       {
         "source": "はてなブックマーク",
-        "count": 375
+        "count": 380
       },
       {
         "source": "Zenn",
-        "count": 375
+        "count": 380
       },
       {
         "source": "Publickey",
-        "count": 375
+        "count": 380
       }
     ]
   },
@@ -148,10 +148,10 @@
       "week": "2026-W38",
       "label": "9/14",
       "counts": [
-        20,
-        20,
-        20,
-        20
+        25,
+        25,
+        25,
+        25
       ]
     }
   ],
@@ -159,7 +159,7 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 315
+      "count": 320
     },
     {
       "key": "claude",
@@ -179,7 +179,7 @@
     {
       "key": "google",
       "term": "Google",
-      "count": 61
+      "count": 62
     },
     {
       "key": "javascript",
@@ -202,6 +202,11 @@
       "count": 37
     },
     {
+      "key": "llm",
+      "term": "LLM",
+      "count": 35
+    },
+    {
       "key": "mcp",
       "term": "MCP",
       "count": 35
@@ -209,11 +214,6 @@
     {
       "key": "github",
       "term": "GitHub",
-      "count": 32
-    },
-    {
-      "key": "llm",
-      "term": "LLM",
       "count": 32
     },
     {
@@ -280,7 +280,7 @@
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 315,
+      "total": 320,
       "weekly": [
         1,
         21,
@@ -293,7 +293,7 @@
         30,
         32,
         17,
-        17
+        22
       ]
     },
     {
@@ -352,7 +352,7 @@
     },
     {
       "term": "Google",
-      "total": 61,
+      "total": 62,
       "weekly": [
         2,
         1,
@@ -365,7 +365,7 @@
         0,
         10,
         1,
-        2
+        3
       ]
     },
     {
