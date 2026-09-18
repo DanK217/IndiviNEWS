@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-09-17T23:21:40.169Z",
+  "generatedAt": "2026-09-18T23:01:07.596Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-09-18",
-    "days": 76
+    "to": "2026-09-19",
+    "days": 77
   },
   "totals": {
-    "headlines": 1520,
-    "keywords": 2218,
+    "headlines": 1540,
+    "keywords": 2243,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 380
+        "count": 385
       },
       {
         "source": "はてなブックマーク",
-        "count": 380
+        "count": 385
       },
       {
         "source": "Zenn",
-        "count": 380
+        "count": 385
       },
       {
         "source": "Publickey",
-        "count": 380
+        "count": 385
       }
     ]
   },
@@ -148,10 +148,10 @@
       "week": "2026-W38",
       "label": "9/14",
       "counts": [
-        25,
-        25,
-        25,
-        25
+        30,
+        30,
+        30,
+        30
       ]
     }
   ],
@@ -159,26 +159,26 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 320
+      "count": 323
     },
     {
       "key": "claude",
       "term": "Claude",
-      "count": 103
+      "count": 104
     },
     {
       "key": "code",
       "term": "Code",
-      "count": 73
-    },
-    {
-      "key": "aws",
-      "term": "AWS",
-      "count": 62
+      "count": 74
     },
     {
       "key": "google",
       "term": "Google",
+      "count": 63
+    },
+    {
+      "key": "aws",
+      "term": "AWS",
       "count": 62
     },
     {
@@ -204,7 +204,7 @@
     {
       "key": "llm",
       "term": "LLM",
-      "count": 35
+      "count": 37
     },
     {
       "key": "mcp",
@@ -247,6 +247,21 @@
       "count": 22
     },
     {
+      "key": "chatgpt",
+      "term": "ChatGPT",
+      "count": 20
+    },
+    {
+      "key": "cloudflare",
+      "term": "Cloudflare",
+      "count": 20
+    },
+    {
+      "key": "mac",
+      "term": "Mac",
+      "count": 20
+    },
+    {
       "key": "typescript",
       "term": "TypeScript",
       "count": 20
@@ -260,27 +275,12 @@
       "key": "anthropic",
       "term": "Anthropic",
       "count": 19
-    },
-    {
-      "key": "apple",
-      "term": "Apple",
-      "count": 19
-    },
-    {
-      "key": "chatgpt",
-      "term": "ChatGPT",
-      "count": 19
-    },
-    {
-      "key": "cloudflare",
-      "term": "Cloudflare",
-      "count": 19
     }
   ],
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 320,
+      "total": 323,
       "weekly": [
         1,
         21,
@@ -293,12 +293,12 @@
         30,
         32,
         17,
-        22
+        25
       ]
     },
     {
       "term": "Claude",
-      "total": 103,
+      "total": 104,
       "weekly": [
         0,
         14,
@@ -311,12 +311,12 @@
         6,
         10,
         2,
-        2
+        3
       ]
     },
     {
       "term": "Code",
-      "total": 73,
+      "total": 74,
       "weekly": [
         0,
         11,
@@ -329,7 +329,25 @@
         10,
         6,
         5,
-        1
+        2
+      ]
+    },
+    {
+      "term": "Google",
+      "total": 63,
+      "weekly": [
+        2,
+        1,
+        9,
+        10,
+        6,
+        4,
+        8,
+        8,
+        0,
+        10,
+        1,
+        4
       ]
     },
     {
@@ -347,24 +365,6 @@
         4,
         16,
         10,
-        3
-      ]
-    },
-    {
-      "term": "Google",
-      "total": 62,
-      "weekly": [
-        2,
-        1,
-        9,
-        10,
-        6,
-        4,
-        8,
-        8,
-        0,
-        10,
-        1,
         3
       ]
     },
