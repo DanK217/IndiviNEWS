@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-09-18T23:01:07.596Z",
+  "generatedAt": "2026-09-19T22:39:10.253Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-09-19",
-    "days": 77
+    "to": "2026-09-20",
+    "days": 78
   },
   "totals": {
-    "headlines": 1540,
-    "keywords": 2243,
+    "headlines": 1560,
+    "keywords": 2276,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 385
+        "count": 390
       },
       {
         "source": "はてなブックマーク",
-        "count": 385
+        "count": 390
       },
       {
         "source": "Zenn",
-        "count": 385
+        "count": 390
       },
       {
         "source": "Publickey",
-        "count": 385
+        "count": 390
       }
     ]
   },
@@ -148,10 +148,10 @@
       "week": "2026-W38",
       "label": "9/14",
       "counts": [
-        30,
-        30,
-        30,
-        30
+        35,
+        35,
+        35,
+        35
       ]
     }
   ],
@@ -159,7 +159,7 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 323
+      "count": 325
     },
     {
       "key": "claude",
@@ -174,21 +174,21 @@
     {
       "key": "google",
       "term": "Google",
-      "count": 63
+      "count": 64
     },
     {
       "key": "aws",
       "term": "AWS",
-      "count": 62
-    },
-    {
-      "key": "javascript",
-      "term": "JavaScript",
-      "count": 39
+      "count": 63
     },
     {
       "key": "rust",
       "term": "Rust",
+      "count": 40
+    },
+    {
+      "key": "javascript",
+      "term": "JavaScript",
       "count": 39
     },
     {
@@ -214,12 +214,12 @@
     {
       "key": "github",
       "term": "GitHub",
-      "count": 32
+      "count": 33
     },
     {
       "key": "linux",
       "term": "Linux",
-      "count": 31
+      "count": 32
     },
     {
       "key": "windows",
@@ -247,6 +247,11 @@
       "count": 22
     },
     {
+      "key": "mac",
+      "term": "Mac",
+      "count": 22
+    },
+    {
       "key": "chatgpt",
       "term": "ChatGPT",
       "count": 20
@@ -257,8 +262,8 @@
       "count": 20
     },
     {
-      "key": "mac",
-      "term": "Mac",
+      "key": "macos",
+      "term": "macOS",
       "count": 20
     },
     {
@@ -270,17 +275,12 @@
       "key": "amazon",
       "term": "Amazon",
       "count": 19
-    },
-    {
-      "key": "anthropic",
-      "term": "Anthropic",
-      "count": 19
     }
   ],
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 323,
+      "total": 325,
       "weekly": [
         1,
         21,
@@ -293,7 +293,7 @@
         30,
         32,
         17,
-        25
+        27
       ]
     },
     {
@@ -334,7 +334,7 @@
     },
     {
       "term": "Google",
-      "total": 63,
+      "total": 64,
       "weekly": [
         2,
         1,
@@ -347,12 +347,12 @@
         0,
         10,
         1,
-        4
+        5
       ]
     },
     {
       "term": "AWS",
-      "total": 62,
+      "total": 63,
       "weekly": [
         0,
         2,
@@ -365,7 +365,25 @@
         4,
         16,
         10,
-        3
+        4
+      ]
+    },
+    {
+      "term": "Rust",
+      "total": 40,
+      "weekly": [
+        1,
+        4,
+        4,
+        4,
+        0,
+        6,
+        3,
+        2,
+        10,
+        1,
+        1,
+        4
       ]
     },
     {
@@ -384,24 +402,6 @@
         3,
         4,
         1
-      ]
-    },
-    {
-      "term": "Rust",
-      "total": 39,
-      "weekly": [
-        1,
-        4,
-        4,
-        4,
-        0,
-        6,
-        3,
-        2,
-        10,
-        1,
-        1,
-        3
       ]
     },
     {
