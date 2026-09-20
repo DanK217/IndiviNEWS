@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-09-19T22:39:10.253Z",
+  "generatedAt": "2026-09-20T22:58:09.345Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-09-20",
-    "days": 78
+    "to": "2026-09-21",
+    "days": 79
   },
   "totals": {
-    "headlines": 1560,
-    "keywords": 2276,
+    "headlines": 1580,
+    "keywords": 2299,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 390
+        "count": 395
       },
       {
         "source": "はてなブックマーク",
-        "count": 390
+        "count": 395
       },
       {
         "source": "Zenn",
-        "count": 390
+        "count": 395
       },
       {
         "source": "Publickey",
-        "count": 390
+        "count": 395
       }
     ]
   },
@@ -153,33 +153,43 @@
         35,
         35
       ]
+    },
+    {
+      "week": "2026-W39",
+      "label": "9/21",
+      "counts": [
+        5,
+        5,
+        5,
+        5
+      ]
     }
   ],
   "keywordTotal": [
     {
       "key": "ai",
       "term": "AI",
-      "count": 325
+      "count": 327
     },
     {
       "key": "claude",
       "term": "Claude",
-      "count": 104
+      "count": 105
     },
     {
       "key": "code",
       "term": "Code",
-      "count": 74
+      "count": 75
     },
     {
       "key": "google",
       "term": "Google",
-      "count": 64
+      "count": 66
     },
     {
       "key": "aws",
       "term": "AWS",
-      "count": 63
+      "count": 64
     },
     {
       "key": "rust",
@@ -197,24 +207,24 @@
       "count": 38
     },
     {
+      "key": "llm",
+      "term": "LLM",
+      "count": 38
+    },
+    {
       "key": "cloud",
       "term": "Cloud",
       "count": 37
     },
     {
-      "key": "llm",
-      "term": "LLM",
-      "count": 37
-    },
-    {
       "key": "mcp",
       "term": "MCP",
-      "count": 35
+      "count": 36
     },
     {
       "key": "github",
       "term": "GitHub",
-      "count": 33
+      "count": 34
     },
     {
       "key": "linux",
@@ -234,11 +244,16 @@
     {
       "key": "web",
       "term": "Web",
-      "count": 25
+      "count": 26
     },
     {
       "key": "openai",
       "term": "OpenAI",
+      "count": 25
+    },
+    {
+      "key": "mac",
+      "term": "Mac",
       "count": 23
     },
     {
@@ -247,14 +262,19 @@
       "count": 22
     },
     {
-      "key": "mac",
-      "term": "Mac",
-      "count": 22
+      "key": "amazon",
+      "term": "Amazon",
+      "count": 21
     },
     {
       "key": "chatgpt",
       "term": "ChatGPT",
-      "count": 20
+      "count": 21
+    },
+    {
+      "key": "macos",
+      "term": "macOS",
+      "count": 21
     },
     {
       "key": "cloudflare",
@@ -262,25 +282,15 @@
       "count": 20
     },
     {
-      "key": "macos",
-      "term": "macOS",
+      "key": "database",
+      "term": "database",
       "count": 20
-    },
-    {
-      "key": "typescript",
-      "term": "TypeScript",
-      "count": 20
-    },
-    {
-      "key": "amazon",
-      "term": "Amazon",
-      "count": 19
     }
   ],
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 325,
+      "total": 327,
       "weekly": [
         1,
         21,
@@ -293,12 +303,13 @@
         30,
         32,
         17,
-        27
+        27,
+        2
       ]
     },
     {
       "term": "Claude",
-      "total": 104,
+      "total": 105,
       "weekly": [
         0,
         14,
@@ -311,12 +322,13 @@
         6,
         10,
         2,
-        3
+        3,
+        1
       ]
     },
     {
       "term": "Code",
-      "total": 74,
+      "total": 75,
       "weekly": [
         0,
         11,
@@ -329,12 +341,13 @@
         10,
         6,
         5,
-        2
+        2,
+        1
       ]
     },
     {
       "term": "Google",
-      "total": 64,
+      "total": 66,
       "weekly": [
         2,
         1,
@@ -347,12 +360,13 @@
         0,
         10,
         1,
-        5
+        5,
+        2
       ]
     },
     {
       "term": "AWS",
-      "total": 63,
+      "total": 64,
       "weekly": [
         0,
         2,
@@ -365,7 +379,8 @@
         4,
         16,
         10,
-        4
+        4,
+        1
       ]
     },
     {
@@ -383,7 +398,8 @@
         10,
         1,
         1,
-        4
+        4,
+        0
       ]
     },
     {
@@ -401,7 +417,8 @@
         12,
         3,
         4,
-        1
+        1,
+        0
       ]
     },
     {
@@ -419,7 +436,8 @@
         1,
         6,
         2,
-        2
+        2,
+        0
       ]
     }
   ],
@@ -435,7 +453,8 @@
     "8/24",
     "8/31",
     "9/7",
-    "9/14"
+    "9/14",
+    "9/21"
   ],
   "longevity": [
     {
@@ -519,16 +538,16 @@
       ]
     },
     {
-      "title": "Amazon Linuxが4年ぶりにメジャーバージョンアップ、「Amazon Linux 2027」パブリックプレビュー。SELinuxがデフォルトで強制モードに",
-      "url": "https://www.publickey1.jp/blog/26/amazon_linux4amazon_linux_2027selinux.html",
+      "title": "「Java 27」正式リリース。全環境でG1 GCがデフォルトに、TLS 1.3用に耐量子暗号のハイブリッドキー交換など新機能",
+      "url": "https://www.publickey1.jp/blog/26/java_27g1_gctls_13.html",
       "days": 6,
       "sources": [
         "Publickey"
       ]
     },
     {
-      "title": "Apple、次期macOS 27でSwift言語をシステムカーネル開発に採用。メモリ安全な言語として",
-      "url": "https://www.publickey1.jp/blog/26/applemacos_27swift.html",
+      "title": "Amazon Linuxが4年ぶりにメジャーバージョンアップ、「Amazon Linux 2027」パブリックプレビュー。SELinuxがデフォルトで強制モードに",
+      "url": "https://www.publickey1.jp/blog/26/amazon_linux4amazon_linux_2027selinux.html",
       "days": 6,
       "sources": [
         "Publickey"
