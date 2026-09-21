@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-09-20T22:58:09.345Z",
+  "generatedAt": "2026-09-21T23:48:52.717Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-09-21",
-    "days": 79
+    "to": "2026-09-22",
+    "days": 80
   },
   "totals": {
-    "headlines": 1580,
-    "keywords": 2299,
+    "headlines": 1600,
+    "keywords": 2315,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 395
+        "count": 400
       },
       {
         "source": "はてなブックマーク",
-        "count": 395
+        "count": 400
       },
       {
         "source": "Zenn",
-        "count": 395
+        "count": 400
       },
       {
         "source": "Publickey",
-        "count": 395
+        "count": 400
       }
     ]
   },
@@ -158,10 +158,10 @@
       "week": "2026-W39",
       "label": "9/21",
       "counts": [
-        5,
-        5,
-        5,
-        5
+        10,
+        10,
+        10,
+        10
       ]
     }
   ],
@@ -169,12 +169,12 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 327
+      "count": 332
     },
     {
       "key": "claude",
       "term": "Claude",
-      "count": 105
+      "count": 106
     },
     {
       "key": "code",
@@ -184,7 +184,7 @@
     {
       "key": "google",
       "term": "Google",
-      "count": 66
+      "count": 69
     },
     {
       "key": "aws",
@@ -254,7 +254,12 @@
     {
       "key": "mac",
       "term": "Mac",
-      "count": 23
+      "count": 24
+    },
+    {
+      "key": "amazon",
+      "term": "Amazon",
+      "count": 22
     },
     {
       "key": "fable",
@@ -262,9 +267,9 @@
       "count": 22
     },
     {
-      "key": "amazon",
-      "term": "Amazon",
-      "count": 21
+      "key": "macos",
+      "term": "macOS",
+      "count": 22
     },
     {
       "key": "chatgpt",
@@ -272,25 +277,20 @@
       "count": 21
     },
     {
-      "key": "macos",
-      "term": "macOS",
+      "key": "database",
+      "term": "database",
       "count": 21
     },
     {
-      "key": "cloudflare",
-      "term": "Cloudflare",
-      "count": 20
-    },
-    {
-      "key": "database",
-      "term": "database",
+      "key": "apple",
+      "term": "Apple",
       "count": 20
     }
   ],
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 327,
+      "total": 332,
       "weekly": [
         1,
         21,
@@ -304,12 +304,12 @@
         32,
         17,
         27,
-        2
+        7
       ]
     },
     {
       "term": "Claude",
-      "total": 105,
+      "total": 106,
       "weekly": [
         0,
         14,
@@ -323,7 +323,7 @@
         10,
         2,
         3,
-        1
+        2
       ]
     },
     {
@@ -347,7 +347,7 @@
     },
     {
       "term": "Google",
-      "total": 66,
+      "total": 69,
       "weekly": [
         2,
         1,
@@ -361,7 +361,7 @@
         10,
         1,
         5,
-        2
+        5
       ]
     },
     {
@@ -490,6 +490,14 @@
       ]
     },
     {
+      "title": "「Java 27」正式リリース。全環境でG1 GCがデフォルトに、TLS 1.3用に耐量子暗号のハイブリッドキー交換など新機能",
+      "url": "https://www.publickey1.jp/blog/26/java_27g1_gctls_13.html",
+      "days": 7,
+      "sources": [
+        "Publickey"
+      ]
+    },
+    {
       "title": "Google Cloud、生成AIのコードを瞬時に隔離して安全に実行できる「Cloud Runサンドボックス」パブリックプレビュー",
       "url": "https://www.publickey1.jp/blog/26/google_cloudaicloud_run.html",
       "days": 7,
@@ -522,6 +530,14 @@
       ]
     },
     {
+      "title": "オラクル、Javaのセキュリティパッチを毎月提供開始、AIが脆弱性の発見を加速しているとして",
+      "url": "https://www.publickey1.jp/blog/26/javaai.html",
+      "days": 7,
+      "sources": [
+        "Publickey"
+      ]
+    },
+    {
       "title": "シングルバイナリなOLAP DBの次期版「DuckDB 2.0」プレビュー。クライアント／サーバ機能が安定版に、スキーマレスのVARIANT型、トリガー、非同期I/Oなど新機能",
       "url": "https://www.publickey1.jp/blog/26/olap_dbduckdb_20variantio.html",
       "days": 7,
@@ -532,22 +548,6 @@
     {
       "title": ".NET 8と.NET 9は今年の11月でサポート終了、マイクロソフトが警告",
       "url": "https://www.publickey1.jp/blog/26/net_8net_911.html",
-      "days": 6,
-      "sources": [
-        "Publickey"
-      ]
-    },
-    {
-      "title": "「Java 27」正式リリース。全環境でG1 GCがデフォルトに、TLS 1.3用に耐量子暗号のハイブリッドキー交換など新機能",
-      "url": "https://www.publickey1.jp/blog/26/java_27g1_gctls_13.html",
-      "days": 6,
-      "sources": [
-        "Publickey"
-      ]
-    },
-    {
-      "title": "Amazon Linuxが4年ぶりにメジャーバージョンアップ、「Amazon Linux 2027」パブリックプレビュー。SELinuxがデフォルトで強制モードに",
-      "url": "https://www.publickey1.jp/blog/26/amazon_linux4amazon_linux_2027selinux.html",
       "days": 6,
       "sources": [
         "Publickey"
