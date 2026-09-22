@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-09-21T23:48:52.717Z",
+  "generatedAt": "2026-09-22T23:29:07.380Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-09-22",
-    "days": 80
+    "to": "2026-09-23",
+    "days": 81
   },
   "totals": {
-    "headlines": 1600,
-    "keywords": 2315,
+    "headlines": 1620,
+    "keywords": 2330,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 400
+        "count": 405
       },
       {
         "source": "はてなブックマーク",
-        "count": 400
+        "count": 405
       },
       {
         "source": "Zenn",
-        "count": 400
+        "count": 405
       },
       {
         "source": "Publickey",
-        "count": 400
+        "count": 405
       }
     ]
   },
@@ -158,10 +158,10 @@
       "week": "2026-W39",
       "label": "9/21",
       "counts": [
-        10,
-        10,
-        10,
-        10
+        15,
+        15,
+        15,
+        15
       ]
     }
   ],
@@ -169,12 +169,12 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 332
+      "count": 334
     },
     {
       "key": "claude",
       "term": "Claude",
-      "count": 106
+      "count": 107
     },
     {
       "key": "code",
@@ -184,7 +184,7 @@
     {
       "key": "google",
       "term": "Google",
-      "count": 69
+      "count": 70
     },
     {
       "key": "aws",
@@ -194,17 +194,17 @@
     {
       "key": "rust",
       "term": "Rust",
-      "count": 40
+      "count": 41
+    },
+    {
+      "key": "agent",
+      "term": "Agent",
+      "count": 39
     },
     {
       "key": "javascript",
       "term": "JavaScript",
       "count": 39
-    },
-    {
-      "key": "agent",
-      "term": "Agent",
-      "count": 38
     },
     {
       "key": "llm",
@@ -237,6 +237,11 @@
       "count": 30
     },
     {
+      "key": "openai",
+      "term": "OpenAI",
+      "count": 26
+    },
+    {
       "key": "ui",
       "term": "UI",
       "count": 26
@@ -247,14 +252,19 @@
       "count": 26
     },
     {
-      "key": "openai",
-      "term": "OpenAI",
+      "key": "mac",
+      "term": "Mac",
       "count": 25
     },
     {
-      "key": "mac",
-      "term": "Mac",
-      "count": 24
+      "key": "fable",
+      "term": "Fable",
+      "count": 23
+    },
+    {
+      "key": "macos",
+      "term": "macOS",
+      "count": 23
     },
     {
       "key": "amazon",
@@ -262,35 +272,25 @@
       "count": 22
     },
     {
-      "key": "fable",
-      "term": "Fable",
+      "key": "database",
+      "term": "database",
       "count": 22
     },
     {
-      "key": "macos",
-      "term": "macOS",
+      "key": "java",
+      "term": "Java",
       "count": 22
     },
     {
       "key": "chatgpt",
       "term": "ChatGPT",
       "count": 21
-    },
-    {
-      "key": "database",
-      "term": "database",
-      "count": 21
-    },
-    {
-      "key": "apple",
-      "term": "Apple",
-      "count": 20
     }
   ],
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 332,
+      "total": 334,
       "weekly": [
         1,
         21,
@@ -304,12 +304,12 @@
         32,
         17,
         27,
-        7
+        9
       ]
     },
     {
       "term": "Claude",
-      "total": 106,
+      "total": 107,
       "weekly": [
         0,
         14,
@@ -323,7 +323,7 @@
         10,
         2,
         3,
-        2
+        3
       ]
     },
     {
@@ -347,7 +347,7 @@
     },
     {
       "term": "Google",
-      "total": 69,
+      "total": 70,
       "weekly": [
         2,
         1,
@@ -361,7 +361,7 @@
         10,
         1,
         5,
-        5
+        6
       ]
     },
     {
@@ -385,7 +385,7 @@
     },
     {
       "term": "Rust",
-      "total": 40,
+      "total": 41,
       "weekly": [
         1,
         4,
@@ -399,7 +399,26 @@
         1,
         1,
         4,
-        0
+        1
+      ]
+    },
+    {
+      "term": "Agent",
+      "total": 39,
+      "weekly": [
+        1,
+        3,
+        4,
+        3,
+        1,
+        2,
+        9,
+        4,
+        1,
+        6,
+        2,
+        2,
+        1
       ]
     },
     {
@@ -418,25 +437,6 @@
         3,
         4,
         1,
-        0
-      ]
-    },
-    {
-      "term": "Agent",
-      "total": 38,
-      "weekly": [
-        1,
-        3,
-        4,
-        3,
-        1,
-        2,
-        9,
-        4,
-        1,
-        6,
-        2,
-        2,
         0
       ]
     }
@@ -492,6 +492,30 @@
     {
       "title": "「Java 27」正式リリース。全環境でG1 GCがデフォルトに、TLS 1.3用に耐量子暗号のハイブリッドキー交換など新機能",
       "url": "https://www.publickey1.jp/blog/26/java_27g1_gctls_13.html",
+      "days": 8,
+      "sources": [
+        "Publickey"
+      ]
+    },
+    {
+      "title": "オラクル、Javaのセキュリティパッチを毎月提供開始、AIが脆弱性の発見を加速しているとして",
+      "url": "https://www.publickey1.jp/blog/26/javaai.html",
+      "days": 8,
+      "sources": [
+        "Publickey"
+      ]
+    },
+    {
+      "title": "Android、パスキーをパスワードマネージャ間で転送可能に。Googleパスワードマネージャ、1Password、Bitwarden、Dashlaneなどが対応",
+      "url": "https://www.publickey1.jp/blog/26/androidgoogle1passwordbitwardendashlane.html",
+      "days": 7,
+      "sources": [
+        "Publickey"
+      ]
+    },
+    {
+      "title": "Devinが仮想環境でmacOSの提供開始。Macの実機不要でDevinがコード生成、テスト、デバッグ、実行、AppStore配信前のベータ公開まで実行",
+      "url": "https://www.publickey1.jp/blog/26/devinmacosmacdevinappstore.html",
       "days": 7,
       "sources": [
         "Publickey"
@@ -525,30 +549,6 @@
       "title": "アプリが遅い原因をAIがトレースログから分析してくれる「Windows Performance Analyzer MCP」（WPA MCP）、マイクロソフトがプレビュー公開",
       "url": "https://www.publickey1.jp/blog/26/aiwindows_performance_analyzer_mcpwpa_mcp.html",
       "days": 7,
-      "sources": [
-        "Publickey"
-      ]
-    },
-    {
-      "title": "オラクル、Javaのセキュリティパッチを毎月提供開始、AIが脆弱性の発見を加速しているとして",
-      "url": "https://www.publickey1.jp/blog/26/javaai.html",
-      "days": 7,
-      "sources": [
-        "Publickey"
-      ]
-    },
-    {
-      "title": "シングルバイナリなOLAP DBの次期版「DuckDB 2.0」プレビュー。クライアント／サーバ機能が安定版に、スキーマレスのVARIANT型、トリガー、非同期I/Oなど新機能",
-      "url": "https://www.publickey1.jp/blog/26/olap_dbduckdb_20variantio.html",
-      "days": 7,
-      "sources": [
-        "Publickey"
-      ]
-    },
-    {
-      "title": ".NET 8と.NET 9は今年の11月でサポート終了、マイクロソフトが警告",
-      "url": "https://www.publickey1.jp/blog/26/net_8net_911.html",
-      "days": 6,
       "sources": [
         "Publickey"
       ]
