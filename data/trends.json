@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-09-22T23:29:07.380Z",
+  "generatedAt": "2026-09-23T23:25:14.764Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-09-23",
-    "days": 81
+    "to": "2026-09-24",
+    "days": 82
   },
   "totals": {
-    "headlines": 1620,
-    "keywords": 2330,
+    "headlines": 1640,
+    "keywords": 2356,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 405
+        "count": 410
       },
       {
         "source": "はてなブックマーク",
-        "count": 405
+        "count": 410
       },
       {
         "source": "Zenn",
-        "count": 405
+        "count": 410
       },
       {
         "source": "Publickey",
-        "count": 405
+        "count": 410
       }
     ]
   },
@@ -158,10 +158,10 @@
       "week": "2026-W39",
       "label": "9/21",
       "counts": [
-        15,
-        15,
-        15,
-        15
+        20,
+        20,
+        20,
+        20
       ]
     }
   ],
@@ -169,22 +169,22 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 334
+      "count": 336
     },
     {
       "key": "claude",
       "term": "Claude",
-      "count": 107
+      "count": 110
     },
     {
       "key": "code",
       "term": "Code",
-      "count": 75
+      "count": 77
     },
     {
       "key": "google",
       "term": "Google",
-      "count": 70
+      "count": 71
     },
     {
       "key": "aws",
@@ -199,7 +199,7 @@
     {
       "key": "agent",
       "term": "Agent",
-      "count": 39
+      "count": 40
     },
     {
       "key": "javascript",
@@ -209,7 +209,7 @@
     {
       "key": "llm",
       "term": "LLM",
-      "count": 38
+      "count": 39
     },
     {
       "key": "cloud",
@@ -229,12 +229,22 @@
     {
       "key": "linux",
       "term": "Linux",
-      "count": 32
+      "count": 33
     },
     {
       "key": "windows",
       "term": "Windows",
       "count": 30
+    },
+    {
+      "key": "mac",
+      "term": "Mac",
+      "count": 27
+    },
+    {
+      "key": "web",
+      "term": "Web",
+      "count": 27
     },
     {
       "key": "openai",
@@ -247,14 +257,14 @@
       "count": 26
     },
     {
-      "key": "web",
-      "term": "Web",
-      "count": 26
+      "key": "macos",
+      "term": "macOS",
+      "count": 24
     },
     {
-      "key": "mac",
-      "term": "Mac",
-      "count": 25
+      "key": "database",
+      "term": "database",
+      "count": 23
     },
     {
       "key": "fable",
@@ -262,8 +272,8 @@
       "count": 23
     },
     {
-      "key": "macos",
-      "term": "macOS",
+      "key": "java",
+      "term": "Java",
       "count": 23
     },
     {
@@ -272,25 +282,15 @@
       "count": 22
     },
     {
-      "key": "database",
-      "term": "database",
+      "key": "cloudflare",
+      "term": "Cloudflare",
       "count": 22
-    },
-    {
-      "key": "java",
-      "term": "Java",
-      "count": 22
-    },
-    {
-      "key": "chatgpt",
-      "term": "ChatGPT",
-      "count": 21
     }
   ],
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 334,
+      "total": 336,
       "weekly": [
         1,
         21,
@@ -304,12 +304,12 @@
         32,
         17,
         27,
-        9
+        11
       ]
     },
     {
       "term": "Claude",
-      "total": 107,
+      "total": 110,
       "weekly": [
         0,
         14,
@@ -323,12 +323,12 @@
         10,
         2,
         3,
-        3
+        6
       ]
     },
     {
       "term": "Code",
-      "total": 75,
+      "total": 77,
       "weekly": [
         0,
         11,
@@ -342,12 +342,12 @@
         6,
         5,
         2,
-        1
+        3
       ]
     },
     {
       "term": "Google",
-      "total": 70,
+      "total": 71,
       "weekly": [
         2,
         1,
@@ -361,7 +361,7 @@
         10,
         1,
         5,
-        6
+        7
       ]
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "term": "Agent",
-      "total": 39,
+      "total": 40,
       "weekly": [
         1,
         3,
@@ -418,7 +418,7 @@
         6,
         2,
         2,
-        1
+        2
       ]
     },
     {
@@ -482,6 +482,14 @@
       ]
     },
     {
+      "title": "「Java 27」正式リリース。全環境でG1 GCがデフォルトに、TLS 1.3用に耐量子暗号のハイブリッドキー交換など新機能",
+      "url": "https://www.publickey1.jp/blog/26/java_27g1_gctls_13.html",
+      "days": 9,
+      "sources": [
+        "Publickey"
+      ]
+    },
+    {
       "title": "「Agent Plugins 1.0.0」発表、異なるAIエージェント間でもスキルやMCPサーバ設定が共通化へ。マイクロソフト、OpenAI、AWS、Googleらがサポート",
       "url": "https://www.publickey1.jp/blog/26/agent_plugins_100aimcpopenaiawsgoogle.html",
       "days": 8,
@@ -490,8 +498,16 @@
       ]
     },
     {
-      "title": "「Java 27」正式リリース。全環境でG1 GCがデフォルトに、TLS 1.3用に耐量子暗号のハイブリッドキー交換など新機能",
-      "url": "https://www.publickey1.jp/blog/26/java_27g1_gctls_13.html",
+      "title": "Android、パスキーをパスワードマネージャ間で転送可能に。Googleパスワードマネージャ、1Password、Bitwarden、Dashlaneなどが対応",
+      "url": "https://www.publickey1.jp/blog/26/androidgoogle1passwordbitwardendashlane.html",
+      "days": 8,
+      "sources": [
+        "Publickey"
+      ]
+    },
+    {
+      "title": "Devinが仮想環境でmacOSの提供開始。Macの実機不要でDevinがコード生成、テスト、デバッグ、実行、AppStore配信前のベータ公開まで実行",
+      "url": "https://www.publickey1.jp/blog/26/devinmacosmacdevinappstore.html",
       "days": 8,
       "sources": [
         "Publickey"
@@ -501,22 +517,6 @@
       "title": "オラクル、Javaのセキュリティパッチを毎月提供開始、AIが脆弱性の発見を加速しているとして",
       "url": "https://www.publickey1.jp/blog/26/javaai.html",
       "days": 8,
-      "sources": [
-        "Publickey"
-      ]
-    },
-    {
-      "title": "Android、パスキーをパスワードマネージャ間で転送可能に。Googleパスワードマネージャ、1Password、Bitwarden、Dashlaneなどが対応",
-      "url": "https://www.publickey1.jp/blog/26/androidgoogle1passwordbitwardendashlane.html",
-      "days": 7,
-      "sources": [
-        "Publickey"
-      ]
-    },
-    {
-      "title": "Devinが仮想環境でmacOSの提供開始。Macの実機不要でDevinがコード生成、テスト、デバッグ、実行、AppStore配信前のベータ公開まで実行",
-      "url": "https://www.publickey1.jp/blog/26/devinmacosmacdevinappstore.html",
-      "days": 7,
       "sources": [
         "Publickey"
       ]
@@ -538,16 +538,16 @@
       ]
     },
     {
-      "title": "Rustに移植された「Bun 1.4」正式リリース。Node.jsとの互換性向上でPlaywrightやvitestが動作、CPUとメモリの使用率が大幅改善、正規表現が高速化など",
-      "url": "https://www.publickey1.jp/blog/26/rustbun_14nodejsplaywrightvitestcpu.html",
+      "title": "PlanetScale、PostgreSQLのシャーディングを自動化して1億1800万QPSを達成。新DBサービス「Neki」をプレビュー公開",
+      "url": "https://www.publickey1.jp/blog/26/planetscalepostgresql11800qpsdbneki.html",
       "days": 7,
       "sources": [
         "Publickey"
       ]
     },
     {
-      "title": "アプリが遅い原因をAIがトレースログから分析してくれる「Windows Performance Analyzer MCP」（WPA MCP）、マイクロソフトがプレビュー公開",
-      "url": "https://www.publickey1.jp/blog/26/aiwindows_performance_analyzer_mcpwpa_mcp.html",
+      "title": "Rustに移植された「Bun 1.4」正式リリース。Node.jsとの互換性向上でPlaywrightやvitestが動作、CPUとメモリの使用率が大幅改善、正規表現が高速化など",
+      "url": "https://www.publickey1.jp/blog/26/rustbun_14nodejsplaywrightvitestcpu.html",
       "days": 7,
       "sources": [
         "Publickey"
