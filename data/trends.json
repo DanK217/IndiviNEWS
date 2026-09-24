@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-09-23T23:25:14.764Z",
+  "generatedAt": "2026-09-24T23:44:44.840Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-09-24",
-    "days": 82
+    "to": "2026-09-25",
+    "days": 83
   },
   "totals": {
-    "headlines": 1640,
-    "keywords": 2356,
+    "headlines": 1660,
+    "keywords": 2379,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 410
+        "count": 415
       },
       {
         "source": "はてなブックマーク",
-        "count": 410
+        "count": 415
       },
       {
         "source": "Zenn",
-        "count": 410
+        "count": 415
       },
       {
         "source": "Publickey",
-        "count": 410
+        "count": 415
       }
     ]
   },
@@ -158,10 +158,10 @@
       "week": "2026-W39",
       "label": "9/21",
       "counts": [
-        20,
-        20,
-        20,
-        20
+        25,
+        25,
+        25,
+        25
       ]
     }
   ],
@@ -169,22 +169,22 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 336
+      "count": 338
     },
     {
       "key": "claude",
       "term": "Claude",
-      "count": 110
+      "count": 113
     },
     {
       "key": "code",
       "term": "Code",
-      "count": 77
+      "count": 80
     },
     {
       "key": "google",
       "term": "Google",
-      "count": 71
+      "count": 72
     },
     {
       "key": "aws",
@@ -202,13 +202,13 @@
       "count": 40
     },
     {
-      "key": "javascript",
-      "term": "JavaScript",
-      "count": 39
-    },
-    {
       "key": "llm",
       "term": "LLM",
+      "count": 40
+    },
+    {
+      "key": "javascript",
+      "term": "JavaScript",
       "count": 39
     },
     {
@@ -234,17 +234,17 @@
     {
       "key": "windows",
       "term": "Windows",
-      "count": 30
+      "count": 31
     },
     {
       "key": "mac",
       "term": "Mac",
-      "count": 27
+      "count": 28
     },
     {
       "key": "web",
       "term": "Web",
-      "count": 27
+      "count": 28
     },
     {
       "key": "openai",
@@ -259,11 +259,16 @@
     {
       "key": "macos",
       "term": "macOS",
-      "count": 24
+      "count": 25
     },
     {
       "key": "database",
       "term": "database",
+      "count": 24
+    },
+    {
+      "key": "cloudflare",
+      "term": "Cloudflare",
       "count": 23
     },
     {
@@ -280,17 +285,12 @@
       "key": "amazon",
       "term": "Amazon",
       "count": 22
-    },
-    {
-      "key": "cloudflare",
-      "term": "Cloudflare",
-      "count": 22
     }
   ],
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 336,
+      "total": 338,
       "weekly": [
         1,
         21,
@@ -304,12 +304,12 @@
         32,
         17,
         27,
-        11
+        13
       ]
     },
     {
       "term": "Claude",
-      "total": 110,
+      "total": 113,
       "weekly": [
         0,
         14,
@@ -323,12 +323,12 @@
         10,
         2,
         3,
-        6
+        9
       ]
     },
     {
       "term": "Code",
-      "total": 77,
+      "total": 80,
       "weekly": [
         0,
         11,
@@ -342,12 +342,12 @@
         6,
         5,
         2,
-        3
+        6
       ]
     },
     {
       "term": "Google",
-      "total": 71,
+      "total": 72,
       "weekly": [
         2,
         1,
@@ -361,7 +361,7 @@
         10,
         1,
         5,
-        7
+        8
       ]
     },
     {
@@ -422,22 +422,22 @@
       ]
     },
     {
-      "term": "JavaScript",
-      "total": 39,
+      "term": "LLM",
+      "total": 40,
       "weekly": [
+        0,
         1,
-        5,
+        4,
+        1,
+        0,
+        4,
+        4,
         6,
         4,
-        0,
-        0,
         3,
-        0,
-        12,
-        3,
-        4,
-        1,
-        0
+        2,
+        8,
+        3
       ]
     }
   ],
@@ -490,6 +490,22 @@
       ]
     },
     {
+      "title": "Android、パスキーをパスワードマネージャ間で転送可能に。Googleパスワードマネージャ、1Password、Bitwarden、Dashlaneなどが対応",
+      "url": "https://www.publickey1.jp/blog/26/androidgoogle1passwordbitwardendashlane.html",
+      "days": 9,
+      "sources": [
+        "Publickey"
+      ]
+    },
+    {
+      "title": "Devinが仮想環境でmacOSの提供開始。Macの実機不要でDevinがコード生成、テスト、デバッグ、実行、AppStore配信前のベータ公開まで実行",
+      "url": "https://www.publickey1.jp/blog/26/devinmacosmacdevinappstore.html",
+      "days": 9,
+      "sources": [
+        "Publickey"
+      ]
+    },
+    {
       "title": "「Agent Plugins 1.0.0」発表、異なるAIエージェント間でもスキルやMCPサーバ設定が共通化へ。マイクロソフト、OpenAI、AWS、Googleらがサポート",
       "url": "https://www.publickey1.jp/blog/26/agent_plugins_100aimcpopenaiawsgoogle.html",
       "days": 8,
@@ -498,16 +514,8 @@
       ]
     },
     {
-      "title": "Android、パスキーをパスワードマネージャ間で転送可能に。Googleパスワードマネージャ、1Password、Bitwarden、Dashlaneなどが対応",
-      "url": "https://www.publickey1.jp/blog/26/androidgoogle1passwordbitwardendashlane.html",
-      "days": 8,
-      "sources": [
-        "Publickey"
-      ]
-    },
-    {
-      "title": "Devinが仮想環境でmacOSの提供開始。Macの実機不要でDevinがコード生成、テスト、デバッグ、実行、AppStore配信前のベータ公開まで実行",
-      "url": "https://www.publickey1.jp/blog/26/devinmacosmacdevinappstore.html",
+      "title": "PlanetScale、PostgreSQLのシャーディングを自動化して1億1800万QPSを達成。新DBサービス「Neki」をプレビュー公開",
+      "url": "https://www.publickey1.jp/blog/26/planetscalepostgresql11800qpsdbneki.html",
       "days": 8,
       "sources": [
         "Publickey"
@@ -532,14 +540,6 @@
     {
       "title": "Next.js 16.3正式版リリース。Turbopackのメモリ使用量が最大90％減、SSRが最大22％高速化、TypeScript 7による型チェック高速化など",
       "url": "https://www.publickey1.jp/blog/26/nextjs_163turbopack90ssr22typescript_7.html",
-      "days": 7,
-      "sources": [
-        "Publickey"
-      ]
-    },
-    {
-      "title": "PlanetScale、PostgreSQLのシャーディングを自動化して1億1800万QPSを達成。新DBサービス「Neki」をプレビュー公開",
-      "url": "https://www.publickey1.jp/blog/26/planetscalepostgresql11800qpsdbneki.html",
       "days": 7,
       "sources": [
         "Publickey"
