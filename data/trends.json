@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-09-24T23:44:44.840Z",
+  "generatedAt": "2026-09-25T23:48:17.881Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-09-25",
-    "days": 83
+    "to": "2026-09-26",
+    "days": 84
   },
   "totals": {
-    "headlines": 1660,
-    "keywords": 2379,
+    "headlines": 1680,
+    "keywords": 2398,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 415
+        "count": 420
       },
       {
         "source": "はてなブックマーク",
-        "count": 415
+        "count": 420
       },
       {
         "source": "Zenn",
-        "count": 415
+        "count": 420
       },
       {
         "source": "Publickey",
-        "count": 415
+        "count": 420
       }
     ]
   },
@@ -158,10 +158,10 @@
       "week": "2026-W39",
       "label": "9/21",
       "counts": [
-        25,
-        25,
-        25,
-        25
+        30,
+        30,
+        30,
+        30
       ]
     }
   ],
@@ -169,17 +169,17 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 338
+      "count": 339
     },
     {
       "key": "claude",
       "term": "Claude",
-      "count": 113
+      "count": 116
     },
     {
       "key": "code",
       "term": "Code",
-      "count": 80
+      "count": 82
     },
     {
       "key": "google",
@@ -192,14 +192,14 @@
       "count": 64
     },
     {
+      "key": "agent",
+      "term": "Agent",
+      "count": 42
+    },
+    {
       "key": "rust",
       "term": "Rust",
       "count": 41
-    },
-    {
-      "key": "agent",
-      "term": "Agent",
-      "count": 40
     },
     {
       "key": "llm",
@@ -239,16 +239,21 @@
     {
       "key": "mac",
       "term": "Mac",
-      "count": 28
+      "count": 29
     },
     {
       "key": "web",
       "term": "Web",
-      "count": 28
+      "count": 29
     },
     {
       "key": "openai",
       "term": "OpenAI",
+      "count": 28
+    },
+    {
+      "key": "macos",
+      "term": "macOS",
       "count": 26
     },
     {
@@ -257,19 +262,14 @@
       "count": 26
     },
     {
-      "key": "macos",
-      "term": "macOS",
-      "count": 25
-    },
-    {
       "key": "database",
       "term": "database",
-      "count": 24
+      "count": 25
     },
     {
       "key": "cloudflare",
       "term": "Cloudflare",
-      "count": 23
+      "count": 24
     },
     {
       "key": "fable",
@@ -282,15 +282,15 @@
       "count": 23
     },
     {
-      "key": "amazon",
-      "term": "Amazon",
-      "count": 22
+      "key": "python",
+      "term": "Python",
+      "count": 23
     }
   ],
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 338,
+      "total": 339,
       "weekly": [
         1,
         21,
@@ -304,12 +304,12 @@
         32,
         17,
         27,
-        13
+        14
       ]
     },
     {
       "term": "Claude",
-      "total": 113,
+      "total": 116,
       "weekly": [
         0,
         14,
@@ -323,12 +323,12 @@
         10,
         2,
         3,
-        9
+        12
       ]
     },
     {
       "term": "Code",
-      "total": 80,
+      "total": 82,
       "weekly": [
         0,
         11,
@@ -342,7 +342,7 @@
         6,
         5,
         2,
-        6
+        8
       ]
     },
     {
@@ -384,6 +384,25 @@
       ]
     },
     {
+      "term": "Agent",
+      "total": 42,
+      "weekly": [
+        1,
+        3,
+        4,
+        3,
+        1,
+        2,
+        9,
+        4,
+        1,
+        6,
+        2,
+        2,
+        4
+      ]
+    },
+    {
       "term": "Rust",
       "total": 41,
       "weekly": [
@@ -400,25 +419,6 @@
         1,
         4,
         1
-      ]
-    },
-    {
-      "term": "Agent",
-      "total": 40,
-      "weekly": [
-        1,
-        3,
-        4,
-        3,
-        1,
-        2,
-        9,
-        4,
-        1,
-        6,
-        2,
-        2,
-        2
       ]
     },
     {
@@ -474,6 +474,14 @@
       ]
     },
     {
+      "title": "Devinが仮想環境でmacOSの提供開始。Macの実機不要でDevinがコード生成、テスト、デバッグ、実行、AppStore配信前のベータ公開まで実行",
+      "url": "https://www.publickey1.jp/blog/26/devinmacosmacdevinappstore.html",
+      "days": 10,
+      "sources": [
+        "Publickey"
+      ]
+    },
+    {
       "title": "ミッチェル・ハシモト氏が新会社「Superlogical」を設立、あらゆる仕事に使えるマルチプレクサの開発へ",
       "url": "https://www.publickey1.jp/blog/26/superlogical.html",
       "days": 10,
@@ -498,8 +506,8 @@
       ]
     },
     {
-      "title": "Devinが仮想環境でmacOSの提供開始。Macの実機不要でDevinがコード生成、テスト、デバッグ、実行、AppStore配信前のベータ公開まで実行",
-      "url": "https://www.publickey1.jp/blog/26/devinmacosmacdevinappstore.html",
+      "title": "PlanetScale、PostgreSQLのシャーディングを自動化して1億1800万QPSを達成。新DBサービス「Neki」をプレビュー公開",
+      "url": "https://www.publickey1.jp/blog/26/planetscalepostgresql11800qpsdbneki.html",
       "days": 9,
       "sources": [
         "Publickey"
@@ -508,14 +516,6 @@
     {
       "title": "「Agent Plugins 1.0.0」発表、異なるAIエージェント間でもスキルやMCPサーバ設定が共通化へ。マイクロソフト、OpenAI、AWS、Googleらがサポート",
       "url": "https://www.publickey1.jp/blog/26/agent_plugins_100aimcpopenaiawsgoogle.html",
-      "days": 8,
-      "sources": [
-        "Publickey"
-      ]
-    },
-    {
-      "title": "PlanetScale、PostgreSQLのシャーディングを自動化して1億1800万QPSを達成。新DBサービス「Neki」をプレビュー公開",
-      "url": "https://www.publickey1.jp/blog/26/planetscalepostgresql11800qpsdbneki.html",
       "days": 8,
       "sources": [
         "Publickey"
