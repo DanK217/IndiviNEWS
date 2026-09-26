@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-09-25T23:48:17.881Z",
+  "generatedAt": "2026-09-26T23:22:48.927Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-09-26",
-    "days": 84
+    "to": "2026-09-27",
+    "days": 85
   },
   "totals": {
-    "headlines": 1680,
-    "keywords": 2398,
+    "headlines": 1700,
+    "keywords": 2415,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 420
+        "count": 425
       },
       {
         "source": "はてなブックマーク",
-        "count": 420
+        "count": 425
       },
       {
         "source": "Zenn",
-        "count": 420
+        "count": 425
       },
       {
         "source": "Publickey",
-        "count": 420
+        "count": 425
       }
     ]
   },
@@ -158,10 +158,10 @@
       "week": "2026-W39",
       "label": "9/21",
       "counts": [
-        30,
-        30,
-        30,
-        30
+        35,
+        35,
+        35,
+        35
       ]
     }
   ],
@@ -169,17 +169,17 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 339
+      "count": 342
     },
     {
       "key": "claude",
       "term": "Claude",
-      "count": 116
+      "count": 117
     },
     {
       "key": "code",
       "term": "Code",
-      "count": 82
+      "count": 83
     },
     {
       "key": "google",
@@ -194,17 +194,17 @@
     {
       "key": "agent",
       "term": "Agent",
-      "count": 42
+      "count": 43
+    },
+    {
+      "key": "llm",
+      "term": "LLM",
+      "count": 41
     },
     {
       "key": "rust",
       "term": "Rust",
       "count": 41
-    },
-    {
-      "key": "llm",
-      "term": "LLM",
-      "count": 40
     },
     {
       "key": "javascript",
@@ -239,12 +239,12 @@
     {
       "key": "mac",
       "term": "Mac",
-      "count": 29
+      "count": 30
     },
     {
       "key": "web",
       "term": "Web",
-      "count": 29
+      "count": 30
     },
     {
       "key": "openai",
@@ -254,6 +254,16 @@
     {
       "key": "macos",
       "term": "macOS",
+      "count": 27
+    },
+    {
+      "key": "cloudflare",
+      "term": "Cloudflare",
+      "count": 26
+    },
+    {
+      "key": "database",
+      "term": "database",
       "count": 26
     },
     {
@@ -262,13 +272,8 @@
       "count": 26
     },
     {
-      "key": "database",
-      "term": "database",
-      "count": 25
-    },
-    {
-      "key": "cloudflare",
-      "term": "Cloudflare",
+      "key": "python",
+      "term": "Python",
       "count": 24
     },
     {
@@ -280,17 +285,12 @@
       "key": "java",
       "term": "Java",
       "count": 23
-    },
-    {
-      "key": "python",
-      "term": "Python",
-      "count": 23
     }
   ],
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 339,
+      "total": 342,
       "weekly": [
         1,
         21,
@@ -304,12 +304,12 @@
         32,
         17,
         27,
-        14
+        17
       ]
     },
     {
       "term": "Claude",
-      "total": 116,
+      "total": 117,
       "weekly": [
         0,
         14,
@@ -323,12 +323,12 @@
         10,
         2,
         3,
-        12
+        13
       ]
     },
     {
       "term": "Code",
-      "total": 82,
+      "total": 83,
       "weekly": [
         0,
         11,
@@ -342,7 +342,7 @@
         6,
         5,
         2,
-        8
+        9
       ]
     },
     {
@@ -385,7 +385,7 @@
     },
     {
       "term": "Agent",
-      "total": 42,
+      "total": 43,
       "weekly": [
         1,
         3,
@@ -399,6 +399,25 @@
         6,
         2,
         2,
+        5
+      ]
+    },
+    {
+      "term": "LLM",
+      "total": 41,
+      "weekly": [
+        0,
+        1,
+        4,
+        1,
+        0,
+        4,
+        4,
+        6,
+        4,
+        3,
+        2,
+        8,
         4
       ]
     },
@@ -419,25 +438,6 @@
         1,
         4,
         1
-      ]
-    },
-    {
-      "term": "LLM",
-      "total": 40,
-      "weekly": [
-        0,
-        1,
-        4,
-        1,
-        0,
-        4,
-        4,
-        6,
-        4,
-        3,
-        2,
-        8,
-        3
       ]
     }
   ],
@@ -466,6 +466,14 @@
       ]
     },
     {
+      "title": "Devinが仮想環境でmacOSの提供開始。Macの実機不要でDevinがコード生成、テスト、デバッグ、実行、AppStore配信前のベータ公開まで実行",
+      "url": "https://www.publickey1.jp/blog/26/devinmacosmacdevinappstore.html",
+      "days": 11,
+      "sources": [
+        "Publickey"
+      ]
+    },
+    {
       "title": "npm代替を目指すセキュリティファーストなパッケージマネージャ「vlt」バージョン1.0に到達。npmのミラーレジストリ、プライベートレジストリも提供開始",
       "url": "https://www.publickey1.jp/blog/26/npmvlt10npm.html",
       "days": 11,
@@ -474,8 +482,8 @@
       ]
     },
     {
-      "title": "Devinが仮想環境でmacOSの提供開始。Macの実機不要でDevinがコード生成、テスト、デバッグ、実行、AppStore配信前のベータ公開まで実行",
-      "url": "https://www.publickey1.jp/blog/26/devinmacosmacdevinappstore.html",
+      "title": "PlanetScale、PostgreSQLのシャーディングを自動化して1億1800万QPSを達成。新DBサービス「Neki」をプレビュー公開",
+      "url": "https://www.publickey1.jp/blog/26/planetscalepostgresql11800qpsdbneki.html",
       "days": 10,
       "sources": [
         "Publickey"
@@ -500,14 +508,6 @@
     {
       "title": "Android、パスキーをパスワードマネージャ間で転送可能に。Googleパスワードマネージャ、1Password、Bitwarden、Dashlaneなどが対応",
       "url": "https://www.publickey1.jp/blog/26/androidgoogle1passwordbitwardendashlane.html",
-      "days": 9,
-      "sources": [
-        "Publickey"
-      ]
-    },
-    {
-      "title": "PlanetScale、PostgreSQLのシャーディングを自動化して1億1800万QPSを達成。新DBサービス「Neki」をプレビュー公開",
-      "url": "https://www.publickey1.jp/blog/26/planetscalepostgresql11800qpsdbneki.html",
       "days": 9,
       "sources": [
         "Publickey"
