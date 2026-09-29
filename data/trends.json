@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-09-27T23:38:08.324Z",
+  "generatedAt": "2026-09-29T00:48:39.508Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-09-28",
-    "days": 86
+    "to": "2026-09-29",
+    "days": 87
   },
   "totals": {
-    "headlines": 1720,
-    "keywords": 2434,
+    "headlines": 1740,
+    "keywords": 2448,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 430
+        "count": 435
       },
       {
         "source": "はてなブックマーク",
-        "count": 430
+        "count": 435
       },
       {
         "source": "Zenn",
-        "count": 430
+        "count": 435
       },
       {
         "source": "Publickey",
-        "count": 430
+        "count": 435
       }
     ]
   },
@@ -168,10 +168,10 @@
       "week": "2026-W40",
       "label": "9/28",
       "counts": [
-        5,
-        5,
-        5,
-        5
+        10,
+        10,
+        10,
+        10
       ]
     }
   ],
@@ -179,17 +179,17 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 344
+      "count": 347
     },
     {
       "key": "claude",
       "term": "Claude",
-      "count": 118
+      "count": 121
     },
     {
       "key": "code",
       "term": "Code",
-      "count": 84
+      "count": 85
     },
     {
       "key": "google",
@@ -199,7 +199,12 @@
     {
       "key": "aws",
       "term": "AWS",
-      "count": 64
+      "count": 65
+    },
+    {
+      "key": "llm",
+      "term": "LLM",
+      "count": 44
     },
     {
       "key": "agent",
@@ -207,14 +212,14 @@
       "count": 43
     },
     {
-      "key": "llm",
-      "term": "LLM",
-      "count": 42
-    },
-    {
       "key": "rust",
       "term": "Rust",
       "count": 41
+    },
+    {
+      "key": "cloud",
+      "term": "Cloud",
+      "count": 39
     },
     {
       "key": "javascript",
@@ -222,9 +227,9 @@
       "count": 39
     },
     {
-      "key": "cloud",
-      "term": "Cloud",
-      "count": 38
+      "key": "github",
+      "term": "GitHub",
+      "count": 36
     },
     {
       "key": "mcp",
@@ -232,24 +237,19 @@
       "count": 36
     },
     {
-      "key": "github",
-      "term": "GitHub",
+      "key": "linux",
+      "term": "Linux",
       "count": 35
     },
     {
-      "key": "linux",
-      "term": "Linux",
-      "count": 34
+      "key": "web",
+      "term": "Web",
+      "count": 32
     },
     {
       "key": "windows",
       "term": "Windows",
       "count": 32
-    },
-    {
-      "key": "web",
-      "term": "Web",
-      "count": 31
     },
     {
       "key": "mac",
@@ -264,7 +264,7 @@
     {
       "key": "cloudflare",
       "term": "Cloudflare",
-      "count": 28
+      "count": 29
     },
     {
       "key": "macos",
@@ -277,14 +277,14 @@
       "count": 26
     },
     {
-      "key": "ui",
-      "term": "UI",
+      "key": "python",
+      "term": "Python",
       "count": 26
     },
     {
-      "key": "python",
-      "term": "Python",
-      "count": 25
+      "key": "ui",
+      "term": "UI",
+      "count": 26
     },
     {
       "key": "fable",
@@ -300,7 +300,7 @@
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 344,
+      "total": 347,
       "weekly": [
         1,
         21,
@@ -315,12 +315,12 @@
         17,
         27,
         17,
-        2
+        5
       ]
     },
     {
       "term": "Claude",
-      "total": 118,
+      "total": 121,
       "weekly": [
         0,
         14,
@@ -335,12 +335,12 @@
         2,
         3,
         13,
-        1
+        4
       ]
     },
     {
       "term": "Code",
-      "total": 84,
+      "total": 85,
       "weekly": [
         0,
         11,
@@ -355,7 +355,7 @@
         5,
         2,
         9,
-        1
+        2
       ]
     },
     {
@@ -380,7 +380,7 @@
     },
     {
       "term": "AWS",
-      "total": 64,
+      "total": 65,
       "weekly": [
         0,
         2,
@@ -395,7 +395,27 @@
         10,
         4,
         1,
-        0
+        1
+      ]
+    },
+    {
+      "term": "LLM",
+      "total": 44,
+      "weekly": [
+        0,
+        1,
+        4,
+        1,
+        0,
+        4,
+        4,
+        6,
+        4,
+        3,
+        2,
+        8,
+        4,
+        3
       ]
     },
     {
@@ -416,26 +436,6 @@
         2,
         5,
         0
-      ]
-    },
-    {
-      "term": "LLM",
-      "total": 42,
-      "weekly": [
-        0,
-        1,
-        4,
-        1,
-        0,
-        4,
-        4,
-        6,
-        4,
-        3,
-        2,
-        8,
-        4,
-        1
       ]
     },
     {
