@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-09-29T00:48:39.508Z",
+  "generatedAt": "2026-09-30T00:03:26.671Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-09-29",
-    "days": 87
+    "to": "2026-09-30",
+    "days": 88
   },
   "totals": {
-    "headlines": 1740,
-    "keywords": 2448,
+    "headlines": 1760,
+    "keywords": 2478,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 435
+        "count": 440
       },
       {
         "source": "はてなブックマーク",
-        "count": 435
+        "count": 440
       },
       {
         "source": "Zenn",
-        "count": 435
+        "count": 440
       },
       {
         "source": "Publickey",
-        "count": 435
+        "count": 440
       }
     ]
   },
@@ -168,10 +168,10 @@
       "week": "2026-W40",
       "label": "9/28",
       "counts": [
-        10,
-        10,
-        10,
-        10
+        15,
+        15,
+        15,
+        15
       ]
     }
   ],
@@ -179,32 +179,32 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 347
+      "count": 353
     },
     {
       "key": "claude",
       "term": "Claude",
-      "count": 121
+      "count": 123
     },
     {
       "key": "code",
       "term": "Code",
-      "count": 85
+      "count": 87
     },
     {
       "key": "google",
       "term": "Google",
-      "count": 73
+      "count": 75
     },
     {
       "key": "aws",
       "term": "AWS",
-      "count": 65
+      "count": 66
     },
     {
       "key": "llm",
       "term": "LLM",
-      "count": 44
+      "count": 45
     },
     {
       "key": "agent",
@@ -212,14 +212,14 @@
       "count": 43
     },
     {
-      "key": "rust",
-      "term": "Rust",
-      "count": 41
-    },
-    {
       "key": "cloud",
       "term": "Cloud",
-      "count": 39
+      "count": 42
+    },
+    {
+      "key": "rust",
+      "term": "Rust",
+      "count": 42
     },
     {
       "key": "javascript",
@@ -242,14 +242,24 @@
       "count": 35
     },
     {
+      "key": "windows",
+      "term": "Windows",
+      "count": 33
+    },
+    {
       "key": "web",
       "term": "Web",
       "count": 32
     },
     {
-      "key": "windows",
-      "term": "Windows",
-      "count": 32
+      "key": "openai",
+      "term": "OpenAI",
+      "count": 31
+    },
+    {
+      "key": "cloudflare",
+      "term": "Cloudflare",
+      "count": 30
     },
     {
       "key": "mac",
@@ -257,14 +267,9 @@
       "count": 30
     },
     {
-      "key": "openai",
-      "term": "OpenAI",
-      "count": 30
-    },
-    {
-      "key": "cloudflare",
-      "term": "Cloudflare",
-      "count": 29
+      "key": "database",
+      "term": "database",
+      "count": 27
     },
     {
       "key": "macos",
@@ -272,14 +277,9 @@
       "count": 27
     },
     {
-      "key": "database",
-      "term": "database",
-      "count": 26
-    },
-    {
       "key": "python",
       "term": "Python",
-      "count": 26
+      "count": 27
     },
     {
       "key": "ui",
@@ -300,7 +300,7 @@
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 347,
+      "total": 353,
       "weekly": [
         1,
         21,
@@ -315,12 +315,12 @@
         17,
         27,
         17,
-        5
+        11
       ]
     },
     {
       "term": "Claude",
-      "total": 121,
+      "total": 123,
       "weekly": [
         0,
         14,
@@ -335,12 +335,12 @@
         2,
         3,
         13,
-        4
+        6
       ]
     },
     {
       "term": "Code",
-      "total": 85,
+      "total": 87,
       "weekly": [
         0,
         11,
@@ -355,12 +355,12 @@
         5,
         2,
         9,
-        2
+        4
       ]
     },
     {
       "term": "Google",
-      "total": 73,
+      "total": 75,
       "weekly": [
         2,
         1,
@@ -375,12 +375,12 @@
         1,
         5,
         8,
-        1
+        3
       ]
     },
     {
       "term": "AWS",
-      "total": 65,
+      "total": 66,
       "weekly": [
         0,
         2,
@@ -395,12 +395,12 @@
         10,
         4,
         1,
-        1
+        2
       ]
     },
     {
       "term": "LLM",
-      "total": 44,
+      "total": 45,
       "weekly": [
         0,
         1,
@@ -415,7 +415,7 @@
         2,
         8,
         4,
-        3
+        4
       ]
     },
     {
@@ -439,23 +439,23 @@
       ]
     },
     {
-      "term": "Rust",
-      "total": 41,
+      "term": "Cloud",
+      "total": 42,
       "weekly": [
+        0,
         1,
-        4,
-        4,
+        6,
+        7,
+        5,
         4,
         0,
-        6,
-        3,
-        2,
-        10,
+        5,
+        0,
+        8,
         1,
-        1,
-        4,
-        1,
-        0
+        0,
+        0,
+        5
       ]
     }
   ],
