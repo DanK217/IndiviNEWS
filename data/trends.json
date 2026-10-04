@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-10-03T23:30:26.526Z",
+  "generatedAt": "2026-10-04T23:48:44.487Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-10-04",
-    "days": 92
+    "to": "2026-10-05",
+    "days": 93
   },
   "totals": {
-    "headlines": 1835,
-    "keywords": 2530,
+    "headlines": 1855,
+    "keywords": 2556,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 455
+        "count": 460
       },
       {
         "source": "はてなブックマーク",
-        "count": 460
+        "count": 465
       },
       {
         "source": "Zenn",
-        "count": 460
+        "count": 465
       },
       {
         "source": "Publickey",
-        "count": 460
+        "count": 465
       }
     ]
   },
@@ -173,38 +173,48 @@
         35,
         35
       ]
+    },
+    {
+      "week": "2026-W41",
+      "label": "10/5",
+      "counts": [
+        5,
+        5,
+        5,
+        5
+      ]
     }
   ],
   "keywordTotal": [
     {
       "key": "ai",
       "term": "AI",
-      "count": 372
+      "count": 378
     },
     {
       "key": "claude",
       "term": "Claude",
-      "count": 126
+      "count": 127
     },
     {
       "key": "code",
       "term": "Code",
-      "count": 89
+      "count": 91
     },
     {
       "key": "google",
       "term": "Google",
-      "count": 84
+      "count": 86
     },
     {
       "key": "aws",
       "term": "AWS",
-      "count": 70
+      "count": 71
     },
     {
       "key": "cloud",
       "term": "Cloud",
-      "count": 51
+      "count": 52
     },
     {
       "key": "llm",
@@ -214,7 +224,7 @@
     {
       "key": "javascript",
       "term": "JavaScript",
-      "count": 45
+      "count": 47
     },
     {
       "key": "agent",
@@ -222,19 +232,29 @@
       "count": 43
     },
     {
+      "key": "linux",
+      "term": "Linux",
+      "count": 42
+    },
+    {
       "key": "rust",
       "term": "Rust",
       "count": 42
     },
     {
-      "key": "linux",
-      "term": "Linux",
-      "count": 41
+      "key": "cloudflare",
+      "term": "Cloudflare",
+      "count": 37
     },
     {
       "key": "windows",
       "term": "Windows",
       "count": 37
+    },
+    {
+      "key": "database",
+      "term": "database",
+      "count": 36
     },
     {
       "key": "github",
@@ -247,19 +267,9 @@
       "count": 36
     },
     {
-      "key": "cloudflare",
-      "term": "Cloudflare",
-      "count": 35
-    },
-    {
-      "key": "database",
-      "term": "database",
-      "count": 34
-    },
-    {
       "key": "web",
       "term": "Web",
-      "count": 34
+      "count": 35
     },
     {
       "key": "openai",
@@ -269,7 +279,7 @@
     {
       "key": "mac",
       "term": "Mac",
-      "count": 30
+      "count": 32
     },
     {
       "key": "api",
@@ -279,16 +289,16 @@
     {
       "key": "macos",
       "term": "macOS",
+      "count": 29
+    },
+    {
+      "key": "python",
+      "term": "Python",
       "count": 28
     },
     {
       "key": "postgresql",
       "term": "PostgreSQL",
-      "count": 27
-    },
-    {
-      "key": "python",
-      "term": "Python",
       "count": 27
     },
     {
@@ -300,7 +310,7 @@
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 372,
+      "total": 378,
       "weekly": [
         1,
         21,
@@ -315,12 +325,13 @@
         17,
         27,
         17,
-        30
+        30,
+        6
       ]
     },
     {
       "term": "Claude",
-      "total": 126,
+      "total": 127,
       "weekly": [
         0,
         14,
@@ -335,12 +346,13 @@
         2,
         3,
         13,
-        9
+        9,
+        1
       ]
     },
     {
       "term": "Code",
-      "total": 89,
+      "total": 91,
       "weekly": [
         0,
         11,
@@ -355,12 +367,13 @@
         5,
         2,
         9,
-        6
+        6,
+        2
       ]
     },
     {
       "term": "Google",
-      "total": 84,
+      "total": 86,
       "weekly": [
         2,
         1,
@@ -375,12 +388,13 @@
         1,
         5,
         8,
-        12
+        12,
+        2
       ]
     },
     {
       "term": "AWS",
-      "total": 70,
+      "total": 71,
       "weekly": [
         0,
         2,
@@ -395,12 +409,13 @@
         10,
         4,
         1,
-        6
+        6,
+        1
       ]
     },
     {
       "term": "Cloud",
-      "total": 51,
+      "total": 52,
       "weekly": [
         0,
         1,
@@ -415,7 +430,8 @@
         1,
         0,
         0,
-        14
+        14,
+        1
       ]
     },
     {
@@ -435,12 +451,13 @@
         2,
         8,
         4,
-        7
+        7,
+        0
       ]
     },
     {
       "term": "JavaScript",
-      "total": 45,
+      "total": 47,
       "weekly": [
         1,
         5,
@@ -455,7 +472,8 @@
         4,
         1,
         0,
-        6
+        6,
+        2
       ]
     }
   ],
@@ -473,7 +491,8 @@
     "9/7",
     "9/14",
     "9/21",
-    "9/28"
+    "9/28",
+    "10/5"
   ],
   "longevity": [
     {
