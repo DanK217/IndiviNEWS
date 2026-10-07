@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-10-06T01:39:30.931Z",
+  "generatedAt": "2026-10-07T00:21:11.982Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-10-06",
-    "days": 94
+    "to": "2026-10-07",
+    "days": 95
   },
   "totals": {
-    "headlines": 1875,
-    "keywords": 2577,
+    "headlines": 1895,
+    "keywords": 2599,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 465
+        "count": 470
       },
       {
         "source": "はてなブックマーク",
-        "count": 470
+        "count": 475
       },
       {
         "source": "Zenn",
-        "count": 470
+        "count": 475
       },
       {
         "source": "Publickey",
-        "count": 470
+        "count": 475
       }
     ]
   },
@@ -178,10 +178,10 @@
       "week": "2026-W41",
       "label": "10/5",
       "counts": [
-        10,
-        10,
-        10,
-        10
+        15,
+        15,
+        15,
+        15
       ]
     }
   ],
@@ -189,22 +189,22 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 385
+      "count": 393
     },
     {
       "key": "claude",
       "term": "Claude",
-      "count": 129
+      "count": 130
     },
     {
       "key": "code",
       "term": "Code",
-      "count": 91
+      "count": 92
     },
     {
       "key": "google",
       "term": "Google",
-      "count": 88
+      "count": 92
     },
     {
       "key": "aws",
@@ -219,7 +219,7 @@
     {
       "key": "llm",
       "term": "LLM",
-      "count": 48
+      "count": 49
     },
     {
       "key": "javascript",
@@ -234,22 +234,22 @@
     {
       "key": "linux",
       "term": "Linux",
-      "count": 42
+      "count": 43
     },
     {
       "key": "rust",
       "term": "Rust",
-      "count": 42
+      "count": 43
     },
     {
       "key": "cloudflare",
       "term": "Cloudflare",
-      "count": 38
+      "count": 39
     },
     {
       "key": "database",
       "term": "database",
-      "count": 38
+      "count": 39
     },
     {
       "key": "mcp",
@@ -269,7 +269,7 @@
     {
       "key": "web",
       "term": "Web",
-      "count": 35
+      "count": 36
     },
     {
       "key": "openai",
@@ -310,7 +310,7 @@
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 385,
+      "total": 393,
       "weekly": [
         1,
         21,
@@ -326,12 +326,12 @@
         27,
         17,
         30,
-        13
+        21
       ]
     },
     {
       "term": "Claude",
-      "total": 129,
+      "total": 130,
       "weekly": [
         0,
         14,
@@ -347,12 +347,12 @@
         3,
         13,
         9,
-        3
+        4
       ]
     },
     {
       "term": "Code",
-      "total": 91,
+      "total": 92,
       "weekly": [
         0,
         11,
@@ -368,12 +368,12 @@
         2,
         9,
         6,
-        2
+        3
       ]
     },
     {
       "term": "Google",
-      "total": 88,
+      "total": 92,
       "weekly": [
         2,
         1,
@@ -389,7 +389,7 @@
         5,
         8,
         12,
-        4
+        8
       ]
     },
     {
@@ -436,7 +436,7 @@
     },
     {
       "term": "LLM",
-      "total": 48,
+      "total": 49,
       "weekly": [
         0,
         1,
@@ -452,7 +452,7 @@
         8,
         4,
         7,
-        0
+        1
       ]
     },
     {
