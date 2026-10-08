@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-10-07T00:21:11.982Z",
+  "generatedAt": "2026-10-08T00:42:00.817Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-10-07",
-    "days": 95
+    "to": "2026-10-08",
+    "days": 96
   },
   "totals": {
-    "headlines": 1895,
-    "keywords": 2599,
+    "headlines": 1915,
+    "keywords": 2621,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 470
+        "count": 475
       },
       {
         "source": "はてなブックマーク",
-        "count": 475
+        "count": 480
       },
       {
         "source": "Zenn",
-        "count": 475
+        "count": 480
       },
       {
         "source": "Publickey",
-        "count": 475
+        "count": 480
       }
     ]
   },
@@ -178,10 +178,10 @@
       "week": "2026-W41",
       "label": "10/5",
       "counts": [
-        15,
-        15,
-        15,
-        15
+        20,
+        20,
+        20,
+        20
       ]
     }
   ],
@@ -189,27 +189,27 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 393
+      "count": 397
     },
     {
       "key": "claude",
       "term": "Claude",
-      "count": 130
+      "count": 132
     },
     {
       "key": "code",
       "term": "Code",
-      "count": 92
+      "count": 94
     },
     {
       "key": "google",
       "term": "Google",
-      "count": 92
+      "count": 93
     },
     {
       "key": "aws",
       "term": "AWS",
-      "count": 71
+      "count": 72
     },
     {
       "key": "cloud",
@@ -244,21 +244,21 @@
     {
       "key": "cloudflare",
       "term": "Cloudflare",
-      "count": 39
+      "count": 40
     },
     {
       "key": "database",
       "term": "database",
-      "count": 39
-    },
-    {
-      "key": "mcp",
-      "term": "MCP",
-      "count": 37
+      "count": 40
     },
     {
       "key": "windows",
       "term": "Windows",
+      "count": 38
+    },
+    {
+      "key": "mcp",
+      "term": "MCP",
       "count": 37
     },
     {
@@ -292,25 +292,25 @@
       "count": 29
     },
     {
+      "key": "postgresql",
+      "term": "PostgreSQL",
+      "count": 28
+    },
+    {
       "key": "python",
       "term": "Python",
       "count": 28
     },
     {
-      "key": "postgresql",
-      "term": "PostgreSQL",
-      "count": 27
-    },
-    {
       "key": "ui",
       "term": "UI",
-      "count": 27
+      "count": 28
     }
   ],
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 393,
+      "total": 397,
       "weekly": [
         1,
         21,
@@ -326,12 +326,12 @@
         27,
         17,
         30,
-        21
+        25
       ]
     },
     {
       "term": "Claude",
-      "total": 130,
+      "total": 132,
       "weekly": [
         0,
         14,
@@ -347,12 +347,12 @@
         3,
         13,
         9,
-        4
+        6
       ]
     },
     {
       "term": "Code",
-      "total": 92,
+      "total": 94,
       "weekly": [
         0,
         11,
@@ -368,12 +368,12 @@
         2,
         9,
         6,
-        3
+        5
       ]
     },
     {
       "term": "Google",
-      "total": 92,
+      "total": 93,
       "weekly": [
         2,
         1,
@@ -389,12 +389,12 @@
         5,
         8,
         12,
-        8
+        9
       ]
     },
     {
       "term": "AWS",
-      "total": 71,
+      "total": 72,
       "weekly": [
         0,
         2,
@@ -410,7 +410,7 @@
         4,
         1,
         6,
-        1
+        2
       ]
     },
     {
