@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-10-08T00:42:00.817Z",
+  "generatedAt": "2026-10-09T00:57:31.142Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-10-08",
-    "days": 96
+    "to": "2026-10-09",
+    "days": 97
   },
   "totals": {
-    "headlines": 1915,
-    "keywords": 2621,
+    "headlines": 1935,
+    "keywords": 2635,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 475
+        "count": 480
       },
       {
         "source": "はてなブックマーク",
-        "count": 480
+        "count": 485
       },
       {
         "source": "Zenn",
-        "count": 480
+        "count": 485
       },
       {
         "source": "Publickey",
-        "count": 480
+        "count": 485
       }
     ]
   },
@@ -178,10 +178,10 @@
       "week": "2026-W41",
       "label": "10/5",
       "counts": [
-        20,
-        20,
-        20,
-        20
+        25,
+        25,
+        25,
+        25
       ]
     }
   ],
@@ -189,7 +189,7 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 397
+      "count": 405
     },
     {
       "key": "claude",
@@ -199,7 +199,7 @@
     {
       "key": "code",
       "term": "Code",
-      "count": 94
+      "count": 95
     },
     {
       "key": "google",
@@ -209,7 +209,7 @@
     {
       "key": "aws",
       "term": "AWS",
-      "count": 72
+      "count": 73
     },
     {
       "key": "cloud",
@@ -219,7 +219,7 @@
     {
       "key": "llm",
       "term": "LLM",
-      "count": 49
+      "count": 50
     },
     {
       "key": "javascript",
@@ -244,7 +244,7 @@
     {
       "key": "cloudflare",
       "term": "Cloudflare",
-      "count": 40
+      "count": 41
     },
     {
       "key": "database",
@@ -252,14 +252,14 @@
       "count": 40
     },
     {
-      "key": "windows",
-      "term": "Windows",
+      "key": "mcp",
+      "term": "MCP",
       "count": 38
     },
     {
-      "key": "mcp",
-      "term": "MCP",
-      "count": 37
+      "key": "windows",
+      "term": "Windows",
+      "count": 38
     },
     {
       "key": "github",
@@ -274,7 +274,7 @@
     {
       "key": "openai",
       "term": "OpenAI",
-      "count": 33
+      "count": 34
     },
     {
       "key": "mac",
@@ -294,7 +294,7 @@
     {
       "key": "postgresql",
       "term": "PostgreSQL",
-      "count": 28
+      "count": 29
     },
     {
       "key": "python",
@@ -310,7 +310,7 @@
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 397,
+      "total": 405,
       "weekly": [
         1,
         21,
@@ -326,7 +326,7 @@
         27,
         17,
         30,
-        25
+        33
       ]
     },
     {
@@ -352,7 +352,7 @@
     },
     {
       "term": "Code",
-      "total": 94,
+      "total": 95,
       "weekly": [
         0,
         11,
@@ -368,7 +368,7 @@
         2,
         9,
         6,
-        5
+        6
       ]
     },
     {
@@ -394,7 +394,7 @@
     },
     {
       "term": "AWS",
-      "total": 72,
+      "total": 73,
       "weekly": [
         0,
         2,
@@ -410,7 +410,7 @@
         4,
         1,
         6,
-        2
+        3
       ]
     },
     {
@@ -436,7 +436,7 @@
     },
     {
       "term": "LLM",
-      "total": 49,
+      "total": 50,
       "weekly": [
         0,
         1,
@@ -452,7 +452,7 @@
         8,
         4,
         7,
-        1
+        2
       ]
     },
     {
