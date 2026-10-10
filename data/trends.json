@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-10-09T00:57:31.142Z",
+  "generatedAt": "2026-10-10T00:28:50.019Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-10-09",
-    "days": 97
+    "to": "2026-10-10",
+    "days": 98
   },
   "totals": {
-    "headlines": 1935,
-    "keywords": 2635,
+    "headlines": 1955,
+    "keywords": 2661,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 480
+        "count": 485
       },
       {
         "source": "はてなブックマーク",
-        "count": 485
+        "count": 490
       },
       {
         "source": "Zenn",
-        "count": 485
+        "count": 490
       },
       {
         "source": "Publickey",
-        "count": 485
+        "count": 490
       }
     ]
   },
@@ -178,10 +178,10 @@
       "week": "2026-W41",
       "label": "10/5",
       "counts": [
-        25,
-        25,
-        25,
-        25
+        30,
+        30,
+        30,
+        30
       ]
     }
   ],
@@ -189,17 +189,17 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 405
+      "count": 412
     },
     {
       "key": "claude",
       "term": "Claude",
-      "count": 132
+      "count": 133
     },
     {
       "key": "code",
       "term": "Code",
-      "count": 95
+      "count": 97
     },
     {
       "key": "google",
@@ -209,7 +209,7 @@
     {
       "key": "aws",
       "term": "AWS",
-      "count": 73
+      "count": 74
     },
     {
       "key": "cloud",
@@ -229,22 +229,22 @@
     {
       "key": "agent",
       "term": "Agent",
+      "count": 45
+    },
+    {
+      "key": "cloudflare",
+      "term": "Cloudflare",
+      "count": 44
+    },
+    {
+      "key": "rust",
+      "term": "Rust",
       "count": 44
     },
     {
       "key": "linux",
       "term": "Linux",
       "count": 43
-    },
-    {
-      "key": "rust",
-      "term": "Rust",
-      "count": 43
-    },
-    {
-      "key": "cloudflare",
-      "term": "Cloudflare",
-      "count": 41
     },
     {
       "key": "database",
@@ -282,6 +282,11 @@
       "count": 32
     },
     {
+      "key": "postgresql",
+      "term": "PostgreSQL",
+      "count": 30
+    },
+    {
       "key": "api",
       "term": "API",
       "count": 29
@@ -289,11 +294,6 @@
     {
       "key": "macos",
       "term": "macOS",
-      "count": 29
-    },
-    {
-      "key": "postgresql",
-      "term": "PostgreSQL",
       "count": 29
     },
     {
@@ -310,7 +310,7 @@
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 405,
+      "total": 412,
       "weekly": [
         1,
         21,
@@ -326,12 +326,12 @@
         27,
         17,
         30,
-        33
+        40
       ]
     },
     {
       "term": "Claude",
-      "total": 132,
+      "total": 133,
       "weekly": [
         0,
         14,
@@ -347,12 +347,12 @@
         3,
         13,
         9,
-        6
+        7
       ]
     },
     {
       "term": "Code",
-      "total": 95,
+      "total": 97,
       "weekly": [
         0,
         11,
@@ -368,7 +368,7 @@
         2,
         9,
         6,
-        6
+        8
       ]
     },
     {
@@ -394,7 +394,7 @@
     },
     {
       "term": "AWS",
-      "total": 73,
+      "total": 74,
       "weekly": [
         0,
         2,
@@ -410,7 +410,7 @@
         4,
         1,
         6,
-        3
+        4
       ]
     },
     {
