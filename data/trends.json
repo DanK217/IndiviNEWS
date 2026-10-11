@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-10-10T00:28:50.019Z",
+  "generatedAt": "2026-10-11T00:04:54.456Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-10-10",
-    "days": 98
+    "to": "2026-10-11",
+    "days": 99
   },
   "totals": {
-    "headlines": 1955,
-    "keywords": 2661,
+    "headlines": 1975,
+    "keywords": 2671,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 485
+        "count": 490
       },
       {
         "source": "はてなブックマーク",
-        "count": 490
+        "count": 495
       },
       {
         "source": "Zenn",
-        "count": 490
+        "count": 495
       },
       {
         "source": "Publickey",
-        "count": 490
+        "count": 495
       }
     ]
   },
@@ -178,10 +178,10 @@
       "week": "2026-W41",
       "label": "10/5",
       "counts": [
-        30,
-        30,
-        30,
-        30
+        35,
+        35,
+        35,
+        35
       ]
     }
   ],
@@ -189,7 +189,7 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 412
+      "count": 417
     },
     {
       "key": "claude",
@@ -199,7 +199,7 @@
     {
       "key": "code",
       "term": "Code",
-      "count": 97
+      "count": 98
     },
     {
       "key": "google",
@@ -209,7 +209,7 @@
     {
       "key": "aws",
       "term": "AWS",
-      "count": 74
+      "count": 75
     },
     {
       "key": "cloud",
@@ -234,7 +234,7 @@
     {
       "key": "cloudflare",
       "term": "Cloudflare",
-      "count": 44
+      "count": 45
     },
     {
       "key": "rust",
@@ -284,7 +284,7 @@
     {
       "key": "postgresql",
       "term": "PostgreSQL",
-      "count": 30
+      "count": 31
     },
     {
       "key": "api",
@@ -310,7 +310,7 @@
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 412,
+      "total": 417,
       "weekly": [
         1,
         21,
@@ -326,7 +326,7 @@
         27,
         17,
         30,
-        40
+        45
       ]
     },
     {
@@ -352,7 +352,7 @@
     },
     {
       "term": "Code",
-      "total": 97,
+      "total": 98,
       "weekly": [
         0,
         11,
@@ -368,7 +368,7 @@
         2,
         9,
         6,
-        8
+        9
       ]
     },
     {
@@ -394,7 +394,7 @@
     },
     {
       "term": "AWS",
-      "total": 74,
+      "total": 75,
       "weekly": [
         0,
         2,
@@ -410,7 +410,7 @@
         4,
         1,
         6,
-        4
+        5
       ]
     },
     {
