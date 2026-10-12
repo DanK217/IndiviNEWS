@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-10-11T00:04:54.456Z",
+  "generatedAt": "2026-10-12T00:13:03.669Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-10-11",
-    "days": 99
+    "to": "2026-10-12",
+    "days": 100
   },
   "totals": {
-    "headlines": 1975,
-    "keywords": 2671,
+    "headlines": 1995,
+    "keywords": 2682,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 490
+        "count": 495
       },
       {
         "source": "はてなブックマーク",
-        "count": 495
+        "count": 500
       },
       {
         "source": "Zenn",
-        "count": 495
+        "count": 500
       },
       {
         "source": "Publickey",
-        "count": 495
+        "count": 500
       }
     ]
   },
@@ -183,13 +183,23 @@
         35,
         35
       ]
+    },
+    {
+      "week": "2026-W42",
+      "label": "10/12",
+      "counts": [
+        5,
+        5,
+        5,
+        5
+      ]
     }
   ],
   "keywordTotal": [
     {
       "key": "ai",
       "term": "AI",
-      "count": 417
+      "count": 424
     },
     {
       "key": "claude",
@@ -199,17 +209,17 @@
     {
       "key": "code",
       "term": "Code",
-      "count": 98
+      "count": 100
     },
     {
       "key": "google",
       "term": "Google",
-      "count": 93
+      "count": 94
     },
     {
       "key": "aws",
       "term": "AWS",
-      "count": 75
+      "count": 76
     },
     {
       "key": "cloud",
@@ -229,12 +239,12 @@
     {
       "key": "agent",
       "term": "Agent",
-      "count": 45
+      "count": 46
     },
     {
       "key": "cloudflare",
       "term": "Cloudflare",
-      "count": 45
+      "count": 46
     },
     {
       "key": "rust",
@@ -264,7 +274,7 @@
     {
       "key": "github",
       "term": "GitHub",
-      "count": 36
+      "count": 37
     },
     {
       "key": "web",
@@ -284,7 +294,7 @@
     {
       "key": "postgresql",
       "term": "PostgreSQL",
-      "count": 31
+      "count": 32
     },
     {
       "key": "api",
@@ -310,7 +320,7 @@
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 417,
+      "total": 424,
       "weekly": [
         1,
         21,
@@ -326,7 +336,8 @@
         27,
         17,
         30,
-        45
+        45,
+        7
       ]
     },
     {
@@ -347,12 +358,13 @@
         3,
         13,
         9,
-        7
+        7,
+        0
       ]
     },
     {
       "term": "Code",
-      "total": 98,
+      "total": 100,
       "weekly": [
         0,
         11,
@@ -368,12 +380,13 @@
         2,
         9,
         6,
-        9
+        9,
+        2
       ]
     },
     {
       "term": "Google",
-      "total": 93,
+      "total": 94,
       "weekly": [
         2,
         1,
@@ -389,12 +402,13 @@
         5,
         8,
         12,
-        9
+        9,
+        1
       ]
     },
     {
       "term": "AWS",
-      "total": 75,
+      "total": 76,
       "weekly": [
         0,
         2,
@@ -410,7 +424,8 @@
         4,
         1,
         6,
-        5
+        5,
+        1
       ]
     },
     {
@@ -431,7 +446,8 @@
         0,
         0,
         14,
-        2
+        2,
+        0
       ]
     },
     {
@@ -452,7 +468,8 @@
         8,
         4,
         7,
-        2
+        2,
+        0
       ]
     },
     {
@@ -473,7 +490,8 @@
         1,
         0,
         6,
-        2
+        2,
+        0
       ]
     }
   ],
@@ -492,7 +510,8 @@
     "9/14",
     "9/21",
     "9/28",
-    "10/5"
+    "10/5",
+    "10/12"
   ],
   "longevity": [
     {
@@ -568,6 +587,14 @@
       ]
     },
     {
+      "title": "Cloudflare ContainersがAIエージェント向けに刷新。起動が6倍速、ファイルシステムのスナップショット機能など",
+      "url": "https://www.publickey1.jp/blog/26/cloudflare_containersai6.html",
+      "days": 7,
+      "sources": [
+        "Publickey"
+      ]
+    },
+    {
       "title": "Google Cloud、生成AIのコードを瞬時に隔離して安全に実行できる「Cloud Runサンドボックス」パブリックプレビュー",
       "url": "https://www.publickey1.jp/blog/26/google_cloudaicloud_run.html",
       "days": 7,
@@ -578,14 +605,6 @@
     {
       "title": "Next.js 16.3正式版リリース。Turbopackのメモリ使用量が最大90％減、SSRが最大22％高速化、TypeScript 7による型チェック高速化など",
       "url": "https://www.publickey1.jp/blog/26/nextjs_163turbopack90ssr22typescript_7.html",
-      "days": 7,
-      "sources": [
-        "Publickey"
-      ]
-    },
-    {
-      "title": "Rustに移植された「Bun 1.4」正式リリース。Node.jsとの互換性向上でPlaywrightやvitestが動作、CPUとメモリの使用率が大幅改善、正規表現が高速化など",
-      "url": "https://www.publickey1.jp/blog/26/rustbun_14nodejsplaywrightvitestcpu.html",
       "days": 7,
       "sources": [
         "Publickey"
