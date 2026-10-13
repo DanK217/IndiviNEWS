@@ -55,6 +55,7 @@ function renderItem(item) {
 }
 
 function renderPage(items) {
+  const isEmpty = items.length === 0;
   const featured = items.slice(0, FEATURED_COUNT).map(renderItem).join("");
   const rest = items.slice(FEATURED_COUNT).map(renderItem).join("");
   const updated = escapeHtml(updatedTimeJst());
@@ -162,6 +163,18 @@ function renderPage(items) {
     overflow: hidden;
   }
   .go { display: none; }
+
+  /* ---- 全ソース取得失敗時の代替表示（通常時は出現しない） ---- */
+  .empty {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 10px 2px 4px;
+    color: #c8c8c8;
+    font-size: 13px;
+    line-height: 1.6;
+  }
+  .empty-icon { flex: none; font-size: 16px; line-height: 1.5; }
 
   /* ---- 区切り（「MORE」）。ウィジェット切り取り領域より下 ---- */
   .more {
@@ -304,8 +317,15 @@ function renderPage(items) {
       <span class="brand-updated">更新 ${updated}</span>
     </header>
 
-    <ul class="featured">${featured}
-    </ul>
+    ${
+      isEmpty
+        ? `<div class="empty">
+      <span class="empty-icon">⚠️</span>
+      <span>只今ニュースを取得できませんでした。しばらくしてから再度お試しください。</span>
+    </div>`
+        : `<ul class="featured">${featured}
+    </ul>`
+    }
 
     <div class="more">
       <span class="more-label eyebrow">MORE STORIES</span>
