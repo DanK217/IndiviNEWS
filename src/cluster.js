@@ -185,4 +185,32 @@ function clusterItems(items) {
   return clusters;
 }
 
-module.exports = { clusterItems };
+// 複数ソース・複数件にまたがって重複する同一記事・同一話題を、クラスタ内の
+// 代表（最新）1件だけに畳み込む。元の sourceArrays の構造（ソースごとの配列）は
+// 維持するため、呼び出し側（interleaveBySource等）はそのまま使い回せる。
+//
+// @param {Array<Array<item>>} sourceArrays  ソースごとの記事配列
+// @returns {{
+//   sourceArrays: Array<Array<item>>,       代表以外を除去した、同じ構造の配列
+//   multiSourceReps: Map<item, string[]>    複数ソースにまたがった代表記事→元のソース名一覧
+// }}
+function collapseToRepresentatives(sourceArrays) {
+  const clusters = clusterItems(sourceArrays.flat());
+  const representatives = new Set();
+  const multiSourceReps = new Map();
+  for (const cluster of clusters) {
+    const representative = cluster[0];
+    representatives.add(representative);
+    const sources = [...new Set(cluster.map((item) => item.source))];
+    if (sources.length > 1) multiSourceReps.set(representative, sources);
+  }
+  return {
+    // clusterItemsは渡したオブジェクトそのものを返すため、参照一致で絞り込める
+    sourceArrays: sourceArrays.map((arr) =>
+      arr.filter((item) => representatives.has(item)),
+    ),
+    multiSourceReps,
+  };
+}
+
+module.exports = { clusterItems, collapseToRepresentatives };

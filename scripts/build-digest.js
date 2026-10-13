@@ -12,7 +12,7 @@
 const fs = require("fs");
 const path = require("path");
 const { fetchAllSources, interleaveBySource } = require("../src/fetchers");
-const { clusterItems } = require("../src/cluster");
+const { collapseToRepresentatives } = require("../src/cluster");
 
 const DIGEST_DIR = path.join(__dirname, "..", "digests");
 const PICKS_COUNT = 3;
@@ -42,32 +42,19 @@ function jstTimeString(publishedAt) {
   }).format(new Date(publishedAt));
 }
 
-// はてなブックマークにはZenn等の記事も流れてくるため、ソースをまたいで
-// 同じ記事・同じ話題をクラスタリングし、各クラスタの代表記事（最新のもの）
-// だけを残す。複数ソースにまたがったクラスタは、代表記事に注記する
-// ソース名一覧（例:「HN・はてな」）を notes に持たせる。
-function collapseClusters(sourceArrays) {
-  const clusters = clusterItems(sourceArrays.flat());
-  const representatives = new Set();
+// src/cluster.js の collapseToRepresentatives が返す multiSourceReps
+// （代表記事→元のソース名一覧）を、ダイジェスト表示用の注記文字列
+// （例:「HN・はてな」）に変換する。クラスタリング自体はウィジェット側
+// （src/fetchers/index.js）と共通のロジックを使う。
+function buildNotes(multiSourceReps) {
   const notes = new Map();
-  for (const cluster of clusters) {
-    const representative = cluster[0];
-    representatives.add(representative);
-    const sources = [...new Set(cluster.map((item) => item.source))];
-    if (sources.length > 1) {
-      notes.set(
-        representative,
-        sources.map((s) => SOURCE_SHORT_NAMES[s] || s).join("・"),
-      );
-    }
+  for (const [representative, sources] of multiSourceReps) {
+    notes.set(
+      representative,
+      sources.map((s) => SOURCE_SHORT_NAMES[s] || s).join("・"),
+    );
   }
-  return {
-    // clusterItemsは渡したオブジェクトそのものを返すため、参照一致で絞り込める
-    sourceArrays: sourceArrays.map((arr) =>
-      arr.filter((item) => representatives.has(item)),
-    ),
-    notes,
-  };
+  return notes;
 }
 
 function topicNote(item, notes) {
@@ -123,7 +110,8 @@ async function main() {
     return;
   }
 
-  const { sourceArrays, notes } = collapseClusters(fetched);
+  const { sourceArrays, multiSourceReps } = collapseToRepresentatives(fetched);
+  const notes = buildNotes(multiSourceReps);
   const markdown = buildMarkdown(sourceArrays, notes);
   fs.mkdirSync(DIGEST_DIR, { recursive: true });
   const outPath = path.join(DIGEST_DIR, `${jstDateString()}.md`);
