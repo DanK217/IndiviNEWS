@@ -13,8 +13,14 @@ const fs = require("fs");
 const path = require("path");
 const { fetchAllSources, interleaveBySource } = require("../src/fetchers");
 const { collapseToRepresentatives } = require("../src/cluster");
+const {
+  countBySource,
+  updateHealth,
+  degradedSources,
+} = require("./lib/source-health");
 
 const DIGEST_DIR = path.join(__dirname, "..", "digests");
+const HEALTH_PATH = path.join(__dirname, "..", "data", "health.json");
 const PICKS_COUNT = 3;
 const PER_SOURCE_COUNT = 5;
 
@@ -102,8 +108,36 @@ function buildMarkdown(sourceArrays, notes) {
   return lines.join("\n");
 }
 
+// ソース単位の健全性（何日連続で0件か）を記録する。全滅していなくても
+// 1ソースだけの劣化を追跡するため、全滅チェックより前・無条件に実行する。
+function recordHealth(fetched) {
+  const today = jstDateString();
+  let prevHealth = {};
+  try {
+    prevHealth = JSON.parse(fs.readFileSync(HEALTH_PATH, "utf-8"));
+  } catch {
+    // 初回実行時はファイルが無いので空扱い（異常ではない）
+  }
+
+  const counts = countBySource(fetched.flat());
+  const nextHealth = updateHealth(prevHealth, counts, today);
+  fs.mkdirSync(path.dirname(HEALTH_PATH), { recursive: true });
+  fs.writeFileSync(HEALTH_PATH, JSON.stringify(nextHealth, null, 2));
+
+  const degraded = degradedSources(nextHealth);
+  for (const d of degraded) {
+    console.error(
+      `::warning::ソース「${d.source}」が${d.consecutiveEmptyDays}日連続で0件です` +
+        `（最終成功日: ${d.lastSuccessDate || "記録なし"}）`,
+    );
+  }
+  return degraded;
+}
+
 async function main() {
   const fetched = await fetchAllSources();
+  const degraded = recordHealth(fetched);
+
   if (fetched.every((arr) => arr.length === 0)) {
     console.error("全ソースの取得に失敗しました。ダイジェストは生成しません。");
     process.exitCode = 1;
@@ -117,6 +151,13 @@ async function main() {
   const outPath = path.join(DIGEST_DIR, `${jstDateString()}.md`);
   fs.writeFileSync(outPath, markdown);
   console.log(`saved: ${outPath}`);
+
+  // ダイジェスト自体は生成できたが、特定ソースが閾値を超えて劣化していれば
+  // ジョブを失敗扱いにする（ワークフロー側でコミット後に判定するため、
+  // 生成済みファイルが失われることはない）。
+  if (degraded.length > 0) {
+    process.exitCode = 1;
+  }
 }
 
 main().catch((err) => {

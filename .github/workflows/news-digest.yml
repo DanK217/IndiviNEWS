@@ -23,10 +23,19 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      # continue-on-error: true にしているのは、ここで失敗扱いにしても
+      # 後続の「コミット」ステップを止めないため。build-digest.jsは
+      # 「全ソース失敗」または「特定ソースが2日以上連続で0件（劣化）」の
+      # 場合にexit code 1を返す。失敗したかどうかの判定は
+      # steps.digest.outcome（continue-on-errorの影響を受けない）で行う。
       - name: Build digest
+        id: digest
+        continue-on-error: true
         run: node scripts/build-digest.js
 
       - name: Build trends
+        id: trends
+        continue-on-error: true
         # 当日ダイジェストを書いた直後に、蓄積分すべてから data/trends.json を再集計。
         run: node scripts/build-trends.js
 
@@ -35,9 +44,21 @@ jobs:
         # Vercel HobbyプランはprivateリポジトリでVercelアカウントに紐付いていない
         # 作者（例: actions@users.noreply.github.com のボット名義）のコミットを
         # "Deployment Blocked" として弾くため。
+        #
+        # 上の2ステップが失敗扱いでもここは常に実行する（continue-on-errorで
+        # 止めていないため）。部分的にでも生成できたファイルを取りこぼさず
+        # コミットする。
         run: |
           git config user.name "DanK217"
           git config user.email "xoxo.aaa72@gmail.com"
           git add digests/ data/
           git diff --cached --quiet || git commit -m "Add news digest and trends for $(TZ=Asia/Tokyo date +%Y-%m-%d)"
           git push
+
+      - name: Fail job if a source is degraded or a build step errored
+        # コミット自体は上で完了済みなので、ここで失敗させてもデータは失われない。
+        # ジョブを明示的に失敗させることで、GitHub Actionsの標準通知（失敗した
+        # ワークフロー実行のメール等）に乗せる——「1ソースだけ何日も0件でも
+        # 誰も気づけない」問題への対応。
+        if: steps.digest.outcome == 'failure' || steps.trends.outcome == 'failure'
+        run: exit 1
