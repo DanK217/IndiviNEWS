@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-10-14T00:08:04.009Z",
+  "generatedAt": "2026-10-14T23:40:04.199Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-10-14",
-    "days": 102
+    "to": "2026-10-15",
+    "days": 103
   },
   "totals": {
-    "headlines": 2035,
-    "keywords": 2727,
+    "headlines": 2055,
+    "keywords": 2747,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 505
+        "count": 510
       },
       {
         "source": "はてなブックマーク",
-        "count": 510
+        "count": 515
       },
       {
         "source": "Zenn",
-        "count": 510
+        "count": 515
       },
       {
         "source": "Publickey",
-        "count": 510
+        "count": 515
       }
     ]
   },
@@ -188,10 +188,10 @@
       "week": "2026-W42",
       "label": "10/12",
       "counts": [
-        15,
-        15,
-        15,
-        15
+        20,
+        20,
+        20,
+        20
       ]
     }
   ],
@@ -199,7 +199,7 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 432
+      "count": 435
     },
     {
       "key": "claude",
@@ -219,7 +219,7 @@
     {
       "key": "aws",
       "term": "AWS",
-      "count": 78
+      "count": 80
     },
     {
       "key": "cloud",
@@ -234,12 +234,12 @@
     {
       "key": "cloudflare",
       "term": "Cloudflare",
-      "count": 48
+      "count": 49
     },
     {
       "key": "javascript",
       "term": "JavaScript",
-      "count": 47
+      "count": 48
     },
     {
       "key": "agent",
@@ -262,13 +262,13 @@
       "count": 40
     },
     {
-      "key": "github",
-      "term": "GitHub",
-      "count": 39
-    },
-    {
       "key": "windows",
       "term": "Windows",
+      "count": 40
+    },
+    {
+      "key": "github",
+      "term": "GitHub",
       "count": 39
     },
     {
@@ -277,19 +277,19 @@
       "count": 38
     },
     {
+      "key": "web",
+      "term": "Web",
+      "count": 38
+    },
+    {
       "key": "openai",
       "term": "OpenAI",
       "count": 37
     },
     {
-      "key": "web",
-      "term": "Web",
-      "count": 37
-    },
-    {
       "key": "postgresql",
       "term": "PostgreSQL",
-      "count": 34
+      "count": 35
     },
     {
       "key": "mac",
@@ -320,7 +320,7 @@
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 432,
+      "total": 435,
       "weekly": [
         1,
         21,
@@ -337,7 +337,7 @@
         17,
         30,
         45,
-        15
+        18
       ]
     },
     {
@@ -408,7 +408,7 @@
     },
     {
       "term": "AWS",
-      "total": 78,
+      "total": 80,
       "weekly": [
         0,
         2,
@@ -425,7 +425,7 @@
         1,
         6,
         5,
-        3
+        5
       ]
     },
     {
@@ -474,7 +474,7 @@
     },
     {
       "term": "Cloudflare",
-      "total": 48,
+      "total": 49,
       "weekly": [
         0,
         5,
@@ -491,7 +491,7 @@
         6,
         9,
         10,
-        3
+        4
       ]
     }
   ],
@@ -579,17 +579,17 @@
       ]
     },
     {
-      "title": "オラクル、Javaのセキュリティパッチを毎月提供開始、AIが脆弱性の発見を加速しているとして",
-      "url": "https://www.publickey1.jp/blog/26/javaai.html",
+      "title": "AWS、DuckDBをAurora PostgreSQLに統合。ETL不要で直接データレイクを読み取り可能にしたと発表",
+      "url": "https://www.publickey1.jp/blog/26/awsduckdbaurora_postgresqletl.html",
       "days": 8,
       "sources": [
         "Publickey"
       ]
     },
     {
-      "title": "AWS、DuckDBをAurora PostgreSQLに統合。ETL不要で直接データレイクを読み取り可能にしたと発表",
-      "url": "https://www.publickey1.jp/blog/26/awsduckdbaurora_postgresqletl.html",
-      "days": 7,
+      "title": "オラクル、Javaのセキュリティパッチを毎月提供開始、AIが脆弱性の発見を加速しているとして",
+      "url": "https://www.publickey1.jp/blog/26/javaai.html",
+      "days": 8,
       "sources": [
         "Publickey"
       ]
