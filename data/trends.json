@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-10-14T23:40:04.199Z",
+  "generatedAt": "2026-10-15T23:32:25.707Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-10-15",
-    "days": 103
+    "to": "2026-10-16",
+    "days": 104
   },
   "totals": {
-    "headlines": 2055,
-    "keywords": 2747,
+    "headlines": 2075,
+    "keywords": 2762,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 510
+        "count": 515
       },
       {
         "source": "はてなブックマーク",
-        "count": 515
+        "count": 520
       },
       {
         "source": "Zenn",
-        "count": 515
+        "count": 520
       },
       {
         "source": "Publickey",
-        "count": 515
+        "count": 520
       }
     ]
   },
@@ -188,10 +188,10 @@
       "week": "2026-W42",
       "label": "10/12",
       "counts": [
-        20,
-        20,
-        20,
-        20
+        25,
+        25,
+        25,
+        25
       ]
     }
   ],
@@ -199,17 +199,17 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 435
+      "count": 437
     },
     {
       "key": "claude",
       "term": "Claude",
-      "count": 133
+      "count": 135
     },
     {
       "key": "code",
       "term": "Code",
-      "count": 101
+      "count": 103
     },
     {
       "key": "google",
@@ -234,7 +234,7 @@
     {
       "key": "cloudflare",
       "term": "Cloudflare",
-      "count": 49
+      "count": 50
     },
     {
       "key": "javascript",
@@ -244,7 +244,7 @@
     {
       "key": "agent",
       "term": "Agent",
-      "count": 46
+      "count": 47
     },
     {
       "key": "rust",
@@ -254,16 +254,16 @@
     {
       "key": "linux",
       "term": "Linux",
-      "count": 43
-    },
-    {
-      "key": "database",
-      "term": "database",
-      "count": 40
+      "count": 44
     },
     {
       "key": "windows",
       "term": "Windows",
+      "count": 41
+    },
+    {
+      "key": "database",
+      "term": "database",
       "count": 40
     },
     {
@@ -272,13 +272,13 @@
       "count": 39
     },
     {
-      "key": "mcp",
-      "term": "MCP",
-      "count": 38
-    },
-    {
       "key": "web",
       "term": "Web",
+      "count": 39
+    },
+    {
+      "key": "mcp",
+      "term": "MCP",
       "count": 38
     },
     {
@@ -312,15 +312,15 @@
       "count": 29
     },
     {
-      "key": "ui",
-      "term": "UI",
+      "key": "microsoft",
+      "term": "Microsoft",
       "count": 28
     }
   ],
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 435,
+      "total": 437,
       "weekly": [
         1,
         21,
@@ -337,12 +337,12 @@
         17,
         30,
         45,
-        18
+        20
       ]
     },
     {
       "term": "Claude",
-      "total": 133,
+      "total": 135,
       "weekly": [
         0,
         14,
@@ -359,12 +359,12 @@
         13,
         9,
         7,
-        0
+        2
       ]
     },
     {
       "term": "Code",
-      "total": 101,
+      "total": 103,
       "weekly": [
         0,
         11,
@@ -381,7 +381,7 @@
         9,
         6,
         9,
-        3
+        5
       ]
     },
     {
@@ -474,7 +474,7 @@
     },
     {
       "term": "Cloudflare",
-      "total": 49,
+      "total": 50,
       "weekly": [
         0,
         5,
@@ -491,7 +491,7 @@
         6,
         9,
         10,
-        4
+        5
       ]
     }
   ],
