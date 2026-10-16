@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-10-15T23:32:25.707Z",
+  "generatedAt": "2026-10-16T23:14:16.213Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-10-16",
-    "days": 104
+    "to": "2026-10-17",
+    "days": 105
   },
   "totals": {
-    "headlines": 2075,
-    "keywords": 2762,
+    "headlines": 2095,
+    "keywords": 2777,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 515
+        "count": 520
       },
       {
         "source": "はてなブックマーク",
-        "count": 520
+        "count": 525
       },
       {
         "source": "Zenn",
-        "count": 520
+        "count": 525
       },
       {
         "source": "Publickey",
-        "count": 520
+        "count": 525
       }
     ]
   },
@@ -188,10 +188,10 @@
       "week": "2026-W42",
       "label": "10/12",
       "counts": [
-        25,
-        25,
-        25,
-        25
+        30,
+        30,
+        30,
+        30
       ]
     }
   ],
@@ -199,17 +199,17 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 437
+      "count": 439
     },
     {
       "key": "claude",
       "term": "Claude",
-      "count": 135
+      "count": 137
     },
     {
       "key": "code",
       "term": "Code",
-      "count": 103
+      "count": 104
     },
     {
       "key": "google",
@@ -222,24 +222,24 @@
       "count": 80
     },
     {
+      "key": "llm",
+      "term": "LLM",
+      "count": 54
+    },
+    {
       "key": "cloud",
       "term": "Cloud",
       "count": 53
     },
     {
-      "key": "llm",
-      "term": "LLM",
-      "count": 53
-    },
-    {
       "key": "cloudflare",
       "term": "Cloudflare",
-      "count": 50
+      "count": 51
     },
     {
       "key": "javascript",
       "term": "JavaScript",
-      "count": 48
+      "count": 49
     },
     {
       "key": "agent",
@@ -259,11 +259,16 @@
     {
       "key": "windows",
       "term": "Windows",
-      "count": 41
+      "count": 43
     },
     {
       "key": "database",
       "term": "database",
+      "count": 41
+    },
+    {
+      "key": "web",
+      "term": "Web",
       "count": 40
     },
     {
@@ -272,14 +277,9 @@
       "count": 39
     },
     {
-      "key": "web",
-      "term": "Web",
-      "count": 39
-    },
-    {
       "key": "mcp",
       "term": "MCP",
-      "count": 38
+      "count": 39
     },
     {
       "key": "openai",
@@ -297,6 +297,11 @@
       "count": 33
     },
     {
+      "key": "microsoft",
+      "term": "Microsoft",
+      "count": 30
+    },
+    {
       "key": "api",
       "term": "API",
       "count": 29
@@ -310,17 +315,12 @@
       "key": "python",
       "term": "Python",
       "count": 29
-    },
-    {
-      "key": "microsoft",
-      "term": "Microsoft",
-      "count": 28
     }
   ],
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 437,
+      "total": 439,
       "weekly": [
         1,
         21,
@@ -337,12 +337,12 @@
         17,
         30,
         45,
-        20
+        22
       ]
     },
     {
       "term": "Claude",
-      "total": 135,
+      "total": 137,
       "weekly": [
         0,
         14,
@@ -359,12 +359,12 @@
         13,
         9,
         7,
-        2
+        4
       ]
     },
     {
       "term": "Code",
-      "total": 103,
+      "total": 104,
       "weekly": [
         0,
         11,
@@ -381,7 +381,7 @@
         9,
         6,
         9,
-        5
+        6
       ]
     },
     {
@@ -429,6 +429,28 @@
       ]
     },
     {
+      "term": "LLM",
+      "total": 54,
+      "weekly": [
+        0,
+        1,
+        4,
+        1,
+        0,
+        4,
+        4,
+        6,
+        4,
+        3,
+        2,
+        8,
+        4,
+        7,
+        2,
+        4
+      ]
+    },
+    {
       "term": "Cloud",
       "total": 53,
       "weekly": [
@@ -451,30 +473,8 @@
       ]
     },
     {
-      "term": "LLM",
-      "total": 53,
-      "weekly": [
-        0,
-        1,
-        4,
-        1,
-        0,
-        4,
-        4,
-        6,
-        4,
-        3,
-        2,
-        8,
-        4,
-        7,
-        2,
-        3
-      ]
-    },
-    {
       "term": "Cloudflare",
-      "total": 50,
+      "total": 51,
       "weekly": [
         0,
         5,
@@ -491,7 +491,7 @@
         6,
         9,
         10,
-        5
+        6
       ]
     }
   ],
