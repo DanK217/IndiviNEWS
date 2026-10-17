@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-10-16T23:14:16.213Z",
+  "generatedAt": "2026-10-17T22:52:37.195Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-10-17",
-    "days": 105
+    "to": "2026-10-18",
+    "days": 106
   },
   "totals": {
-    "headlines": 2095,
-    "keywords": 2777,
+    "headlines": 2115,
+    "keywords": 2802,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 520
+        "count": 525
       },
       {
         "source": "はてなブックマーク",
-        "count": 525
+        "count": 530
       },
       {
         "source": "Zenn",
-        "count": 525
+        "count": 530
       },
       {
         "source": "Publickey",
-        "count": 525
+        "count": 530
       }
     ]
   },
@@ -188,10 +188,10 @@
       "week": "2026-W42",
       "label": "10/12",
       "counts": [
-        30,
-        30,
-        30,
-        30
+        35,
+        35,
+        35,
+        35
       ]
     }
   ],
@@ -199,17 +199,17 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 439
+      "count": 441
     },
     {
       "key": "claude",
       "term": "Claude",
-      "count": 137
+      "count": 139
     },
     {
       "key": "code",
       "term": "Code",
-      "count": 104
+      "count": 106
     },
     {
       "key": "google",
@@ -224,7 +224,7 @@
     {
       "key": "llm",
       "term": "LLM",
-      "count": 54
+      "count": 55
     },
     {
       "key": "cloud",
@@ -247,19 +247,19 @@
       "count": 47
     },
     {
+      "key": "linux",
+      "term": "Linux",
+      "count": 45
+    },
+    {
       "key": "rust",
       "term": "Rust",
       "count": 45
     },
     {
-      "key": "linux",
-      "term": "Linux",
-      "count": 44
-    },
-    {
       "key": "windows",
       "term": "Windows",
-      "count": 43
+      "count": 45
     },
     {
       "key": "database",
@@ -269,16 +269,16 @@
     {
       "key": "web",
       "term": "Web",
+      "count": 41
+    },
+    {
+      "key": "mcp",
+      "term": "MCP",
       "count": 40
     },
     {
       "key": "github",
       "term": "GitHub",
-      "count": 39
-    },
-    {
-      "key": "mcp",
-      "term": "MCP",
       "count": 39
     },
     {
@@ -294,17 +294,17 @@
     {
       "key": "mac",
       "term": "Mac",
-      "count": 33
+      "count": 34
     },
     {
       "key": "microsoft",
       "term": "Microsoft",
-      "count": 30
+      "count": 32
     },
     {
       "key": "api",
       "term": "API",
-      "count": 29
+      "count": 30
     },
     {
       "key": "macos",
@@ -320,7 +320,7 @@
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 439,
+      "total": 441,
       "weekly": [
         1,
         21,
@@ -337,12 +337,12 @@
         17,
         30,
         45,
-        22
+        24
       ]
     },
     {
       "term": "Claude",
-      "total": 137,
+      "total": 139,
       "weekly": [
         0,
         14,
@@ -359,12 +359,12 @@
         13,
         9,
         7,
-        4
+        6
       ]
     },
     {
       "term": "Code",
-      "total": 104,
+      "total": 106,
       "weekly": [
         0,
         11,
@@ -381,7 +381,7 @@
         9,
         6,
         9,
-        6
+        8
       ]
     },
     {
@@ -430,7 +430,7 @@
     },
     {
       "term": "LLM",
-      "total": 54,
+      "total": 55,
       "weekly": [
         0,
         1,
@@ -447,7 +447,7 @@
         4,
         7,
         2,
-        4
+        5
       ]
     },
     {
