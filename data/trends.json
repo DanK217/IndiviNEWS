@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-10-17T22:52:37.195Z",
+  "generatedAt": "2026-10-18T22:45:04.282Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-10-18",
-    "days": 106
+    "to": "2026-10-19",
+    "days": 107
   },
   "totals": {
-    "headlines": 2115,
-    "keywords": 2802,
+    "headlines": 2135,
+    "keywords": 2827,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 525
+        "count": 530
       },
       {
         "source": "はてなブックマーク",
-        "count": 530
+        "count": 535
       },
       {
         "source": "Zenn",
-        "count": 530
+        "count": 535
       },
       {
         "source": "Publickey",
-        "count": 530
+        "count": 535
       }
     ]
   },
@@ -193,18 +193,28 @@
         35,
         35
       ]
+    },
+    {
+      "week": "2026-W43",
+      "label": "10/19",
+      "counts": [
+        5,
+        5,
+        5,
+        5
+      ]
     }
   ],
   "keywordTotal": [
     {
       "key": "ai",
       "term": "AI",
-      "count": 441
+      "count": 442
     },
     {
       "key": "claude",
       "term": "Claude",
-      "count": 139
+      "count": 140
     },
     {
       "key": "code",
@@ -224,7 +234,7 @@
     {
       "key": "llm",
       "term": "LLM",
-      "count": 55
+      "count": 56
     },
     {
       "key": "cloud",
@@ -249,7 +259,12 @@
     {
       "key": "linux",
       "term": "Linux",
-      "count": 45
+      "count": 46
+    },
+    {
+      "key": "windows",
+      "term": "Windows",
+      "count": 46
     },
     {
       "key": "rust",
@@ -257,18 +272,13 @@
       "count": 45
     },
     {
-      "key": "windows",
-      "term": "Windows",
-      "count": 45
+      "key": "web",
+      "term": "Web",
+      "count": 42
     },
     {
       "key": "database",
       "term": "database",
-      "count": 41
-    },
-    {
-      "key": "web",
-      "term": "Web",
       "count": 41
     },
     {
@@ -299,7 +309,7 @@
     {
       "key": "microsoft",
       "term": "Microsoft",
-      "count": 32
+      "count": 33
     },
     {
       "key": "api",
@@ -307,20 +317,20 @@
       "count": 30
     },
     {
-      "key": "macos",
-      "term": "macOS",
+      "key": "anthropic",
+      "term": "Anthropic",
       "count": 29
     },
     {
-      "key": "python",
-      "term": "Python",
+      "key": "macos",
+      "term": "macOS",
       "count": 29
     }
   ],
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 441,
+      "total": 442,
       "weekly": [
         1,
         21,
@@ -337,12 +347,13 @@
         17,
         30,
         45,
-        24
+        24,
+        1
       ]
     },
     {
       "term": "Claude",
-      "total": 139,
+      "total": 140,
       "weekly": [
         0,
         14,
@@ -359,7 +370,8 @@
         13,
         9,
         7,
-        6
+        6,
+        1
       ]
     },
     {
@@ -381,7 +393,8 @@
         9,
         6,
         9,
-        8
+        8,
+        0
       ]
     },
     {
@@ -403,7 +416,8 @@
         8,
         12,
         9,
-        2
+        2,
+        0
       ]
     },
     {
@@ -425,12 +439,13 @@
         1,
         6,
         5,
-        5
+        5,
+        0
       ]
     },
     {
       "term": "LLM",
-      "total": 55,
+      "total": 56,
       "weekly": [
         0,
         1,
@@ -447,7 +462,8 @@
         4,
         7,
         2,
-        5
+        5,
+        1
       ]
     },
     {
@@ -469,6 +485,7 @@
         0,
         14,
         2,
+        0,
         0
       ]
     },
@@ -491,7 +508,8 @@
         6,
         9,
         10,
-        6
+        6,
+        0
       ]
     }
   ],
@@ -511,7 +529,8 @@
     "9/21",
     "9/28",
     "10/5",
-    "10/12"
+    "10/12",
+    "10/19"
   ],
   "longevity": [
     {
