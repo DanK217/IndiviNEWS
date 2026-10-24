@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-10-23T23:44:26.847Z",
+  "generatedAt": "2026-10-24T22:52:45.441Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-10-24",
-    "days": 112
+    "to": "2026-10-25",
+    "days": 113
   },
   "totals": {
-    "headlines": 2235,
-    "keywords": 2924,
+    "headlines": 2255,
+    "keywords": 2947,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 555
+        "count": 560
       },
       {
         "source": "はてなブックマーク",
-        "count": 560
+        "count": 565
       },
       {
         "source": "Zenn",
-        "count": 560
+        "count": 565
       },
       {
         "source": "Publickey",
-        "count": 560
+        "count": 565
       }
     ]
   },
@@ -198,10 +198,10 @@
       "week": "2026-W43",
       "label": "10/19",
       "counts": [
-        30,
-        30,
-        30,
-        30
+        35,
+        35,
+        35,
+        35
       ]
     }
   ],
@@ -209,7 +209,7 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 450
+      "count": 452
     },
     {
       "key": "claude",
@@ -229,22 +229,22 @@
     {
       "key": "aws",
       "term": "AWS",
-      "count": 90
+      "count": 92
     },
     {
       "key": "cloudflare",
       "term": "Cloudflare",
-      "count": 58
+      "count": 60
+    },
+    {
+      "key": "javascript",
+      "term": "JavaScript",
+      "count": 57
     },
     {
       "key": "llm",
       "term": "LLM",
       "count": 56
-    },
-    {
-      "key": "javascript",
-      "term": "JavaScript",
-      "count": 55
     },
     {
       "key": "cloud",
@@ -259,7 +259,7 @@
     {
       "key": "rust",
       "term": "Rust",
-      "count": 50
+      "count": 51
     },
     {
       "key": "agent",
@@ -269,7 +269,7 @@
     {
       "key": "web",
       "term": "Web",
-      "count": 47
+      "count": 48
     },
     {
       "key": "windows",
@@ -279,7 +279,7 @@
     {
       "key": "github",
       "term": "GitHub",
-      "count": 43
+      "count": 44
     },
     {
       "key": "database",
@@ -294,7 +294,7 @@
     {
       "key": "microsoft",
       "term": "Microsoft",
-      "count": 40
+      "count": 41
     },
     {
       "key": "openai",
@@ -312,25 +312,25 @@
       "count": 35
     },
     {
+      "key": "python",
+      "term": "Python",
+      "count": 31
+    },
+    {
+      "key": "typescript",
+      "term": "TypeScript",
+      "count": 31
+    },
+    {
       "key": "anthropic",
       "term": "Anthropic",
-      "count": 30
-    },
-    {
-      "key": "api",
-      "term": "API",
-      "count": 30
-    },
-    {
-      "key": "macos",
-      "term": "macOS",
       "count": 30
     }
   ],
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 450,
+      "total": 452,
       "weekly": [
         1,
         21,
@@ -348,7 +348,7 @@
         30,
         45,
         24,
-        9
+        11
       ]
     },
     {
@@ -422,7 +422,7 @@
     },
     {
       "term": "AWS",
-      "total": 90,
+      "total": 92,
       "weekly": [
         0,
         2,
@@ -440,12 +440,12 @@
         6,
         5,
         5,
-        10
+        12
       ]
     },
     {
       "term": "Cloudflare",
-      "total": 58,
+      "total": 60,
       "weekly": [
         0,
         5,
@@ -463,7 +463,30 @@
         9,
         10,
         6,
-        7
+        9
+      ]
+    },
+    {
+      "term": "JavaScript",
+      "total": 57,
+      "weekly": [
+        1,
+        5,
+        6,
+        4,
+        0,
+        0,
+        3,
+        0,
+        12,
+        3,
+        4,
+        1,
+        0,
+        6,
+        2,
+        2,
+        8
       ]
     },
     {
@@ -487,29 +510,6 @@
         2,
         5,
         1
-      ]
-    },
-    {
-      "term": "JavaScript",
-      "total": 55,
-      "weekly": [
-        1,
-        5,
-        6,
-        4,
-        0,
-        0,
-        3,
-        0,
-        12,
-        3,
-        4,
-        1,
-        0,
-        6,
-        2,
-        2,
-        6
       ]
     }
   ],
