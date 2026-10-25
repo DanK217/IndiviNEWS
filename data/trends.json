@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-10-24T22:52:45.441Z",
+  "generatedAt": "2026-10-25T23:00:21.472Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-10-25",
-    "days": 113
+    "to": "2026-10-26",
+    "days": 114
   },
   "totals": {
-    "headlines": 2255,
-    "keywords": 2947,
+    "headlines": 2275,
+    "keywords": 2970,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 560
+        "count": 565
       },
       {
         "source": "はてなブックマーク",
-        "count": 565
+        "count": 570
       },
       {
         "source": "Zenn",
-        "count": 565
+        "count": 570
       },
       {
         "source": "Publickey",
-        "count": 565
+        "count": 570
       }
     ]
   },
@@ -203,13 +203,23 @@
         35,
         35
       ]
+    },
+    {
+      "week": "2026-W44",
+      "label": "10/26",
+      "counts": [
+        5,
+        5,
+        5,
+        5
+      ]
     }
   ],
   "keywordTotal": [
     {
       "key": "ai",
       "term": "AI",
-      "count": 452
+      "count": 453
     },
     {
       "key": "claude",
@@ -229,22 +239,22 @@
     {
       "key": "aws",
       "term": "AWS",
-      "count": 92
+      "count": 94
     },
     {
       "key": "cloudflare",
       "term": "Cloudflare",
-      "count": 60
+      "count": 62
     },
     {
       "key": "javascript",
       "term": "JavaScript",
-      "count": 57
+      "count": 58
     },
     {
       "key": "llm",
       "term": "LLM",
-      "count": 56
+      "count": 57
     },
     {
       "key": "cloud",
@@ -252,13 +262,13 @@
       "count": 54
     },
     {
-      "key": "linux",
-      "term": "Linux",
-      "count": 51
-    },
-    {
       "key": "rust",
       "term": "Rust",
+      "count": 52
+    },
+    {
+      "key": "linux",
+      "term": "Linux",
       "count": 51
     },
     {
@@ -269,7 +279,7 @@
     {
       "key": "web",
       "term": "Web",
-      "count": 48
+      "count": 49
     },
     {
       "key": "windows",
@@ -279,7 +289,12 @@
     {
       "key": "github",
       "term": "GitHub",
-      "count": 44
+      "count": 45
+    },
+    {
+      "key": "microsoft",
+      "term": "Microsoft",
+      "count": 42
     },
     {
       "key": "database",
@@ -292,14 +307,9 @@
       "count": 41
     },
     {
-      "key": "microsoft",
-      "term": "Microsoft",
-      "count": 41
-    },
-    {
       "key": "openai",
       "term": "OpenAI",
-      "count": 37
+      "count": 38
     },
     {
       "key": "mac",
@@ -314,23 +324,23 @@
     {
       "key": "python",
       "term": "Python",
-      "count": 31
+      "count": 32
     },
     {
       "key": "typescript",
       "term": "TypeScript",
-      "count": 31
+      "count": 32
     },
     {
       "key": "anthropic",
       "term": "Anthropic",
-      "count": 30
+      "count": 31
     }
   ],
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 452,
+      "total": 453,
       "weekly": [
         1,
         21,
@@ -348,7 +358,8 @@
         30,
         45,
         24,
-        11
+        11,
+        1
       ]
     },
     {
@@ -371,7 +382,8 @@
         9,
         7,
         6,
-        6
+        6,
+        0
       ]
     },
     {
@@ -394,7 +406,8 @@
         6,
         9,
         8,
-        4
+        4,
+        0
       ]
     },
     {
@@ -417,12 +430,13 @@
         12,
         9,
         2,
-        2
+        2,
+        0
       ]
     },
     {
       "term": "AWS",
-      "total": 92,
+      "total": 94,
       "weekly": [
         0,
         2,
@@ -440,12 +454,13 @@
         6,
         5,
         5,
-        12
+        12,
+        2
       ]
     },
     {
       "term": "Cloudflare",
-      "total": 60,
+      "total": 62,
       "weekly": [
         0,
         5,
@@ -463,12 +478,13 @@
         9,
         10,
         6,
-        9
+        9,
+        2
       ]
     },
     {
       "term": "JavaScript",
-      "total": 57,
+      "total": 58,
       "weekly": [
         1,
         5,
@@ -486,12 +502,13 @@
         6,
         2,
         2,
-        8
+        8,
+        1
       ]
     },
     {
       "term": "LLM",
-      "total": 56,
+      "total": 57,
       "weekly": [
         0,
         1,
@@ -509,6 +526,7 @@
         7,
         2,
         5,
+        1,
         1
       ]
     }
@@ -530,7 +548,8 @@
     "9/28",
     "10/5",
     "10/12",
-    "10/19"
+    "10/19",
+    "10/26"
   ],
   "longevity": [
     {
@@ -614,16 +633,16 @@
       ]
     },
     {
-      "title": "Cloudflare ContainersがAIエージェント向けに刷新。起動が6倍速、ファイルシステムのスナップショット機能など",
-      "url": "https://www.publickey1.jp/blog/26/cloudflare_containersai6.html",
+      "title": "AWS LambdaでNext.jsやHonoなどNode.jsフレームワークとアプリをそのままデプロイ、実行できる「AWS Lambda Web Functions」発表",
+      "url": "https://www.publickey1.jp/blog/26/aws_lambdanextjshononodejsaws_lambda_web_functions.html",
       "days": 7,
       "sources": [
         "Publickey"
       ]
     },
     {
-      "title": "Google Cloud、生成AIのコードを瞬時に隔離して安全に実行できる「Cloud Runサンドボックス」パブリックプレビュー",
-      "url": "https://www.publickey1.jp/blog/26/google_cloudaicloud_run.html",
+      "title": "AWS Transform、Azure Functions用のコードをAWS Lambda用に変換など、Microsoft AzureからAWSへの移行に対応",
+      "url": "https://www.publickey1.jp/blog/26/aws_transformazure_functionsaws_lambdamicrosoft_azureaws.html",
       "days": 7,
       "sources": [
         "Publickey"
