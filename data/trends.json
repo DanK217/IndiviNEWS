@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-10-25T23:00:21.472Z",
+  "generatedAt": "2026-10-27T00:13:39.137Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-10-26",
-    "days": 114
+    "to": "2026-10-27",
+    "days": 115
   },
   "totals": {
-    "headlines": 2275,
-    "keywords": 2970,
+    "headlines": 2295,
+    "keywords": 2994,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 565
+        "count": 570
       },
       {
         "source": "はてなブックマーク",
-        "count": 570
+        "count": 575
       },
       {
         "source": "Zenn",
-        "count": 570
+        "count": 575
       },
       {
         "source": "Publickey",
-        "count": 570
+        "count": 575
       }
     ]
   },
@@ -208,10 +208,10 @@
       "week": "2026-W44",
       "label": "10/26",
       "counts": [
-        5,
-        5,
-        5,
-        5
+        10,
+        10,
+        10,
+        10
       ]
     }
   ],
@@ -219,7 +219,7 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 453
+      "count": 458
     },
     {
       "key": "claude",
@@ -234,37 +234,37 @@
     {
       "key": "google",
       "term": "Google",
-      "count": 97
+      "count": 98
     },
     {
       "key": "aws",
       "term": "AWS",
-      "count": 94
+      "count": 96
     },
     {
       "key": "cloudflare",
       "term": "Cloudflare",
-      "count": 62
+      "count": 64
     },
     {
       "key": "javascript",
       "term": "JavaScript",
-      "count": 58
+      "count": 59
     },
     {
       "key": "llm",
       "term": "LLM",
-      "count": 57
+      "count": 58
     },
     {
       "key": "cloud",
       "term": "Cloud",
-      "count": 54
+      "count": 55
     },
     {
       "key": "rust",
       "term": "Rust",
-      "count": 52
+      "count": 53
     },
     {
       "key": "linux",
@@ -272,13 +272,13 @@
       "count": 51
     },
     {
-      "key": "agent",
-      "term": "Agent",
-      "count": 49
-    },
-    {
       "key": "web",
       "term": "Web",
+      "count": 50
+    },
+    {
+      "key": "agent",
+      "term": "Agent",
       "count": 49
     },
     {
@@ -289,7 +289,7 @@
     {
       "key": "github",
       "term": "GitHub",
-      "count": 45
+      "count": 46
     },
     {
       "key": "microsoft",
@@ -322,13 +322,13 @@
       "count": 35
     },
     {
-      "key": "python",
-      "term": "Python",
-      "count": 32
-    },
-    {
       "key": "typescript",
       "term": "TypeScript",
+      "count": 33
+    },
+    {
+      "key": "python",
+      "term": "Python",
       "count": 32
     },
     {
@@ -340,7 +340,7 @@
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 453,
+      "total": 458,
       "weekly": [
         1,
         21,
@@ -359,7 +359,7 @@
         45,
         24,
         11,
-        1
+        6
       ]
     },
     {
@@ -412,7 +412,7 @@
     },
     {
       "term": "Google",
-      "total": 97,
+      "total": 98,
       "weekly": [
         2,
         1,
@@ -431,12 +431,12 @@
         9,
         2,
         2,
-        0
+        1
       ]
     },
     {
       "term": "AWS",
-      "total": 94,
+      "total": 96,
       "weekly": [
         0,
         2,
@@ -455,12 +455,12 @@
         5,
         5,
         12,
-        2
+        4
       ]
     },
     {
       "term": "Cloudflare",
-      "total": 62,
+      "total": 64,
       "weekly": [
         0,
         5,
@@ -479,12 +479,12 @@
         10,
         6,
         9,
-        2
+        4
       ]
     },
     {
       "term": "JavaScript",
-      "total": 58,
+      "total": 59,
       "weekly": [
         1,
         5,
@@ -503,12 +503,12 @@
         2,
         2,
         8,
-        1
+        2
       ]
     },
     {
       "term": "LLM",
-      "total": 57,
+      "total": 58,
       "weekly": [
         0,
         1,
@@ -527,7 +527,7 @@
         2,
         5,
         1,
-        1
+        2
       ]
     }
   ],
@@ -617,6 +617,14 @@
       ]
     },
     {
+      "title": "AWS LambdaでNext.jsやHonoなどNode.jsフレームワークとアプリをそのままデプロイ、実行できる「AWS Lambda Web Functions」発表",
+      "url": "https://www.publickey1.jp/blog/26/aws_lambdanextjshononodejsaws_lambda_web_functions.html",
+      "days": 8,
+      "sources": [
+        "Publickey"
+      ]
+    },
+    {
       "title": "AWS、DuckDBをAurora PostgreSQLに統合。ETL不要で直接データレイクを読み取り可能にしたと発表",
       "url": "https://www.publickey1.jp/blog/26/awsduckdbaurora_postgresqletl.html",
       "days": 8,
@@ -633,16 +641,8 @@
       ]
     },
     {
-      "title": "AWS LambdaでNext.jsやHonoなどNode.jsフレームワークとアプリをそのままデプロイ、実行できる「AWS Lambda Web Functions」発表",
-      "url": "https://www.publickey1.jp/blog/26/aws_lambdanextjshononodejsaws_lambda_web_functions.html",
-      "days": 7,
-      "sources": [
-        "Publickey"
-      ]
-    },
-    {
-      "title": "AWS Transform、Azure Functions用のコードをAWS Lambda用に変換など、Microsoft AzureからAWSへの移行に対応",
-      "url": "https://www.publickey1.jp/blog/26/aws_transformazure_functionsaws_lambdamicrosoft_azureaws.html",
+      "title": "「Cloudflare OS」のマネージドサービス提供へ。GitHubとの接続やGmailとの連携強化など",
+      "url": "https://www.publickey1.jp/blog/26/cloudflare_osgithubgmail.html",
       "days": 7,
       "sources": [
         "Publickey"
