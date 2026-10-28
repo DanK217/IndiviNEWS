@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-10-27T00:13:39.137Z",
+  "generatedAt": "2026-10-28T00:14:27.394Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-10-27",
-    "days": 115
+    "to": "2026-10-28",
+    "days": 116
   },
   "totals": {
-    "headlines": 2295,
-    "keywords": 2994,
+    "headlines": 2315,
+    "keywords": 3022,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 570
+        "count": 575
       },
       {
         "source": "はてなブックマーク",
-        "count": 575
+        "count": 580
       },
       {
         "source": "Zenn",
-        "count": 575
+        "count": 580
       },
       {
         "source": "Publickey",
-        "count": 575
+        "count": 580
       }
     ]
   },
@@ -208,10 +208,10 @@
       "week": "2026-W44",
       "label": "10/26",
       "counts": [
-        10,
-        10,
-        10,
-        10
+        15,
+        15,
+        15,
+        15
       ]
     }
   ],
@@ -219,12 +219,12 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 458
+      "count": 459
     },
     {
       "key": "claude",
       "term": "Claude",
-      "count": 145
+      "count": 146
     },
     {
       "key": "code",
@@ -234,22 +234,22 @@
     {
       "key": "google",
       "term": "Google",
-      "count": 98
+      "count": 102
     },
     {
       "key": "aws",
       "term": "AWS",
-      "count": 96
+      "count": 97
     },
     {
       "key": "cloudflare",
       "term": "Cloudflare",
-      "count": 64
+      "count": 65
     },
     {
       "key": "javascript",
       "term": "JavaScript",
-      "count": 59
+      "count": 60
     },
     {
       "key": "llm",
@@ -259,12 +259,12 @@
     {
       "key": "cloud",
       "term": "Cloud",
-      "count": 55
+      "count": 57
     },
     {
       "key": "rust",
       "term": "Rust",
-      "count": 53
+      "count": 54
     },
     {
       "key": "linux",
@@ -282,14 +282,19 @@
       "count": 49
     },
     {
+      "key": "github",
+      "term": "GitHub",
+      "count": 47
+    },
+    {
       "key": "windows",
       "term": "Windows",
       "count": 47
     },
     {
-      "key": "github",
-      "term": "GitHub",
-      "count": 46
+      "key": "mcp",
+      "term": "MCP",
+      "count": 42
     },
     {
       "key": "microsoft",
@@ -299,11 +304,6 @@
     {
       "key": "database",
       "term": "database",
-      "count": 41
-    },
-    {
-      "key": "mcp",
-      "term": "MCP",
       "count": 41
     },
     {
@@ -324,7 +324,7 @@
     {
       "key": "typescript",
       "term": "TypeScript",
-      "count": 33
+      "count": 34
     },
     {
       "key": "python",
@@ -340,7 +340,7 @@
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 458,
+      "total": 459,
       "weekly": [
         1,
         21,
@@ -359,12 +359,12 @@
         45,
         24,
         11,
-        6
+        7
       ]
     },
     {
       "term": "Claude",
-      "total": 145,
+      "total": 146,
       "weekly": [
         0,
         14,
@@ -383,7 +383,7 @@
         7,
         6,
         6,
-        0
+        1
       ]
     },
     {
@@ -412,7 +412,7 @@
     },
     {
       "term": "Google",
-      "total": 98,
+      "total": 102,
       "weekly": [
         2,
         1,
@@ -431,12 +431,12 @@
         9,
         2,
         2,
-        1
+        5
       ]
     },
     {
       "term": "AWS",
-      "total": 96,
+      "total": 97,
       "weekly": [
         0,
         2,
@@ -455,12 +455,12 @@
         5,
         5,
         12,
-        4
+        5
       ]
     },
     {
       "term": "Cloudflare",
-      "total": 64,
+      "total": 65,
       "weekly": [
         0,
         5,
@@ -479,12 +479,12 @@
         10,
         6,
         9,
-        4
+        5
       ]
     },
     {
       "term": "JavaScript",
-      "total": 59,
+      "total": 60,
       "weekly": [
         1,
         5,
@@ -503,7 +503,7 @@
         2,
         2,
         8,
-        2
+        3
       ]
     },
     {
