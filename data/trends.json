@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-10-28T00:14:27.394Z",
+  "generatedAt": "2026-10-29T00:35:44.006Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-10-28",
-    "days": 116
+    "to": "2026-10-29",
+    "days": 117
   },
   "totals": {
-    "headlines": 2315,
-    "keywords": 3022,
+    "headlines": 2335,
+    "keywords": 3043,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 575
+        "count": 580
       },
       {
         "source": "はてなブックマーク",
-        "count": 580
+        "count": 585
       },
       {
         "source": "Zenn",
-        "count": 580
+        "count": 585
       },
       {
         "source": "Publickey",
-        "count": 580
+        "count": 585
       }
     ]
   },
@@ -208,10 +208,10 @@
       "week": "2026-W44",
       "label": "10/26",
       "counts": [
-        15,
-        15,
-        15,
-        15
+        20,
+        20,
+        20,
+        20
       ]
     }
   ],
@@ -219,27 +219,27 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 459
+      "count": 463
     },
     {
       "key": "claude",
       "term": "Claude",
-      "count": 146
+      "count": 147
     },
     {
       "key": "code",
       "term": "Code",
-      "count": 110
+      "count": 111
     },
     {
       "key": "google",
       "term": "Google",
-      "count": 102
+      "count": 104
     },
     {
       "key": "aws",
       "term": "AWS",
-      "count": 97
+      "count": 98
     },
     {
       "key": "cloudflare",
@@ -249,22 +249,22 @@
     {
       "key": "javascript",
       "term": "JavaScript",
+      "count": 61
+    },
+    {
+      "key": "cloud",
+      "term": "Cloud",
       "count": 60
     },
     {
       "key": "llm",
       "term": "LLM",
-      "count": 58
-    },
-    {
-      "key": "cloud",
-      "term": "Cloud",
-      "count": 57
+      "count": 59
     },
     {
       "key": "rust",
       "term": "Rust",
-      "count": 54
+      "count": 55
     },
     {
       "key": "linux",
@@ -314,7 +314,7 @@
     {
       "key": "mac",
       "term": "Mac",
-      "count": 36
+      "count": 37
     },
     {
       "key": "postgresql",
@@ -329,7 +329,7 @@
     {
       "key": "python",
       "term": "Python",
-      "count": 32
+      "count": 33
     },
     {
       "key": "anthropic",
@@ -340,7 +340,7 @@
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 459,
+      "total": 463,
       "weekly": [
         1,
         21,
@@ -359,12 +359,12 @@
         45,
         24,
         11,
-        7
+        11
       ]
     },
     {
       "term": "Claude",
-      "total": 146,
+      "total": 147,
       "weekly": [
         0,
         14,
@@ -383,12 +383,12 @@
         7,
         6,
         6,
-        1
+        2
       ]
     },
     {
       "term": "Code",
-      "total": 110,
+      "total": 111,
       "weekly": [
         0,
         11,
@@ -407,12 +407,12 @@
         9,
         8,
         4,
-        0
+        1
       ]
     },
     {
       "term": "Google",
-      "total": 102,
+      "total": 104,
       "weekly": [
         2,
         1,
@@ -431,12 +431,12 @@
         9,
         2,
         2,
-        5
+        7
       ]
     },
     {
       "term": "AWS",
-      "total": 97,
+      "total": 98,
       "weekly": [
         0,
         2,
@@ -455,7 +455,7 @@
         5,
         5,
         12,
-        5
+        6
       ]
     },
     {
@@ -484,7 +484,7 @@
     },
     {
       "term": "JavaScript",
-      "total": 60,
+      "total": 61,
       "weekly": [
         1,
         5,
@@ -503,31 +503,31 @@
         2,
         2,
         8,
-        3
+        4
       ]
     },
     {
-      "term": "LLM",
-      "total": 58,
+      "term": "Cloud",
+      "total": 60,
       "weekly": [
         0,
         1,
+        6,
+        7,
+        5,
         4,
+        0,
+        5,
+        0,
+        8,
         1,
         0,
-        4,
-        4,
-        6,
-        4,
-        3,
+        0,
+        14,
         2,
-        8,
-        4,
-        7,
-        2,
-        5,
+        0,
         1,
-        2
+        6
       ]
     }
   ],
