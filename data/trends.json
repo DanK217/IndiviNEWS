@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-10-31T23:56:02.883Z",
+  "generatedAt": "2026-11-02T00:12:50.971Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-11-01",
-    "days": 120
+    "to": "2026-11-02",
+    "days": 121
   },
   "totals": {
-    "headlines": 2395,
-    "keywords": 3114,
+    "headlines": 2415,
+    "keywords": 3134,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 595
+        "count": 600
       },
       {
         "source": "はてなブックマーク",
-        "count": 600
+        "count": 605
       },
       {
         "source": "Zenn",
-        "count": 600
+        "count": 605
       },
       {
         "source": "Publickey",
-        "count": 600
+        "count": 605
       }
     ]
   },
@@ -213,13 +213,23 @@
         35,
         35
       ]
+    },
+    {
+      "week": "2026-W45",
+      "label": "11/2",
+      "counts": [
+        5,
+        5,
+        5,
+        5
+      ]
     }
   ],
   "keywordTotal": [
     {
       "key": "ai",
       "term": "AI",
-      "count": 478
+      "count": 483
     },
     {
       "key": "claude",
@@ -234,17 +244,17 @@
     {
       "key": "google",
       "term": "Google",
-      "count": 110
+      "count": 112
     },
     {
       "key": "aws",
       "term": "AWS",
-      "count": 101
+      "count": 102
     },
     {
       "key": "cloud",
       "term": "Cloud",
-      "count": 69
+      "count": 72
     },
     {
       "key": "cloudflare",
@@ -254,7 +264,7 @@
     {
       "key": "javascript",
       "term": "JavaScript",
-      "count": 64
+      "count": 65
     },
     {
       "key": "llm",
@@ -284,7 +294,7 @@
     {
       "key": "github",
       "term": "GitHub",
-      "count": 48
+      "count": 49
     },
     {
       "key": "windows",
@@ -292,13 +302,13 @@
       "count": 47
     },
     {
-      "key": "mcp",
-      "term": "MCP",
-      "count": 42
-    },
-    {
       "key": "microsoft",
       "term": "Microsoft",
+      "count": 43
+    },
+    {
+      "key": "mcp",
+      "term": "MCP",
       "count": 42
     },
     {
@@ -340,7 +350,7 @@
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 478,
+      "total": 483,
       "weekly": [
         1,
         21,
@@ -359,7 +369,8 @@
         45,
         24,
         11,
-        26
+        26,
+        5
       ]
     },
     {
@@ -383,7 +394,8 @@
         7,
         6,
         6,
-        7
+        7,
+        0
       ]
     },
     {
@@ -407,12 +419,13 @@
         9,
         8,
         4,
-        6
+        6,
+        0
       ]
     },
     {
       "term": "Google",
-      "total": 110,
+      "total": 112,
       "weekly": [
         2,
         1,
@@ -431,12 +444,13 @@
         9,
         2,
         2,
-        13
+        13,
+        2
       ]
     },
     {
       "term": "AWS",
-      "total": 101,
+      "total": 102,
       "weekly": [
         0,
         2,
@@ -455,12 +469,13 @@
         5,
         5,
         12,
-        9
+        9,
+        1
       ]
     },
     {
       "term": "Cloud",
-      "total": 69,
+      "total": 72,
       "weekly": [
         0,
         1,
@@ -479,7 +494,8 @@
         2,
         0,
         1,
-        15
+        15,
+        3
       ]
     },
     {
@@ -503,12 +519,13 @@
         10,
         6,
         9,
-        5
+        5,
+        0
       ]
     },
     {
       "term": "JavaScript",
-      "total": 64,
+      "total": 65,
       "weekly": [
         1,
         5,
@@ -527,7 +544,8 @@
         2,
         2,
         8,
-        7
+        7,
+        1
       ]
     }
   ],
@@ -549,7 +567,8 @@
     "10/5",
     "10/12",
     "10/19",
-    "10/26"
+    "10/26",
+    "11/2"
   ],
   "longevity": [
     {
