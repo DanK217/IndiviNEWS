@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-11-02T00:12:50.971Z",
+  "generatedAt": "2026-11-03T02:45:18.557Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-11-02",
-    "days": 121
+    "to": "2026-11-03",
+    "days": 122
   },
   "totals": {
-    "headlines": 2415,
-    "keywords": 3134,
+    "headlines": 2435,
+    "keywords": 3164,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 600
+        "count": 605
       },
       {
         "source": "はてなブックマーク",
-        "count": 605
+        "count": 610
       },
       {
         "source": "Zenn",
-        "count": 605
+        "count": 610
       },
       {
         "source": "Publickey",
-        "count": 605
+        "count": 610
       }
     ]
   },
@@ -218,10 +218,10 @@
       "week": "2026-W45",
       "label": "11/2",
       "counts": [
-        5,
-        5,
-        5,
-        5
+        10,
+        10,
+        10,
+        10
       ]
     }
   ],
@@ -229,7 +229,7 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 483
+      "count": 489
     },
     {
       "key": "claude",
@@ -244,17 +244,22 @@
     {
       "key": "google",
       "term": "Google",
-      "count": 112
+      "count": 114
     },
     {
       "key": "aws",
       "term": "AWS",
-      "count": 102
+      "count": 103
     },
     {
       "key": "cloud",
       "term": "Cloud",
-      "count": 72
+      "count": 75
+    },
+    {
+      "key": "javascript",
+      "term": "JavaScript",
+      "count": 66
     },
     {
       "key": "cloudflare",
@@ -262,14 +267,9 @@
       "count": 65
     },
     {
-      "key": "javascript",
-      "term": "JavaScript",
-      "count": 65
-    },
-    {
       "key": "llm",
       "term": "LLM",
-      "count": 59
+      "count": 61
     },
     {
       "key": "rust",
@@ -282,19 +282,19 @@
       "count": 51
     },
     {
-      "key": "web",
-      "term": "Web",
-      "count": 50
-    },
-    {
       "key": "agent",
       "term": "Agent",
-      "count": 49
+      "count": 50
     },
     {
       "key": "github",
       "term": "GitHub",
-      "count": 49
+      "count": 50
+    },
+    {
+      "key": "web",
+      "term": "Web",
+      "count": 50
     },
     {
       "key": "windows",
@@ -344,13 +344,13 @@
     {
       "key": "anthropic",
       "term": "Anthropic",
-      "count": 31
+      "count": 32
     }
   ],
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 483,
+      "total": 489,
       "weekly": [
         1,
         21,
@@ -370,7 +370,7 @@
         24,
         11,
         26,
-        5
+        11
       ]
     },
     {
@@ -425,7 +425,7 @@
     },
     {
       "term": "Google",
-      "total": 112,
+      "total": 114,
       "weekly": [
         2,
         1,
@@ -445,12 +445,12 @@
         2,
         2,
         13,
-        2
+        4
       ]
     },
     {
       "term": "AWS",
-      "total": 102,
+      "total": 103,
       "weekly": [
         0,
         2,
@@ -470,12 +470,12 @@
         5,
         12,
         9,
-        1
+        2
       ]
     },
     {
       "term": "Cloud",
-      "total": 72,
+      "total": 75,
       "weekly": [
         0,
         1,
@@ -495,7 +495,32 @@
         0,
         1,
         15,
-        3
+        6
+      ]
+    },
+    {
+      "term": "JavaScript",
+      "total": 66,
+      "weekly": [
+        1,
+        5,
+        6,
+        4,
+        0,
+        0,
+        3,
+        0,
+        12,
+        3,
+        4,
+        1,
+        0,
+        6,
+        2,
+        2,
+        8,
+        7,
+        2
       ]
     },
     {
@@ -521,31 +546,6 @@
         9,
         5,
         0
-      ]
-    },
-    {
-      "term": "JavaScript",
-      "total": 65,
-      "weekly": [
-        1,
-        5,
-        6,
-        4,
-        0,
-        0,
-        3,
-        0,
-        12,
-        3,
-        4,
-        1,
-        0,
-        6,
-        2,
-        2,
-        8,
-        7,
-        1
       ]
     }
   ],
@@ -652,17 +652,17 @@
       ]
     },
     {
-      "title": "オラクル、Javaのセキュリティパッチを毎月提供開始、AIが脆弱性の発見を加速しているとして",
-      "url": "https://www.publickey1.jp/blog/26/javaai.html",
+      "title": "AWSとGoogle Cloudが「PyTorch」のAWS Trainium、Google Cloud TPU対応版をオープンソースで公開。NVIDIAからの移行に挑む",
+      "url": "https://www.publickey1.jp/blog/26/awsgoogle_cloudpytorchaws_trainiumgoogle_cloud_tpunvidia.html",
       "days": 8,
       "sources": [
         "Publickey"
       ]
     },
     {
-      "title": "「Cloudflare OS」のマネージドサービス提供へ。GitHubとの接続やGmailとの連携強化など",
-      "url": "https://www.publickey1.jp/blog/26/cloudflare_osgithubgmail.html",
-      "days": 7,
+      "title": "オラクル、Javaのセキュリティパッチを毎月提供開始、AIが脆弱性の発見を加速しているとして",
+      "url": "https://www.publickey1.jp/blog/26/javaai.html",
+      "days": 8,
       "sources": [
         "Publickey"
       ]
