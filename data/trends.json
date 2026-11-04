@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-11-03T02:45:18.557Z",
+  "generatedAt": "2026-11-04T01:01:34.964Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-11-03",
-    "days": 122
+    "to": "2026-11-04",
+    "days": 123
   },
   "totals": {
-    "headlines": 2435,
-    "keywords": 3164,
+    "headlines": 2455,
+    "keywords": 3188,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 605
+        "count": 610
       },
       {
         "source": "はてなブックマーク",
-        "count": 610
+        "count": 615
       },
       {
         "source": "Zenn",
-        "count": 610
+        "count": 615
       },
       {
         "source": "Publickey",
-        "count": 610
+        "count": 615
       }
     ]
   },
@@ -218,10 +218,10 @@
       "week": "2026-W45",
       "label": "11/2",
       "counts": [
-        10,
-        10,
-        10,
-        10
+        15,
+        15,
+        15,
+        15
       ]
     }
   ],
@@ -229,7 +229,7 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 489
+      "count": 496
     },
     {
       "key": "claude",
@@ -239,12 +239,12 @@
     {
       "key": "code",
       "term": "Code",
-      "count": 116
+      "count": 117
     },
     {
       "key": "google",
       "term": "Google",
-      "count": 114
+      "count": 115
     },
     {
       "key": "aws",
@@ -254,7 +254,7 @@
     {
       "key": "cloud",
       "term": "Cloud",
-      "count": 75
+      "count": 77
     },
     {
       "key": "javascript",
@@ -277,6 +277,11 @@
       "count": 56
     },
     {
+      "key": "github",
+      "term": "GitHub",
+      "count": 53
+    },
+    {
       "key": "linux",
       "term": "Linux",
       "count": 51
@@ -287,11 +292,6 @@
       "count": 50
     },
     {
-      "key": "github",
-      "term": "GitHub",
-      "count": 50
-    },
-    {
       "key": "web",
       "term": "Web",
       "count": 50
@@ -299,7 +299,7 @@
     {
       "key": "windows",
       "term": "Windows",
-      "count": 47
+      "count": 48
     },
     {
       "key": "microsoft",
@@ -329,7 +329,7 @@
     {
       "key": "postgresql",
       "term": "PostgreSQL",
-      "count": 35
+      "count": 36
     },
     {
       "key": "typescript",
@@ -350,7 +350,7 @@
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 489,
+      "total": 496,
       "weekly": [
         1,
         21,
@@ -370,7 +370,7 @@
         24,
         11,
         26,
-        11
+        18
       ]
     },
     {
@@ -400,7 +400,7 @@
     },
     {
       "term": "Code",
-      "total": 116,
+      "total": 117,
       "weekly": [
         0,
         11,
@@ -420,12 +420,12 @@
         8,
         4,
         6,
-        0
+        1
       ]
     },
     {
       "term": "Google",
-      "total": 114,
+      "total": 115,
       "weekly": [
         2,
         1,
@@ -445,7 +445,7 @@
         2,
         2,
         13,
-        4
+        5
       ]
     },
     {
@@ -475,7 +475,7 @@
     },
     {
       "term": "Cloud",
-      "total": 75,
+      "total": 77,
       "weekly": [
         0,
         1,
@@ -495,7 +495,7 @@
         0,
         1,
         15,
-        6
+        8
       ]
     },
     {
@@ -660,8 +660,8 @@
       ]
     },
     {
-      "title": "オラクル、Javaのセキュリティパッチを毎月提供開始、AIが脆弱性の発見を加速しているとして",
-      "url": "https://www.publickey1.jp/blog/26/javaai.html",
+      "title": "Oracle CloudがGoogle TPU導入を発表、2027年に提供を開始。Oracle AI World 2026",
+      "url": "https://www.publickey1.jp/blog/26/oracle_cloudgoogle_tpu2027oracle_ai_world_2026.html",
       "days": 8,
       "sources": [
         "Publickey"
