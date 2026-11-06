@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-11-05T01:16:47.199Z",
+  "generatedAt": "2026-11-06T01:21:31.755Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-11-05",
-    "days": 124
+    "to": "2026-11-06",
+    "days": 125
   },
   "totals": {
-    "headlines": 2475,
-    "keywords": 3208,
+    "headlines": 2495,
+    "keywords": 3226,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 615
+        "count": 620
       },
       {
         "source": "はてなブックマーク",
-        "count": 620
+        "count": 625
       },
       {
         "source": "Zenn",
-        "count": 620
+        "count": 625
       },
       {
         "source": "Publickey",
-        "count": 620
+        "count": 625
       }
     ]
   },
@@ -218,10 +218,10 @@
       "week": "2026-W45",
       "label": "11/2",
       "counts": [
-        20,
-        20,
-        20,
-        20
+        25,
+        25,
+        25,
+        25
       ]
     }
   ],
@@ -229,32 +229,32 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 500
+      "count": 504
     },
     {
       "key": "claude",
       "term": "Claude",
-      "count": 152
+      "count": 154
     },
     {
       "key": "code",
       "term": "Code",
-      "count": 118
+      "count": 120
     },
     {
       "key": "google",
       "term": "Google",
-      "count": 117
+      "count": 118
     },
     {
       "key": "aws",
       "term": "AWS",
-      "count": 104
+      "count": 106
     },
     {
       "key": "cloud",
       "term": "Cloud",
-      "count": 78
+      "count": 79
     },
     {
       "key": "javascript",
@@ -267,24 +267,24 @@
       "count": 65
     },
     {
+      "key": "github",
+      "term": "GitHub",
+      "count": 61
+    },
+    {
       "key": "llm",
       "term": "LLM",
       "count": 61
     },
     {
-      "key": "github",
-      "term": "GitHub",
-      "count": 58
-    },
-    {
       "key": "rust",
       "term": "Rust",
-      "count": 58
+      "count": 60
     },
     {
       "key": "linux",
       "term": "Linux",
-      "count": 51
+      "count": 52
     },
     {
       "key": "agent",
@@ -319,11 +319,16 @@
     {
       "key": "openai",
       "term": "OpenAI",
-      "count": 38
+      "count": 39
     },
     {
       "key": "mac",
       "term": "Mac",
+      "count": 37
+    },
+    {
+      "key": "typescript",
+      "term": "TypeScript",
       "count": 37
     },
     {
@@ -332,25 +337,20 @@
       "count": 36
     },
     {
-      "key": "typescript",
-      "term": "TypeScript",
-      "count": 35
+      "key": "anthropic",
+      "term": "Anthropic",
+      "count": 33
     },
     {
       "key": "python",
       "term": "Python",
       "count": 33
-    },
-    {
-      "key": "anthropic",
-      "term": "Anthropic",
-      "count": 32
     }
   ],
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 500,
+      "total": 504,
       "weekly": [
         1,
         21,
@@ -370,12 +370,12 @@
         24,
         11,
         26,
-        22
+        26
       ]
     },
     {
       "term": "Claude",
-      "total": 152,
+      "total": 154,
       "weekly": [
         0,
         14,
@@ -395,12 +395,12 @@
         6,
         6,
         7,
-        0
+        2
       ]
     },
     {
       "term": "Code",
-      "total": 118,
+      "total": 120,
       "weekly": [
         0,
         11,
@@ -420,12 +420,12 @@
         8,
         4,
         6,
-        2
+        4
       ]
     },
     {
       "term": "Google",
-      "total": 117,
+      "total": 118,
       "weekly": [
         2,
         1,
@@ -445,12 +445,12 @@
         2,
         2,
         13,
-        7
+        8
       ]
     },
     {
       "term": "AWS",
-      "total": 104,
+      "total": 106,
       "weekly": [
         0,
         2,
@@ -470,12 +470,12 @@
         5,
         12,
         9,
-        3
+        5
       ]
     },
     {
       "term": "Cloud",
-      "total": 78,
+      "total": 79,
       "weekly": [
         0,
         1,
@@ -495,7 +495,7 @@
         0,
         1,
         15,
-        9
+        10
       ]
     },
     {
