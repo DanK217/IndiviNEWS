@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-11-06T01:21:31.755Z",
+  "generatedAt": "2026-11-07T00:36:03.685Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-11-06",
-    "days": 125
+    "to": "2026-11-07",
+    "days": 126
   },
   "totals": {
-    "headlines": 2495,
-    "keywords": 3226,
+    "headlines": 2515,
+    "keywords": 3246,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 620
+        "count": 625
       },
       {
         "source": "はてなブックマーク",
-        "count": 625
+        "count": 630
       },
       {
         "source": "Zenn",
-        "count": 625
+        "count": 630
       },
       {
         "source": "Publickey",
-        "count": 625
+        "count": 630
       }
     ]
   },
@@ -218,10 +218,10 @@
       "week": "2026-W45",
       "label": "11/2",
       "counts": [
-        25,
-        25,
-        25,
-        25
+        30,
+        30,
+        30,
+        30
       ]
     }
   ],
@@ -229,12 +229,12 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 504
+      "count": 508
     },
     {
       "key": "claude",
       "term": "Claude",
-      "count": 154
+      "count": 155
     },
     {
       "key": "code",
@@ -244,17 +244,17 @@
     {
       "key": "google",
       "term": "Google",
-      "count": 118
+      "count": 120
     },
     {
       "key": "aws",
       "term": "AWS",
-      "count": 106
+      "count": 107
     },
     {
       "key": "cloud",
       "term": "Cloud",
-      "count": 79
+      "count": 80
     },
     {
       "key": "javascript",
@@ -269,7 +269,12 @@
     {
       "key": "github",
       "term": "GitHub",
-      "count": 61
+      "count": 64
+    },
+    {
+      "key": "rust",
+      "term": "Rust",
+      "count": 62
     },
     {
       "key": "llm",
@@ -277,23 +282,18 @@
       "count": 61
     },
     {
-      "key": "rust",
-      "term": "Rust",
-      "count": 60
-    },
-    {
       "key": "linux",
       "term": "Linux",
-      "count": 52
-    },
-    {
-      "key": "agent",
-      "term": "Agent",
-      "count": 50
+      "count": 53
     },
     {
       "key": "web",
       "term": "Web",
+      "count": 51
+    },
+    {
+      "key": "agent",
+      "term": "Agent",
       "count": 50
     },
     {
@@ -322,13 +322,13 @@
       "count": 39
     },
     {
-      "key": "mac",
-      "term": "Mac",
-      "count": 37
-    },
-    {
       "key": "typescript",
       "term": "TypeScript",
+      "count": 39
+    },
+    {
+      "key": "mac",
+      "term": "Mac",
       "count": 37
     },
     {
@@ -350,7 +350,7 @@
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 504,
+      "total": 508,
       "weekly": [
         1,
         21,
@@ -370,12 +370,12 @@
         24,
         11,
         26,
-        26
+        30
       ]
     },
     {
       "term": "Claude",
-      "total": 154,
+      "total": 155,
       "weekly": [
         0,
         14,
@@ -395,7 +395,7 @@
         6,
         6,
         7,
-        2
+        3
       ]
     },
     {
@@ -425,7 +425,7 @@
     },
     {
       "term": "Google",
-      "total": 118,
+      "total": 120,
       "weekly": [
         2,
         1,
@@ -445,12 +445,12 @@
         2,
         2,
         13,
-        8
+        10
       ]
     },
     {
       "term": "AWS",
-      "total": 106,
+      "total": 107,
       "weekly": [
         0,
         2,
@@ -470,12 +470,12 @@
         5,
         12,
         9,
-        5
+        6
       ]
     },
     {
       "term": "Cloud",
-      "total": 79,
+      "total": 80,
       "weekly": [
         0,
         1,
@@ -495,7 +495,7 @@
         0,
         1,
         15,
-        10
+        11
       ]
     },
     {
