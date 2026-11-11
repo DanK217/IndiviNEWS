@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-11-10T03:08:48.853Z",
+  "generatedAt": "2026-11-11T00:59:19.309Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-11-10",
-    "days": 129
+    "to": "2026-11-11",
+    "days": 130
   },
   "totals": {
-    "headlines": 2575,
-    "keywords": 3307,
+    "headlines": 2595,
+    "keywords": 3333,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 640
+        "count": 645
       },
       {
         "source": "はてなブックマーク",
-        "count": 645
+        "count": 650
       },
       {
         "source": "Zenn",
-        "count": 645
+        "count": 650
       },
       {
         "source": "Publickey",
-        "count": 645
+        "count": 650
       }
     ]
   },
@@ -228,10 +228,10 @@
       "week": "2026-W46",
       "label": "11/9",
       "counts": [
-        10,
-        10,
-        10,
-        10
+        15,
+        15,
+        15,
+        15
       ]
     }
   ],
@@ -239,7 +239,7 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 514
+      "count": 517
     },
     {
       "key": "claude",
@@ -247,13 +247,13 @@
       "count": 159
     },
     {
-      "key": "code",
-      "term": "Code",
-      "count": 123
-    },
-    {
       "key": "google",
       "term": "Google",
+      "count": 124
+    },
+    {
+      "key": "code",
+      "term": "Code",
       "count": 123
     },
     {
@@ -304,12 +304,12 @@
     {
       "key": "agent",
       "term": "Agent",
-      "count": 51
+      "count": 52
     },
     {
       "key": "windows",
       "term": "Windows",
-      "count": 50
+      "count": 51
     },
     {
       "key": "mcp",
@@ -360,7 +360,7 @@
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 514,
+      "total": 517,
       "weekly": [
         1,
         21,
@@ -381,7 +381,7 @@
         11,
         26,
         33,
-        3
+        6
       ]
     },
     {
@@ -411,6 +411,32 @@
       ]
     },
     {
+      "term": "Google",
+      "total": 124,
+      "weekly": [
+        2,
+        1,
+        9,
+        10,
+        6,
+        4,
+        8,
+        8,
+        0,
+        10,
+        1,
+        5,
+        8,
+        12,
+        9,
+        2,
+        2,
+        13,
+        11,
+        3
+      ]
+    },
+    {
       "term": "Code",
       "total": 123,
       "weekly": [
@@ -434,32 +460,6 @@
         6,
         6,
         1
-      ]
-    },
-    {
-      "term": "Google",
-      "total": 123,
-      "weekly": [
-        2,
-        1,
-        9,
-        10,
-        6,
-        4,
-        8,
-        8,
-        0,
-        10,
-        1,
-        5,
-        8,
-        12,
-        9,
-        2,
-        2,
-        13,
-        11,
-        2
       ]
     },
     {
