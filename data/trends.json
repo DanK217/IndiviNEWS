@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-11-11T00:59:19.309Z",
+  "generatedAt": "2026-11-12T02:06:19.970Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-11-11",
-    "days": 130
+    "to": "2026-11-12",
+    "days": 131
   },
   "totals": {
-    "headlines": 2595,
-    "keywords": 3333,
+    "headlines": 2615,
+    "keywords": 3355,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 645
+        "count": 650
       },
       {
         "source": "はてなブックマーク",
-        "count": 650
+        "count": 655
       },
       {
         "source": "Zenn",
-        "count": 650
+        "count": 655
       },
       {
         "source": "Publickey",
-        "count": 650
+        "count": 655
       }
     ]
   },
@@ -228,10 +228,10 @@
       "week": "2026-W46",
       "label": "11/9",
       "counts": [
-        15,
-        15,
-        15,
-        15
+        20,
+        20,
+        20,
+        20
       ]
     }
   ],
@@ -239,7 +239,7 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 517
+      "count": 523
     },
     {
       "key": "claude",
@@ -249,7 +249,7 @@
     {
       "key": "google",
       "term": "Google",
-      "count": 124
+      "count": 125
     },
     {
       "key": "code",
@@ -259,7 +259,7 @@
     {
       "key": "aws",
       "term": "AWS",
-      "count": 110
+      "count": 111
     },
     {
       "key": "cloud",
@@ -269,7 +269,7 @@
     {
       "key": "github",
       "term": "GitHub",
-      "count": 72
+      "count": 73
     },
     {
       "key": "rust",
@@ -299,12 +299,12 @@
     {
       "key": "web",
       "term": "Web",
-      "count": 54
+      "count": 55
     },
     {
       "key": "agent",
       "term": "Agent",
-      "count": 52
+      "count": 53
     },
     {
       "key": "windows",
@@ -360,7 +360,7 @@
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 517,
+      "total": 523,
       "weekly": [
         1,
         21,
@@ -381,7 +381,7 @@
         11,
         26,
         33,
-        6
+        12
       ]
     },
     {
@@ -412,7 +412,7 @@
     },
     {
       "term": "Google",
-      "total": 124,
+      "total": 125,
       "weekly": [
         2,
         1,
@@ -433,7 +433,7 @@
         2,
         13,
         11,
-        3
+        4
       ]
     },
     {
@@ -464,7 +464,7 @@
     },
     {
       "term": "AWS",
-      "total": 110,
+      "total": 111,
       "weekly": [
         0,
         2,
@@ -485,7 +485,7 @@
         12,
         9,
         7,
-        2
+        3
       ]
     },
     {
@@ -516,7 +516,7 @@
     },
     {
       "term": "GitHub",
-      "total": 72,
+      "total": 73,
       "weekly": [
         0,
         6,
@@ -537,7 +537,7 @@
         5,
         4,
         22,
-        2
+        3
       ]
     },
     {
