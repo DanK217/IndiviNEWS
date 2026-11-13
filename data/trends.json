@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-11-12T02:06:19.970Z",
+  "generatedAt": "2026-11-13T01:39:39.750Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-11-12",
-    "days": 131
+    "to": "2026-11-13",
+    "days": 132
   },
   "totals": {
-    "headlines": 2615,
-    "keywords": 3355,
+    "headlines": 2635,
+    "keywords": 3374,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 650
+        "count": 655
       },
       {
         "source": "はてなブックマーク",
-        "count": 655
+        "count": 660
       },
       {
         "source": "Zenn",
-        "count": 655
+        "count": 660
       },
       {
         "source": "Publickey",
-        "count": 655
+        "count": 660
       }
     ]
   },
@@ -228,10 +228,10 @@
       "week": "2026-W46",
       "label": "11/9",
       "counts": [
-        20,
-        20,
-        20,
-        20
+        25,
+        25,
+        25,
+        25
       ]
     }
   ],
@@ -239,7 +239,7 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 523
+      "count": 527
     },
     {
       "key": "claude",
@@ -249,7 +249,7 @@
     {
       "key": "google",
       "term": "Google",
-      "count": 125
+      "count": 126
     },
     {
       "key": "code",
@@ -259,7 +259,7 @@
     {
       "key": "aws",
       "term": "AWS",
-      "count": 111
+      "count": 114
     },
     {
       "key": "cloud",
@@ -277,14 +277,14 @@
       "count": 68
     },
     {
-      "key": "javascript",
-      "term": "JavaScript",
+      "key": "cloudflare",
+      "term": "Cloudflare",
       "count": 67
     },
     {
-      "key": "cloudflare",
-      "term": "Cloudflare",
-      "count": 66
+      "key": "javascript",
+      "term": "JavaScript",
+      "count": 67
     },
     {
       "key": "llm",
@@ -317,14 +317,14 @@
       "count": 44
     },
     {
-      "key": "typescript",
-      "term": "TypeScript",
+      "key": "microsoft",
+      "term": "Microsoft",
       "count": 44
     },
     {
-      "key": "microsoft",
-      "term": "Microsoft",
-      "count": 43
+      "key": "typescript",
+      "term": "TypeScript",
+      "count": 44
     },
     {
       "key": "database",
@@ -352,15 +352,15 @@
       "count": 33
     },
     {
-      "key": "python",
-      "term": "Python",
+      "key": "apple",
+      "term": "Apple",
       "count": 33
     }
   ],
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 523,
+      "total": 527,
       "weekly": [
         1,
         21,
@@ -381,7 +381,7 @@
         11,
         26,
         33,
-        12
+        16
       ]
     },
     {
@@ -412,7 +412,7 @@
     },
     {
       "term": "Google",
-      "total": 125,
+      "total": 126,
       "weekly": [
         2,
         1,
@@ -433,7 +433,7 @@
         2,
         13,
         11,
-        4
+        5
       ]
     },
     {
@@ -464,7 +464,7 @@
     },
     {
       "term": "AWS",
-      "total": 111,
+      "total": 114,
       "weekly": [
         0,
         2,
@@ -485,7 +485,7 @@
         12,
         9,
         7,
-        3
+        6
       ]
     },
     {
