@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-11-13T01:39:39.750Z",
+  "generatedAt": "2026-11-14T01:15:53.522Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-11-13",
-    "days": 132
+    "to": "2026-11-14",
+    "days": 133
   },
   "totals": {
-    "headlines": 2635,
-    "keywords": 3374,
+    "headlines": 2655,
+    "keywords": 3392,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 655
+        "count": 660
       },
       {
         "source": "はてなブックマーク",
-        "count": 660
+        "count": 665
       },
       {
         "source": "Zenn",
-        "count": 660
+        "count": 665
       },
       {
         "source": "Publickey",
-        "count": 660
+        "count": 665
       }
     ]
   },
@@ -228,10 +228,10 @@
       "week": "2026-W46",
       "label": "11/9",
       "counts": [
-        25,
-        25,
-        25,
-        25
+        30,
+        30,
+        30,
+        30
       ]
     }
   ],
@@ -239,7 +239,7 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 527
+      "count": 532
     },
     {
       "key": "claude",
@@ -249,7 +249,7 @@
     {
       "key": "google",
       "term": "Google",
-      "count": 126
+      "count": 127
     },
     {
       "key": "code",
@@ -259,7 +259,7 @@
     {
       "key": "aws",
       "term": "AWS",
-      "count": 114
+      "count": 116
     },
     {
       "key": "cloud",
@@ -360,7 +360,7 @@
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 527,
+      "total": 532,
       "weekly": [
         1,
         21,
@@ -381,7 +381,7 @@
         11,
         26,
         33,
-        16
+        21
       ]
     },
     {
@@ -412,7 +412,7 @@
     },
     {
       "term": "Google",
-      "total": 126,
+      "total": 127,
       "weekly": [
         2,
         1,
@@ -433,7 +433,7 @@
         2,
         13,
         11,
-        5
+        6
       ]
     },
     {
@@ -464,7 +464,7 @@
     },
     {
       "term": "AWS",
-      "total": 114,
+      "total": 116,
       "weekly": [
         0,
         2,
@@ -485,7 +485,7 @@
         12,
         9,
         7,
-        6
+        8
       ]
     },
     {
