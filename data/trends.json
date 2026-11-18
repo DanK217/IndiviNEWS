@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-11-17T03:22:46.155Z",
+  "generatedAt": "2026-11-18T02:43:04.052Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-11-17",
-    "days": 136
+    "to": "2026-11-18",
+    "days": 137
   },
   "totals": {
-    "headlines": 2715,
-    "keywords": 3434,
+    "headlines": 2735,
+    "keywords": 3461,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 675
+        "count": 680
       },
       {
         "source": "はてなブックマーク",
-        "count": 680
+        "count": 685
       },
       {
         "source": "Zenn",
-        "count": 680
+        "count": 685
       },
       {
         "source": "Publickey",
-        "count": 680
+        "count": 685
       }
     ]
   },
@@ -238,10 +238,10 @@
       "week": "2026-W47",
       "label": "11/16",
       "counts": [
-        10,
-        10,
-        10,
-        10
+        15,
+        15,
+        15,
+        15
       ]
     }
   ],
@@ -249,27 +249,27 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 545
+      "count": 548
     },
     {
       "key": "claude",
       "term": "Claude",
-      "count": 164
+      "count": 165
     },
     {
       "key": "google",
       "term": "Google",
-      "count": 131
+      "count": 132
     },
     {
       "key": "code",
       "term": "Code",
-      "count": 124
+      "count": 125
     },
     {
       "key": "aws",
       "term": "AWS",
-      "count": 123
+      "count": 124
     },
     {
       "key": "cloud",
@@ -279,7 +279,7 @@
     {
       "key": "github",
       "term": "GitHub",
-      "count": 74
+      "count": 75
     },
     {
       "key": "cloudflare",
@@ -299,7 +299,7 @@
     {
       "key": "llm",
       "term": "LLM",
-      "count": 64
+      "count": 65
     },
     {
       "key": "linux",
@@ -312,19 +312,19 @@
       "count": 55
     },
     {
+      "key": "windows",
+      "term": "Windows",
+      "count": 54
+    },
+    {
       "key": "agent",
       "term": "Agent",
       "count": 53
     },
     {
-      "key": "windows",
-      "term": "Windows",
-      "count": 52
-    },
-    {
       "key": "microsoft",
       "term": "Microsoft",
-      "count": 47
+      "count": 49
     },
     {
       "key": "mcp",
@@ -339,16 +339,16 @@
     {
       "key": "database",
       "term": "database",
-      "count": 41
-    },
-    {
-      "key": "openai",
-      "term": "OpenAI",
-      "count": 39
+      "count": 43
     },
     {
       "key": "postgresql",
       "term": "PostgreSQL",
+      "count": 42
+    },
+    {
+      "key": "openai",
+      "term": "OpenAI",
       "count": 39
     },
     {
@@ -359,7 +359,7 @@
     {
       "key": "apple",
       "term": "Apple",
-      "count": 35
+      "count": 36
     },
     {
       "key": "bun",
@@ -370,7 +370,7 @@
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 545,
+      "total": 548,
       "weekly": [
         1,
         21,
@@ -392,12 +392,12 @@
         26,
         33,
         26,
-        8
+        11
       ]
     },
     {
       "term": "Claude",
-      "total": 164,
+      "total": 165,
       "weekly": [
         0,
         14,
@@ -419,12 +419,12 @@
         7,
         6,
         3,
-        3
+        4
       ]
     },
     {
       "term": "Google",
-      "total": 131,
+      "total": 132,
       "weekly": [
         2,
         1,
@@ -446,12 +446,12 @@
         13,
         11,
         7,
-        3
+        4
       ]
     },
     {
       "term": "Code",
-      "total": 124,
+      "total": 125,
       "weekly": [
         0,
         11,
@@ -473,12 +473,12 @@
         6,
         6,
         1,
-        1
+        2
       ]
     },
     {
       "term": "AWS",
-      "total": 123,
+      "total": 124,
       "weekly": [
         0,
         2,
@@ -500,7 +500,7 @@
         9,
         7,
         12,
-        3
+        4
       ]
     },
     {
@@ -532,7 +532,7 @@
     },
     {
       "term": "GitHub",
-      "total": 74,
+      "total": 75,
       "weekly": [
         0,
         6,
@@ -554,7 +554,7 @@
         4,
         22,
         3,
-        1
+        2
       ]
     },
     {
