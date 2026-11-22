@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-11-21T01:57:32.891Z",
+  "generatedAt": "2026-11-22T00:55:56.206Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-11-21",
-    "days": 140
+    "to": "2026-11-22",
+    "days": 141
   },
   "totals": {
-    "headlines": 2795,
-    "keywords": 3529,
+    "headlines": 2815,
+    "keywords": 3553,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 695
+        "count": 700
       },
       {
         "source": "はてなブックマーク",
-        "count": 700
+        "count": 705
       },
       {
         "source": "Zenn",
-        "count": 700
+        "count": 705
       },
       {
         "source": "Publickey",
-        "count": 700
+        "count": 705
       }
     ]
   },
@@ -238,10 +238,10 @@
       "week": "2026-W47",
       "label": "11/16",
       "counts": [
-        30,
-        30,
-        30,
-        30
+        35,
+        35,
+        35,
+        35
       ]
     }
   ],
@@ -249,12 +249,12 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 570
+      "count": 579
     },
     {
       "key": "claude",
       "term": "Claude",
-      "count": 169
+      "count": 170
     },
     {
       "key": "google",
@@ -264,7 +264,7 @@
     {
       "key": "code",
       "term": "Code",
-      "count": 130
+      "count": 131
     },
     {
       "key": "aws",
@@ -279,17 +279,17 @@
     {
       "key": "github",
       "term": "GitHub",
-      "count": 76
+      "count": 77
     },
     {
       "key": "cloudflare",
       "term": "Cloudflare",
-      "count": 69
+      "count": 70
     },
     {
       "key": "rust",
       "term": "Rust",
-      "count": 68
+      "count": 69
     },
     {
       "key": "javascript",
@@ -302,9 +302,14 @@
       "count": 66
     },
     {
+      "key": "microsoft",
+      "term": "Microsoft",
+      "count": 58
+    },
+    {
       "key": "windows",
       "term": "Windows",
-      "count": 57
+      "count": 58
     },
     {
       "key": "linux",
@@ -312,9 +317,9 @@
       "count": 56
     },
     {
-      "key": "microsoft",
-      "term": "Microsoft",
-      "count": 56
+      "key": "agent",
+      "term": "Agent",
+      "count": 55
     },
     {
       "key": "web",
@@ -322,24 +327,19 @@
       "count": 55
     },
     {
-      "key": "agent",
-      "term": "Agent",
-      "count": 54
-    },
-    {
       "key": "database",
       "term": "database",
+      "count": 46
+    },
+    {
+      "key": "mcp",
+      "term": "MCP",
       "count": 45
     },
     {
       "key": "typescript",
       "term": "TypeScript",
       "count": 45
-    },
-    {
-      "key": "mcp",
-      "term": "MCP",
-      "count": 44
     },
     {
       "key": "postgresql",
@@ -370,7 +370,7 @@
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 570,
+      "total": 579,
       "weekly": [
         1,
         21,
@@ -392,12 +392,12 @@
         26,
         33,
         26,
-        33
+        42
       ]
     },
     {
       "term": "Claude",
-      "total": 169,
+      "total": 170,
       "weekly": [
         0,
         14,
@@ -419,7 +419,7 @@
         7,
         6,
         3,
-        8
+        9
       ]
     },
     {
@@ -451,7 +451,7 @@
     },
     {
       "term": "Code",
-      "total": 130,
+      "total": 131,
       "weekly": [
         0,
         11,
@@ -473,7 +473,7 @@
         6,
         6,
         1,
-        7
+        8
       ]
     },
     {
@@ -532,7 +532,7 @@
     },
     {
       "term": "GitHub",
-      "total": 76,
+      "total": 77,
       "weekly": [
         0,
         6,
@@ -554,12 +554,12 @@
         4,
         22,
         3,
-        3
+        4
       ]
     },
     {
       "term": "Cloudflare",
-      "total": 69,
+      "total": 70,
       "weekly": [
         0,
         5,
@@ -581,7 +581,7 @@
         5,
         1,
         1,
-        2
+        3
       ]
     }
   ],
