@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-11-24T05:07:35.053Z",
+  "generatedAt": "2026-11-25T03:56:17.315Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-11-24",
-    "days": 143
+    "to": "2026-11-25",
+    "days": 144
   },
   "totals": {
-    "headlines": 2855,
-    "keywords": 3600,
+    "headlines": 2875,
+    "keywords": 3617,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 710
+        "count": 715
       },
       {
         "source": "はてなブックマーク",
-        "count": 715
+        "count": 720
       },
       {
         "source": "Zenn",
-        "count": 715
+        "count": 720
       },
       {
         "source": "Publickey",
-        "count": 715
+        "count": 720
       }
     ]
   },
@@ -248,10 +248,10 @@
       "week": "2026-W48",
       "label": "11/23",
       "counts": [
-        10,
-        10,
-        10,
-        10
+        15,
+        15,
+        15,
+        15
       ]
     }
   ],
@@ -259,17 +259,17 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 592
+      "count": 597
     },
     {
       "key": "claude",
       "term": "Claude",
-      "count": 172
+      "count": 176
     },
     {
       "key": "code",
       "term": "Code",
-      "count": 134
+      "count": 137
     },
     {
       "key": "google",
@@ -314,17 +314,17 @@
     {
       "key": "microsoft",
       "term": "Microsoft",
-      "count": 61
+      "count": 62
     },
     {
       "key": "windows",
       "term": "Windows",
-      "count": 60
+      "count": 61
     },
     {
       "key": "web",
       "term": "Web",
-      "count": 57
+      "count": 58
     },
     {
       "key": "agent",
@@ -339,22 +339,22 @@
     {
       "key": "database",
       "term": "database",
-      "count": 48
+      "count": 49
     },
     {
       "key": "mcp",
       "term": "MCP",
+      "count": 46
+    },
+    {
+      "key": "postgresql",
+      "term": "PostgreSQL",
       "count": 45
     },
     {
       "key": "typescript",
       "term": "TypeScript",
       "count": 45
-    },
-    {
-      "key": "postgresql",
-      "term": "PostgreSQL",
-      "count": 44
     },
     {
       "key": "openai",
@@ -364,23 +364,23 @@
     {
       "key": "apple",
       "term": "Apple",
-      "count": 37
-    },
-    {
-      "key": "mac",
-      "term": "Mac",
-      "count": 37
+      "count": 38
     },
     {
       "key": "copilot",
       "term": "Copilot",
-      "count": 36
+      "count": 38
+    },
+    {
+      "key": "mac",
+      "term": "Mac",
+      "count": 38
     }
   ],
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 592,
+      "total": 597,
       "weekly": [
         1,
         21,
@@ -403,12 +403,12 @@
         33,
         26,
         42,
-        13
+        18
       ]
     },
     {
       "term": "Claude",
-      "total": 172,
+      "total": 176,
       "weekly": [
         0,
         14,
@@ -431,12 +431,12 @@
         6,
         3,
         9,
-        2
+        6
       ]
     },
     {
       "term": "Code",
-      "total": 134,
+      "total": 137,
       "weekly": [
         0,
         11,
@@ -459,7 +459,7 @@
         6,
         1,
         8,
-        3
+        6
       ]
     },
     {
