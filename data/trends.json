@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-11-26T03:21:27.183Z",
+  "generatedAt": "2026-11-27T03:28:17.334Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-11-26",
-    "days": 145
+    "to": "2026-11-27",
+    "days": 146
   },
   "totals": {
-    "headlines": 2895,
-    "keywords": 3633,
+    "headlines": 2915,
+    "keywords": 3655,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 720
+        "count": 725
       },
       {
         "source": "はてなブックマーク",
-        "count": 725
+        "count": 730
       },
       {
         "source": "Zenn",
-        "count": 725
+        "count": 730
       },
       {
         "source": "Publickey",
-        "count": 725
+        "count": 730
       }
     ]
   },
@@ -248,10 +248,10 @@
       "week": "2026-W48",
       "label": "11/23",
       "counts": [
-        20,
-        20,
-        20,
-        20
+        25,
+        25,
+        25,
+        25
       ]
     }
   ],
@@ -259,27 +259,27 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 601
+      "count": 605
     },
     {
       "key": "claude",
       "term": "Claude",
-      "count": 176
+      "count": 177
     },
     {
       "key": "code",
       "term": "Code",
-      "count": 137
+      "count": 138
     },
     {
       "key": "google",
       "term": "Google",
-      "count": 132
+      "count": 133
     },
     {
       "key": "aws",
       "term": "AWS",
-      "count": 127
+      "count": 128
     },
     {
       "key": "cloud",
@@ -344,7 +344,7 @@
     {
       "key": "mcp",
       "term": "MCP",
-      "count": 47
+      "count": 49
     },
     {
       "key": "postgresql",
@@ -362,14 +362,14 @@
       "count": 39
     },
     {
-      "key": "openai",
-      "term": "OpenAI",
+      "key": "copilot",
+      "term": "Copilot",
       "count": 39
     },
     {
-      "key": "copilot",
-      "term": "Copilot",
-      "count": 38
+      "key": "openai",
+      "term": "OpenAI",
+      "count": 39
     },
     {
       "key": "mac",
@@ -380,7 +380,7 @@
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 601,
+      "total": 605,
       "weekly": [
         1,
         21,
@@ -403,12 +403,12 @@
         33,
         26,
         42,
-        22
+        26
       ]
     },
     {
       "term": "Claude",
-      "total": 176,
+      "total": 177,
       "weekly": [
         0,
         14,
@@ -431,12 +431,12 @@
         6,
         3,
         9,
-        6
+        7
       ]
     },
     {
       "term": "Code",
-      "total": 137,
+      "total": 138,
       "weekly": [
         0,
         11,
@@ -459,12 +459,12 @@
         6,
         1,
         8,
-        6
+        7
       ]
     },
     {
       "term": "Google",
-      "total": 132,
+      "total": 133,
       "weekly": [
         2,
         1,
@@ -487,12 +487,12 @@
         11,
         7,
         4,
-        0
+        1
       ]
     },
     {
       "term": "AWS",
-      "total": 127,
+      "total": 128,
       "weekly": [
         0,
         2,
@@ -515,7 +515,7 @@
         7,
         12,
         5,
-        2
+        3
       ]
     },
     {
