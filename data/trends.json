@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-11-27T03:28:17.334Z",
+  "generatedAt": "2026-11-28T03:04:58.251Z",
   "range": {
     "from": "2026-07-05",
-    "to": "2026-11-27",
-    "days": 146
+    "to": "2026-11-28",
+    "days": 147
   },
   "totals": {
-    "headlines": 2915,
-    "keywords": 3655,
+    "headlines": 2935,
+    "keywords": 3676,
     "perSource": [
       {
         "source": "Hacker News",
-        "count": 725
+        "count": 730
       },
       {
         "source": "はてなブックマーク",
-        "count": 730
+        "count": 735
       },
       {
         "source": "Zenn",
-        "count": 730
+        "count": 735
       },
       {
         "source": "Publickey",
-        "count": 730
+        "count": 735
       }
     ]
   },
@@ -248,10 +248,10 @@
       "week": "2026-W48",
       "label": "11/23",
       "counts": [
-        25,
-        25,
-        25,
-        25
+        30,
+        30,
+        30,
+        30
       ]
     }
   ],
@@ -259,12 +259,12 @@
     {
       "key": "ai",
       "term": "AI",
-      "count": 605
+      "count": 608
     },
     {
       "key": "claude",
       "term": "Claude",
-      "count": 177
+      "count": 178
     },
     {
       "key": "code",
@@ -274,12 +274,12 @@
     {
       "key": "google",
       "term": "Google",
-      "count": 133
+      "count": 134
     },
     {
       "key": "aws",
       "term": "AWS",
-      "count": 128
+      "count": 130
     },
     {
       "key": "cloud",
@@ -289,7 +289,7 @@
     {
       "key": "github",
       "term": "GitHub",
-      "count": 77
+      "count": 78
     },
     {
       "key": "cloudflare",
@@ -339,12 +339,12 @@
     {
       "key": "database",
       "term": "database",
-      "count": 49
+      "count": 50
     },
     {
       "key": "mcp",
       "term": "MCP",
-      "count": 49
+      "count": 50
     },
     {
       "key": "postgresql",
@@ -380,7 +380,7 @@
   "keywordTrend": [
     {
       "term": "AI",
-      "total": 605,
+      "total": 608,
       "weekly": [
         1,
         21,
@@ -403,12 +403,12 @@
         33,
         26,
         42,
-        26
+        29
       ]
     },
     {
       "term": "Claude",
-      "total": 177,
+      "total": 178,
       "weekly": [
         0,
         14,
@@ -431,7 +431,7 @@
         6,
         3,
         9,
-        7
+        8
       ]
     },
     {
@@ -464,7 +464,7 @@
     },
     {
       "term": "Google",
-      "total": 133,
+      "total": 134,
       "weekly": [
         2,
         1,
@@ -487,12 +487,12 @@
         11,
         7,
         4,
-        1
+        2
       ]
     },
     {
       "term": "AWS",
-      "total": 128,
+      "total": 130,
       "weekly": [
         0,
         2,
@@ -515,7 +515,7 @@
         7,
         12,
         5,
-        3
+        5
       ]
     },
     {
@@ -548,7 +548,7 @@
     },
     {
       "term": "GitHub",
-      "total": 77,
+      "total": 78,
       "weekly": [
         0,
         6,
@@ -571,7 +571,7 @@
         22,
         3,
         4,
-        0
+        1
       ]
     },
     {
